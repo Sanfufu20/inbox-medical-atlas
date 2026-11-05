@@ -20,6 +20,8 @@
 - 390 × 844 手機 viewport 檢查首頁與 ACS 文章。文章 document width 與 viewport 都是 390 px，沒有整頁水平溢出；表格與流程圖保留各自可捲動的容器。
 - ACS 文章中的兩張流程圖都完成渲染，當頁已載入圖片沒有失敗項目。
 
+成果畫面：[桌面首頁](screenshots/home-desktop.jpg)、[手機首頁](screenshots/home-mobile.jpg)、[新增內容搜尋結果](screenshots/extension-search.jpg)。
+
 ## 公開副本
 
 - 不包含原 Vault 的設定、聊天紀錄、Git 歷史、帳號檔案或獨立題庫 HTML。
