@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker>
+    <style>
+      text{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",Arial,sans-serif;fill:#172033}
+      .title{font-size:30px;font-weight:700}.head{font-size:21px;font-weight:700}.b{font-size:16px}.s{font-size:14px;fill:#526174}
+    </style>
+  </defs>
+  <rect width="1100" height="650" fill="#fff"/>
+  <text x="550" y="42" text-anchor="middle" class="title">Adrenal vein sampling：CT 看形態；AVS 看誰在分泌</text>
+  <path d="M550 140 L550 520" stroke="#60a5fa" stroke-width="42" stroke-linecap="round"/>
+  <text x="550" y="125" text-anchor="middle" class="head" fill="#1d4ed8">IVC</text>
+  <path d="M530 245 C440 245,410 220,350 200" stroke="#60a5fa" stroke-width="18" fill="none"/>
+  <path d="M570 245 C660 245,690 230,750 208" stroke="#60a5fa" stroke-width="12" fill="none"/>
+  <path d="M290 175 C320 135,380 145,405 190 C370 220,325 220,290 175" fill="#fde68a" stroke="#d97706" stroke-width="3"/>
+  <path d="M695 190 C720 145,780 135,810 175 C775 220,730 220,695 190" fill="#fde68a" stroke="#d97706" stroke-width="3"/>
+  <text x="350" y="115" text-anchor="middle" class="head">左腎上腺</text><text x="755" y="115" text-anchor="middle" class="head">右腎上腺</text>
+  <circle cx="350" cy="200" r="14" fill="#e11d48"/><circle cx="750" cy="208" r="14" fill="#e11d48"/><circle cx="550" cy="450" r="14" fill="#e11d48"/>
+  <text x="260" y="255" class="b">左腎上腺靜脈採樣</text><text x="770" y="255" class="b">右腎上腺靜脈採樣</text><text x="575" y="455" class="b">IVC 周邊血</text>
+  <path d="M345 340 C420 370,470 380,535 420" stroke="#475569" stroke-width="3" fill="none" marker-end="url(#a)"/>
+  <path d="M755 340 C680 370,630 380,565 420" stroke="#475569" stroke-width="3" fill="none" marker-end="url(#a)"/>
+  <text x="550" y="390" text-anchor="middle" class="s">三個採樣點都驗 aldosterone 與 cortisol</text>
+
+  <rect x="60" y="300" width="360" height="130" rx="16" fill="#eff6ff" stroke="#60a5fa"/>
+  <text x="240" y="333" text-anchor="middle" class="head" fill="#1d4ed8">先確認「有插到靜脈」</text>
+  <text x="240" y="365" text-anchor="middle" class="b">Selectivity index</text><text x="240" y="394" text-anchor="middle" class="b">adrenal cortisol ÷ IVC cortisol</text>
+  <text x="240" y="418" text-anchor="middle" class="s">cortisol 用來校正稀釋與導管位置</text>
+
+  <rect x="680" y="300" width="360" height="150" rx="16" fill="#fff1f2" stroke="#fb7185"/>
+  <text x="860" y="333" text-anchor="middle" class="head" fill="#be123c">再判斷「哪一側在分泌」</text>
+  <text x="860" y="366" text-anchor="middle" class="b">Lateralization ratio</text><text x="860" y="395" text-anchor="middle" class="b">(A/C) dominant ÷ (A/C) contralateral</text>
+  <text x="860" y="424" text-anchor="middle" class="s">A/C = aldosterone ÷ cortisol</text>
+
+  <rect x="130" y="540" width="840" height="70" rx="16" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="550" y="571" text-anchor="middle" class="head">CT 結節 ≠ 分泌來源</text>
+  <text x="550" y="598" text-anchor="middle" class="s">無功能 incidentaloma、微小對側病灶、雙側增生都會讓影像與功能不一致；可手術者多需 AVS</text>
+</svg>

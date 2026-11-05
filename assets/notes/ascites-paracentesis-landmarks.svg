@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <style>
+      .title{font:700 30px Arial,"Noto Sans TC",sans-serif;fill:#17324d}
+      .head{font:700 22px Arial,"Noto Sans TC",sans-serif;fill:#17324d}
+      .label{font:600 17px Arial,"Noto Sans TC",sans-serif;fill:#243746}
+      .small{font:15px Arial,"Noto Sans TC",sans-serif;fill:#415466}
+      .tiny{font:13px Arial,"Noto Sans TC",sans-serif;fill:#415466}
+      .safe{fill:#dff5e6;stroke:#2a9d62;stroke-width:3}
+      .warn{fill:#ffe7e4;stroke:#d6534d;stroke-width:3}
+      .line{stroke:#40576b;stroke-width:2;fill:none}
+      .dash{stroke:#647b8d;stroke-width:2;fill:none;stroke-dasharray:8 7}
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#40576b"/>
+    </marker>
+    <marker id="redArrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#d6534d"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="700" fill="#f7fafc"/>
+  <text x="600" y="46" text-anchor="middle" class="title">腹水穿刺：左下腹定位、危險構造與進針層次</text>
+
+  <rect x="34" y="72" width="550" height="575" rx="18" fill="#ffffff" stroke="#cad7e1" stroke-width="2"/>
+  <text x="58" y="108" class="head">A. 表面定位（先以超音波確認液體袋）</text>
+
+  <path d="M185 139 C127 176 101 256 110 385 C116 477 158 552 272 580 C385 552 429 477 434 385 C443 257 417 176 359 139 C326 159 218 159 185 139Z" fill="#f4c7ad" stroke="#a76f54" stroke-width="3"/>
+  <ellipse cx="272" cy="301" rx="108" ry="128" fill="#f9dcca" stroke="#c88f72" stroke-width="2"/>
+  <line x1="272" y1="163" x2="272" y2="548" class="dash"/>
+  <circle cx="272" cy="303" r="7" fill="#624c3d"/>
+  <text x="286" y="309" class="label">臍</text>
+
+  <path d="M135 442 Q186 417 229 445" class="line"/>
+  <path d="M309 445 Q354 417 408 442" class="line"/>
+  <circle cx="145" cy="442" r="7" fill="#40576b"/>
+  <circle cx="399" cy="442" r="7" fill="#40576b"/>
+  <text x="90" y="471" class="label">左 ASIS</text>
+  <text x="385" y="471" class="label">右 ASIS</text>
+
+  <rect x="231" y="186" width="82" height="316" rx="34" fill="#ef9c89" opacity=".72" stroke="#b65c50" stroke-width="2"/>
+  <text x="272" y="211" text-anchor="middle" class="small">腹直肌</text>
+  <path d="M250 225 C242 300 244 391 250 473" stroke="#d23c3c" stroke-width="7" fill="none"/>
+  <path d="M294 225 C302 300 300 391 294 473" stroke="#d23c3c" stroke-width="7" fill="none"/>
+  <text x="326" y="244" class="small" fill="#b52d2d">inferior epigastric a.</text>
+  <line x1="323" y1="250" x2="298" y2="270" stroke="#d6534d" stroke-width="2" marker-end="url(#redArrow)"/>
+
+  <line x1="145" y1="442" x2="272" y2="303" class="dash"/>
+  <circle cx="187" cy="397" r="18" class="safe"/>
+  <circle cx="187" cy="397" r="6" fill="#2a9d62"/>
+  <text x="55" y="354" class="label" fill="#167a49">建議穿刺區</text>
+  <text x="55" y="377" class="small">ASIS–臍連線外側 1/3</text>
+  <text x="55" y="398" class="small">避開腹直肌與可見血管</text>
+  <line x1="165" y1="386" x2="178" y2="392" stroke="#2a9d62" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <path d="M160 253 C186 235 206 254 226 235" stroke="#d6534d" stroke-width="7" fill="none"/>
+  <text x="57" y="229" class="label" fill="#b52d2d">避開手術疤痕</text>
+  <text x="57" y="251" class="small">以及感染、血腫、腫塊</text>
+  <line x1="166" y1="246" x2="180" y2="249" stroke="#d6534d" stroke-width="2" marker-end="url(#redArrow)"/>
+
+  <rect x="64" y="516" width="455" height="93" rx="12" fill="#edf5fb" stroke="#88a9c2"/>
+  <text x="83" y="545" class="label">定位順序</text>
+  <text x="83" y="571" class="small">1. 超音波找最大液體袋與腸袢　2. Doppler 避血管</text>
+  <text x="83" y="596" class="small">3. 標記後保持病人姿勢不變，再消毒與進針</text>
+
+  <rect x="610" y="72" width="556" height="575" rx="18" fill="#ffffff" stroke="#cad7e1" stroke-width="2"/>
+  <text x="634" y="108" class="head">B. 腹壁層次與斜行通道</text>
+
+  <rect x="658" y="144" width="420" height="48" rx="12" fill="#f2b99a"/>
+  <text x="1093" y="174" class="label">皮膚</text>
+  <rect x="658" y="192" width="420" height="68" fill="#f6d67a"/>
+  <text x="1093" y="232" class="label">皮下脂肪</text>
+  <rect x="658" y="260" width="420" height="48" fill="#dc8379"/>
+  <text x="1093" y="290" class="label">外斜肌</text>
+  <rect x="658" y="308" width="420" height="48" fill="#c96f68"/>
+  <text x="1093" y="338" class="label">內斜肌</text>
+  <rect x="658" y="356" width="420" height="48" fill="#b65c58"/>
+  <text x="1093" y="386" class="label">腹橫肌</text>
+  <rect x="658" y="404" width="420" height="20" fill="#e5eef4"/>
+  <text x="1093" y="421" class="tiny">transversalis fascia</text>
+  <rect x="658" y="424" width="420" height="14" fill="#8a7b91"/>
+  <text x="1093" y="445" class="tiny">腹膜</text>
+  <rect x="658" y="438" width="420" height="108" fill="#b9e4f2"/>
+  <path d="M658 468 Q700 446 742 468 T826 468 T910 468 T994 468 T1078 468" fill="none" stroke="#65b9d1" stroke-width="3"/>
+  <text x="846" y="513" class="head" fill="#176f88">腹水</text>
+
+  <path d="M735 128 C704 180 752 216 735 271 C718 326 760 361 741 418 C732 444 759 459 794 469" fill="none" stroke="#17324d" stroke-width="8" marker-end="url(#arrow)"/>
+  <text x="633" y="132" class="label">針路</text>
+  <text x="811" y="470" class="small">斜行穿過各層，減少直通漏液路徑</text>
+
+  <g transform="translate(665 557)">
+    <rect width="463" height="67" rx="11" fill="#fff4dc" stroke="#d7a94b"/>
+    <path d="M28 33 H112" stroke="#a76f54" stroke-width="6"/>
+    <path d="M47 17 v32" stroke="#17324d" stroke-width="4"/>
+    <path d="M47 49 C82 49 82 26 121 26" stroke="#17324d" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+    <text x="140" y="27" class="label">Z-track 示意</text>
+    <text x="140" y="49" class="small">先側移皮膚，再進針；拔針後皮膚回位。</text>
+  </g>
+
+  <text x="600" y="676" text-anchor="middle" class="tiny">教學示意：真正下針位置以 bedside ultrasound 與 Doppler 為準。</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <marker id="blueA" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker>
+    <marker id="redA" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker>
+    <style>
+      text{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",Arial,sans-serif;fill:#172033}
+      .title{font-size:30px;font-weight:700}.head{font-size:25px;font-weight:700}.lab{font-size:16px}.small{font-size:14px;fill:#526174}
+      .panel{fill:#f8fafc;stroke:#cbd5e1;stroke-width:2}.vein{stroke:#2563eb;stroke-width:7;fill:none;marker-end:url(#blueA)}
+      .art{stroke:#dc2626;stroke-width:7;fill:none;marker-end:url(#redA)}.dash{stroke-dasharray:9 7}
+    </style>
+  </defs>
+  <rect width="1200" height="700" fill="#fff"/>
+  <text x="600" y="42" text-anchor="middle" class="title">ECMO 插管路徑：VV 只代肺；VA 同時代心與肺</text>
+  <rect x="35" y="80" width="545" height="570" rx="20" class="panel"/><rect x="620" y="80" width="545" height="570" rx="20" class="panel"/>
+
+  <text x="307" y="120" text-anchor="middle" class="head" fill="#2563eb">VV-ECMO｜靜脈 → 靜脈</text>
+  <text x="307" y="148" text-anchor="middle" class="small">股靜脈引流；頸內靜脈回輸；病人心臟仍須自己把血打出去</text>
+  <ellipse cx="320" cy="300" rx="70" ry="85" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="320" y="292" text-anchor="middle" class="lab">右心房／右心室</text><text x="320" y="318" text-anchor="middle" class="small">回輸端應朝三尖瓣</text>
+  <ellipse cx="470" cy="300" rx="55" ry="78" fill="#dbeafe" stroke="#60a5fa" stroke-width="2"/><text x="470" y="305" text-anchor="middle" class="lab">肺</text>
+  <path d="M390 300 L412 300" class="vein"/><path d="M525 300 C550 300,555 220,550 185" class="art"/>
+  <rect x="80" y="410" width="120" height="70" rx="35" fill="#e2e8f0" stroke="#64748b" stroke-width="2"/><text x="140" y="438" text-anchor="middle" class="lab">幫浦</text><text x="140" y="462" text-anchor="middle" class="small">＋膜肺</text>
+  <path d="M300 372 C300 430,230 445,205 445" class="vein"/>
+  <path d="M140 410 C140 320,210 230,285 240" class="art"/>
+  <text x="210" y="397" text-anchor="middle" class="small">股靜脈引流</text><text x="170" y="270" text-anchor="middle" class="small">頸內靜脈回輸</text>
+  <path d="M280 250 C240 255,230 305,280 322" fill="none" stroke="#f59e0b" stroke-width="4" stroke-dasharray="8 6" marker-end="url(#redA)"/>
+  <text x="175" y="335" class="lab" fill="#b45309">再循環</text><text x="110" y="360" class="small">回輸血立刻被引走</text>
+  <rect x="80" y="530" width="450" height="80" rx="14" fill="#eff6ff" stroke="#60a5fa"/>
+  <text x="305" y="562" text-anchor="middle" class="lab" fill="#1d4ed8">能改善氧合／排 CO₂，但不提供循環支持</text>
+  <text x="305" y="589" text-anchor="middle" class="small">休克時若心輸出量不夠，VV 本身撐不住灌流</text>
+
+  <text x="892" y="120" text-anchor="middle" class="head" fill="#dc2626">VA-ECMO｜靜脈 → 動脈</text>
+  <text x="892" y="148" text-anchor="middle" class="small">股靜脈引流；股動脈回輸；ECMO 血逆行向上與 LV 血流相遇</text>
+  <ellipse cx="800" cy="300" rx="62" ry="80" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/><text x="800" y="305" text-anchor="middle" class="lab">右心</text>
+  <ellipse cx="970" cy="300" rx="62" ry="80" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/><text x="970" y="305" text-anchor="middle" class="lab">左心室</text>
+  <path d="M1030 290 C1090 270,1090 195,1025 180 C980 168,930 190,930 225" class="art"/>
+  <text x="1060" y="170" text-anchor="middle" class="small">自身心輸出量（順行）</text>
+  <rect x="670" y="420" width="120" height="70" rx="35" fill="#e2e8f0" stroke="#64748b" stroke-width="2"/><text x="730" y="448" text-anchor="middle" class="lab">幫浦</text><text x="730" y="472" text-anchor="middle" class="small">＋膜肺</text>
+  <path d="M790 375 C790 425,775 440,795 450" class="vein"/><text x="805" y="407" class="small">股靜脈引流</text>
+  <path d="M730 420 C730 355,690 330,690 275 C690 225,760 210,880 205" class="art"/>
+  <text x="655" y="345" text-anchor="middle" class="small">股動脈回輸</text><text x="735" y="225" text-anchor="middle" class="small">逆行主動脈血流</text>
+  <circle cx="900" cy="205" r="13" fill="#f59e0b" stroke="#92400e" stroke-width="2"/>
+  <text x="900" y="178" text-anchor="middle" class="lab" fill="#b45309">分水嶺</text>
+  <path d="M900 218 L900 250" stroke="#f59e0b" stroke-width="3" class="dash"/>
+  <rect x="665" y="530" width="455" height="80" rx="14" fill="#fff1f2" stroke="#fb7185"/>
+  <text x="892" y="561" text-anchor="middle" class="lab" fill="#be123c">提供心輸出量，但逆行血流增加 LV 後負荷</text>
+  <text x="892" y="588" text-anchor="middle" class="small">分水嶺近端若仍是低氧的自身血流 → differential hypoxemia</text>
+</svg>

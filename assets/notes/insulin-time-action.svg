@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",Arial,sans-serif;fill:#172033}
+    .title{font-size:30px;font-weight:700}.sub{font-size:16px;fill:#526174}.axis{stroke:#334155;stroke-width:2}
+    .grid{stroke:#e2e8f0;stroke-width:1}.tick{font-size:14px;fill:#64748b}.lab{font-size:17px;font-weight:700}
+  </style>
+  <rect width="1100" height="650" fill="#fff"/>
+  <text x="550" y="42" text-anchor="middle" class="title">Insulin time–action profile（概念圖）</text>
+  <text x="550" y="69" text-anchor="middle" class="sub">曲線表示相對作用強度；實際起效與持續時間會受劑量、注射位置與個體差異影響</text>
+
+  <line x1="90" y1="510" x2="1010" y2="510" class="axis"/><line x1="90" y1="110" x2="90" y2="510" class="axis"/>
+  <text x="42" y="305" transform="rotate(-90 42 305)" text-anchor="middle" class="sub">相對降糖作用</text>
+  <text x="550" y="555" text-anchor="middle" class="sub">注射後時間（小時）</text>
+  <g>
+    <line x1="90" y1="110" x2="1010" y2="110" class="grid"/><line x1="90" y1="210" x2="1010" y2="210" class="grid"/>
+    <line x1="90" y1="310" x2="1010" y2="310" class="grid"/><line x1="90" y1="410" x2="1010" y2="410" class="grid"/>
+    <line x1="90" y1="510" x2="90" y2="520" class="axis"/><text x="90" y="540" text-anchor="middle" class="tick">0</text>
+    <line x1="220" y1="510" x2="220" y2="520" class="axis"/><text x="220" y="540" text-anchor="middle" class="tick">4</text>
+    <line x1="350" y1="510" x2="350" y2="520" class="axis"/><text x="350" y="540" text-anchor="middle" class="tick">8</text>
+    <line x1="480" y1="510" x2="480" y2="520" class="axis"/><text x="480" y="540" text-anchor="middle" class="tick">12</text>
+    <line x1="740" y1="510" x2="740" y2="520" class="axis"/><text x="740" y="540" text-anchor="middle" class="tick">24</text>
+    <line x1="1010" y1="510" x2="1010" y2="520" class="axis"/><text x="1010" y="540" text-anchor="middle" class="tick">42+</text>
+  </g>
+
+  <path d="M90 510 C110 500,120 260,145 155 C165 230,180 430,235 505" fill="none" stroke="#e11d48" stroke-width="5"/>
+  <path d="M90 510 C125 505,145 360,180 245 C220 290,260 450,330 505" fill="none" stroke="#f97316" stroke-width="5"/>
+  <path d="M90 510 C155 505,200 420,285 250 C360 200,440 330,600 500" fill="none" stroke="#8b5cf6" stroke-width="5"/>
+  <path d="M90 510 C130 485,190 392,700 392 C730 410,745 465,760 505" fill="none" stroke="#0f766e" stroke-width="5"/>
+  <path d="M90 510 C145 485,240 430,930 430 C980 440,1000 470,1010 490" fill="none" stroke="#2563eb" stroke-width="5"/>
+
+  <g class="lab">
+    <line x1="120" y1="595" x2="165" y2="595" stroke="#e11d48" stroke-width="5"/><text x="175" y="601">速效 lispro/aspart（峰 1–2 h；3–5 h）</text>
+    <line x1="560" y1="595" x2="605" y2="595" stroke="#f97316" stroke-width="5"/><text x="615" y="601">regular（需提前約 30 min）</text>
+    <line x1="120" y1="625" x2="165" y2="625" stroke="#8b5cf6" stroke-width="5"/><text x="175" y="631">NPH（峰 4–10 h；夜間低血糖）</text>
+    <line x1="560" y1="625" x2="605" y2="625" stroke="#0f766e" stroke-width="5"/><text x="615" y="631">glargine 約 24 h</text>
+    <line x1="820" y1="625" x2="865" y2="625" stroke="#2563eb" stroke-width="5"/><text x="875" y="631">degludec &gt;42 h</text>
+  </g>
+  <rect x="700" y="92" width="315" height="70" rx="14" fill="#fff1f2" stroke="#fb7185"/>
+  <text x="858" y="120" text-anchor="middle" class="lab" fill="#be123c">低血糖最常追著「峰」出現</text>
+  <text x="858" y="147" text-anchor="middle" class="sub">NPH 晚間注射 → 凌晨尤其要小心</text>
+</svg>

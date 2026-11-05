@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="680" viewBox="0 0 1100 680">
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",Arial,sans-serif;fill:#172033}
+    .title{font-size:30px;font-weight:700}.head{font-size:20px;font-weight:700}.b{font-size:16px}.s{font-size:14px;fill:#526174}
+    .torso{fill:#f8fafc;stroke:#64748b;stroke-width:3}
+  </style>
+  <rect width="1100" height="680" fill="#fff"/>
+  <text x="550" y="42" text-anchor="middle" class="title">腰圍量測位置：切點必須配對正確的量法</text>
+  <text x="550" y="70" text-anchor="middle" class="s">自然站立、雙腳併攏、腹部放鬆；捲尺水平貼膚不壓皮，在正常吐氣末讀值</text>
+
+  <path d="M190 120 C150 170,145 230,160 290 L180 540 C185 585,365 585,370 540 L390 290 C405 230,400 170,360 120 C310 145,240 145,190 120 Z" class="torso"/>
+  <path d="M230 180 C255 205,295 205,320 180" fill="none" stroke="#94a3b8" stroke-width="4"/>
+  <path d="M205 410 C240 375,310 375,345 410" fill="none" stroke="#94a3b8" stroke-width="6"/>
+  <text x="275" y="105" text-anchor="middle" class="head">正面</text>
+
+  <path d="M635 120 C595 180,610 245,640 300 C620 365,625 450,650 545 C680 575,785 575,815 545 C835 445,835 355,810 300 C840 230,820 165,775 120 C730 140,680 140,635 120 Z" class="torso"/>
+  <path d="M675 180 C710 205,750 205,785 180" fill="none" stroke="#94a3b8" stroke-width="4"/>
+  <path d="M665 410 C700 380,760 380,795 410" fill="none" stroke="#94a3b8" stroke-width="6"/>
+  <text x="725" y="105" text-anchor="middle" class="head">側面</text>
+
+  <g>
+    <line x1="115" y1="245" x2="445" y2="245" stroke="#2563eb" stroke-width="5"/><line x1="580" y1="245" x2="875" y2="245" stroke="#2563eb" stroke-width="5"/>
+    <text x="455" y="251" class="b" fill="#1d4ed8">肋骨下緣</text><text x="890" y="251" class="b" fill="#1d4ed8">肋骨下緣</text>
+    <line x1="115" y1="330" x2="445" y2="330" stroke="#059669" stroke-width="7"/><line x1="580" y1="330" x2="875" y2="330" stroke="#059669" stroke-width="7"/>
+    <text x="455" y="336" class="b" fill="#047857">WHO／台灣：中間點</text><text x="890" y="336" class="b" fill="#047857">吐氣末量這條</text>
+    <line x1="115" y1="410" x2="445" y2="410" stroke="#e11d48" stroke-width="5"/><line x1="580" y1="410" x2="875" y2="410" stroke="#e11d48" stroke-width="5"/>
+    <text x="455" y="416" class="b" fill="#be123c">NHANES：髂骨嵴上緣</text><text x="890" y="416" class="b" fill="#be123c">髂骨嵴上緣</text>
+  </g>
+  <line x1="95" y1="245" x2="95" y2="410" stroke="#475569" stroke-width="2"/><line x1="85" y1="245" x2="105" y2="245" stroke="#475569" stroke-width="2"/><line x1="85" y1="410" x2="105" y2="410" stroke="#475569" stroke-width="2"/>
+  <text x="70" y="330" transform="rotate(-90 70 330)" text-anchor="middle" class="s">兩個骨性標記之間</text>
+
+  <rect x="105" y="600" width="890" height="50" rx="14" fill="#fffbeb" stroke="#f59e0b"/>
+  <text x="550" y="631" text-anchor="middle" class="b" fill="#b45309">同一個人換位置量可差數公分：引用 WHO／台灣切點，就用肋骨下緣與髂骨上緣的中點法</text>
+</svg>

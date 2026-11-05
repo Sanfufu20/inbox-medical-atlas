@@ -1,0 +1,78 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="從主訴、疾病、檢查、藥物與處置，閱讀同一份持續整理的醫學學習筆記。"><meta name="theme-color" content="#f5f6fa"><title>CONTEXT · INBOX 醫學筆記</title><link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../assets/site.css"><link rel="stylesheet" href="../assets/vendor/katex/katex.min.css"><script defer src="../assets/site.js"></script></head><body class="article-page" data-page="note" data-note-id="context"><a class="skip-link" href="#main">跳到主要內容</a><header class="site-header"><a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><span>INBOX<small>醫學筆記</small></span></a><nav aria-label="主要導覽"><a href="../index.html" >筆記庫</a><a href="../index.html?view=moc">主題索引</a><a href="../index.html?view=saved">閱讀清單<span class="saved-count"></span></a></nav><a class="header-source" href="https://github.com/Sanfufu20/inbox-medical-atlas" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a></header><main id="main" class="reading-shell"><aside class="reading-toc"><a class="back-link" href="../index.html?angle=Guide">← 使用導覽</a><p class="sidebar-label">本頁內容</p><nav aria-label="本頁目錄"><a class="toc-depth-2" href="#language">Language</a><a class="toc-depth-3" href="#%E7%AD%86%E8%A8%98%E7%9A%84%E5%88%86%E5%B1%A4">筆記的分層</a><a class="toc-depth-3" href="#%E4%BA%94%E5%80%8B%E8%A7%92%E5%BA%A6">五個角度</a><a class="toc-depth-3" href="#%E9%80%A3%E7%B5%90%E8%88%87%E8%81%B7%E8%B2%AC">連結與職責</a><a class="toc-depth-2" href="#flagged-ambiguities">Flagged ambiguities</a><a class="toc-depth-2" href="#example-dialogue">Example dialogue</a></nav></aside><div class="reading-main"><header class="article-header"><div class="article-meta"><span class="kind-pill kind-Guide">使用導覽</span><span></span></div><h1>醫學筆記 Vault · CONTEXT</h1><div class="article-subline"><p>筆記更新 2026-08-03<span>·</span>整理狀態：未標示</p><button class="bookmark js-only" data-save="context" aria-pressed="false" aria-label="收藏 CONTEXT"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4.5h12v16l-6-4-6 4z"/></svg><span>加入閱讀清單</span></button></div><details class="alias-details"><summary>其他名稱 <span>2</span></summary><p>CONTEXT · 筆記系統詞彙表</p></details></header><article class="prose"><p>這份文件定義<strong>筆記系統本身</strong>的詞彙，不是醫學內容的詞彙。目的是讓每篇筆記的結構、命名、連結方式一致，避免同一個概念在不同資料夾裡長出不同形狀。</p>
+<aside class="callout callout-warning"><div class="callout-title">這裡不放實作細節</div>
+<p>模板長什麼樣、資料夾怎麼排、YAML 有哪些欄位 → 那些屬於模板檔本身與 ADR。這裡只放「一個詞是什麼意思」。</p>
+</aside>
+<h2 id="language">Language</h2>
+<h3 id="筆記的分層">筆記的分層</h3>
+<p><strong>行動層 (Action Layer)</strong>：
+一篇筆記中回答「現在遇到這個東西，下一步做什麼」的部分。內容是決策所需的紅旗、閾值、劑量、順序。所有筆記必填。
+<em>Avoid</em>: 速查、cheat sheet、臨床層</p>
+<p><strong>理解層 (Understanding Layer)</strong>：
+一篇筆記中回答「為什麼是這樣」的部分。內容是機制、分類、鑑別邏輯。可增量補完，允許暫時留空。
+<em>Avoid</em>: 深度、機制層、考試層</p>
+<aside class="callout callout-note"><div class="callout-title">兩層的邊界</div>
+<p>判準是<strong>讀者的處境</strong>，不是內容的難度。同一個機制，若它直接改變下一步處置（例：APL 的 DIC 風險 → 立刻給 ATRA），就屬行動層；若它只是解釋為什麼（例：t(15;17) 融合蛋白如何阻斷分化），屬理解層。</p>
+</aside>
+<h3 id="五個角度">五個角度</h3>
+<p><strong>角度 (Angle)</strong>：
+切入同一批醫學知識的一種視角。每個角度對應一個資料夾與固定結構；同一角度可有 subtype 模板（例如 Operation 是 Intervention 的手術版）。系統固定為五個，不隨意增加。
+<em>Avoid</em>: 面向、維度、分類</p>
+<p><strong>Disease 疾病</strong>：
+一個有診斷名稱的病理狀態，是鑑別診斷清單上會出現的東西。Syndrome（如 Shock、SIRS）也放這裡，用 tag 標記，不另立角度。
+<em>Avoid</em>: 病、diagnosis、condition</p>
+<p><strong>Workup 主訴流程</strong>：
+從一個<strong>尚未診斷</strong>的主訴出發的完整臨床流程：問什麼病史、做哪些 PE、開哪些檢查、排哪些鑑別診斷。一篇 Workup 對應一個主訴。這是值班當下會打開的筆記。
+<em>Avoid</em>: Complaint、Symptom、症狀、主訴</p>
+<p><strong>Test 檢查</strong>：
+為了取得資訊而做的動作，涵蓋理學檢查、抽血、影像、病理。四者共用同一套模板，以 <code>modality</code> 欄位區分。
+<em>Avoid</em>: Examination、PE、Lab、檢驗</p>
+<p><strong>Drug 藥物</strong>：
+一個藥品或藥理分類。核心是學理機轉、適應症、使用注意事項。
+<em>Avoid</em>: 用藥、medication</p>
+<p><strong>Intervention 處置</strong>：
+為了改變病人狀態而做的動作——手術、透析、插管、引流。與 Test 的分界是<strong>意圖</strong>：取得資訊 → Test；改變狀態 → Intervention。
+<em>Avoid</em>: 治療、procedure、operation</p>
+<p><strong>Operation 手術</strong>：
+Intervention 的 subtype，不是第六個角度。使用 <code>Operation 手術</code> 模板，強化適應症、術式選擇、關鍵解剖、術前準備、術後路徑與 must-call threshold；檔案仍放在 <code>Intervention/</code>。
+<em>Avoid</em>: Surgery angle、手術資料夾、外科處置角度</p>
+<p><strong>MOC (Map of Content)</strong>：
+一個科別或主題的索引筆記，提供分類骨架與五角度專篇入口。MOC 是<strong>導航層，不是知識物件，也不是第六個角度</strong>；新 MOC 集中放在 <code>MOC/</code>。既有的 <code>Hema Category.md</code> 等可保留原位，日後再漸進遷移。
+<em>Avoid</em>: Category、索引、目錄、總覽</p>
+<p><strong>Service 科別歸屬</strong>：
+一篇筆記會被哪些臨床團隊使用，以 frontmatter 的 <code>services:</code> 陣列表示。同一篇可以同時屬於多科，例如 CAD 可連到 Cardio 與 CardiacSurgery；這不代表要複製兩篇疾病筆記。
+<em>Avoid</em>: 用資料夾複製一份內科版與外科版、把 service 當成 angle</p>
+<h3 id="連結與職責">連結與職責</h3>
+<p><strong>短清單原則 (Short-list Rule)</strong>：
+決定一條跨角度連結該寫在哪一端的判準。若該端的清單短、穩定、值得背（洗腎的 AEIOU、胸痛的鑑別），就寫進 frontmatter；若清單無上限（「哪些病要驗 CBC」），一律不寫，靠 backlinks 撿。
+<em>Avoid</em>: 雙向連結、bidirectional link</p>
+<p><strong>禁忌 (Contraindication)</strong>：
+一條「在某情境下絕對不可執行某動作」的規則。不是獨立的知識物件，因此<strong>沒有自己的資料夾</strong>——它以固定區塊的形式寄生在 Workup / Drug / Intervention / Test 四種筆記裡，用 <code>#禁忌</code> tag 串起，由 <code>禁忌選項.md</code> 彙整。
+<em>Avoid</em>: 禁忌症、禁忌肢、絕對禁忌</p>
+<p><strong>Case 案例</strong>：
+觸發學習的一次具體遭遇——考古題、case discussion、晨會、真實照顧過的病人。<strong>Case 是知識的來源，不是知識的一部分</strong>：從 case 學到的東西要用通用臨床語言寫進五個角度的筆記，case 本身只記在 <code>source:</code> 欄位。因此沒有 Case 資料夾。
+<em>Avoid</em>: 考古、題目、病例</p>
+<aside class="callout callout-warning"><div class="callout-title">這條規則的實際意義</div>
+<p>筆記裡不寫「考古說要開 EKG」，寫「上腹痛必須開 EKG 排除下壁 MI」。
+不寫「本題答案是膿胸」，因為換一個 case 答案就不同——但「右上腹痛有六個系統分支」永遠成立。
+判準：<strong>這句話換一個來源還成立嗎？</strong> 不成立就不該寫進筆記。</p>
+</aside>
+<p><strong>深度歸屬 (Depth Ownership)</strong>：
+一個概念的完整解釋只寫在它自己那篇。Disease 與 Workup 頁只寫「要做 UPCR」與判讀結論；UPCR 的原理、計算、干擾因素寫在 <code>Test/UPCR</code>。避免同一段機制在五個地方各寫一次然後版本不一。
+<em>Avoid</em>: DRY、單一真相來源</p>
+<h2 id="flagged-ambiguities">Flagged ambiguities</h2>
+<p><strong>「Symptom」曾同時指主訴與診斷</strong>
+<code>Symptoms/Pneumonia workup.md</code> 把診斷放進了主訴資料夾，會讓「主訴 → 鑑別診斷」的連結退化成主訴連主訴。
+<strong>解決</strong>：資料夾更名 <code>Workup/</code>，只收未診斷的主訴流程；Pneumonia 移入 <code>Disease/</code>。</p>
+<p><strong>「Examination」與「PE」語意撞車</strong>
+兩個資料夾並存，前者實際放的是 lab（UPCR/UACR），後者空置。
+<strong>解決</strong>：合併為 <code>Test/</code>，以 <code>modality: PE | lab | imaging | pathology</code> 區分。</p>
+<h2 id="example-dialogue">Example dialogue</h2>
+<blockquote>
+<p><strong>學生</strong>：CCB 造成的下肢水腫要寫在哪？
+<strong>系統</strong>：三個地方各寫一段，但職責不同。<code>Drug/CCB</code> 寫「副作用：下肢水腫」並連到 <code>Complaint/水腫</code>；<code>Complaint/水腫</code> 的鑑別清單裡列一條「藥物性」並連回 <code>Drug/CCB</code>；<code>Disease/</code> 不用寫，因為藥物性水腫不是疾病。
+<strong>學生</strong>：那 UPCR 呢？它是 Test 還是 Intervention？
+<strong>系統</strong>：Test。你做它是為了知道蛋白尿多少，不是為了讓病人變好。透析才是 Intervention——你做它是為了把鉀降下來。
+<strong>學生</strong>：那診斷性腹腔穿刺（diagnostic paracentesis）？
+<strong>系統</strong>：Test。但治療性腹水引流（therapeutic paracentesis）是 Intervention。同一個技術動作，意圖不同就落在不同角度，各寫一篇並互連。</p>
+</blockquote>
+</article><section class="note-source"><p class="eyebrow">SOURCE & CONTEXT</p><h2>來源與原始筆記</h2><p>原筆記未另列 source 欄位；內文如有來源，請依原文查閱。</p><a href="../content/CONTEXT.md" download>下載這篇 Markdown ↗</a><span class="source-note">網站保留原筆記的內容與整理狀態。</span></section><section class="related-section"><div><p class="eyebrow">FOLLOW THE CONNECTIONS</p><h2>循著連結繼續讀</h2></div><div class="related-list"><p class="muted">目前尚未建立相關筆記連結。</p></div></section><section class="backlinks-section"><h2>哪些筆記連到這裡 <span>5</span></h2><div><a href="disease-endo-endo-category.html">Endo Category <span aria-hidden="true">↗</span></a><a href="guides-knowledge-map-workflow.html">Knowledge map workflow <span aria-hidden="true">↗</span></a><a href="moc-cardiovascular-reading-route.html">Cardiovascular reading route <span aria-hidden="true">↗</span></a><a href="moc-surgery-rotation.html">Surgery Rotation <span aria-hidden="true">↗</span></a><a href="readme-%E4%BD%BF%E7%94%A8%E8%AA%AA%E6%98%8E.html">README 使用說明 <span aria-hidden="true">↗</span></a></div></section></div></main><footer class="site-footer"><div><strong>INBOX</strong><span>從問題出發，讓知識彼此連結。</span></div><p>個人醫學學習筆記。整理狀態沿用原筆記，本次網站轉換未重新完成醫學內容驗證；不作個別病人的診療依據。</p><div class="footer-links"><a href="../notes/readme-%E4%BD%BF%E7%94%A8%E8%AA%AA%E6%98%8E.html">這份筆記庫怎麼用</a><a href="https://github.com/Sanfufu20/inbox-medical-atlas/blob/main/AGENTS.md" target="_blank" rel="noopener">專案規則 ↗</a><span>公開副本 · 2026-11-05</span></div></footer><a class="back-top" href="#main" aria-label="回到頁首">↑</a></body></html>

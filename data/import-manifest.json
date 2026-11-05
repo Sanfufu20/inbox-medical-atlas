@@ -1,0 +1,650 @@
+{
+  "snapshotDate": "2026-11-05",
+  "source": "Obsidian Inbox 公開副本",
+  "notes": [
+    {
+      "path": "CONTEXT.md",
+      "sourceSha256": "170f710c173b9ed6e8b840e34ad2d159e7182b148d55e140d26662f87cd1c57f",
+      "publicSha256": "170f710c173b9ed6e8b840e34ad2d159e7182b148d55e140d26662f87cd1c57f"
+    },
+    {
+      "path": "Disease/Breast/Benign breast disease.md",
+      "sourceSha256": "304752970a2310c4f24c0928150a4305d5b3cf8792150d6dde2e5aba85147176",
+      "publicSha256": "304752970a2310c4f24c0928150a4305d5b3cf8792150d6dde2e5aba85147176"
+    },
+    {
+      "path": "Disease/Breast/DCIS.md",
+      "sourceSha256": "5e0cf79d8d8f3fa48fad2654777e79ad0f63d00b1429e074ad56e0f96b0cc2de",
+      "publicSha256": "5e0cf79d8d8f3fa48fad2654777e79ad0f63d00b1429e074ad56e0f96b0cc2de"
+    },
+    {
+      "path": "Disease/Cardio/ACS.md",
+      "sourceSha256": "ea3bcdc58959cc3e2375f0a434ac58baf29203005ef04c0bd48823f30dbce818",
+      "publicSha256": "ea3bcdc58959cc3e2375f0a434ac58baf29203005ef04c0bd48823f30dbce818"
+    },
+    {
+      "path": "Disease/Cardio/Aortic dissection.md",
+      "sourceSha256": "cac40c9ebffe4ed8c83677f4021d28dbed644177e3f5980e2401d98c16e0a912",
+      "publicSha256": "cac40c9ebffe4ed8c83677f4021d28dbed644177e3f5980e2401d98c16e0a912"
+    },
+    {
+      "path": "Disease/Cardio/Atrial fibrillation.md",
+      "sourceSha256": "f536b63d8747ed283394d877216d2be39b45c6d93ee6d7da91ff97e900bf0a7e",
+      "publicSha256": "f536b63d8747ed283394d877216d2be39b45c6d93ee6d7da91ff97e900bf0a7e"
+    },
+    {
+      "path": "Disease/Cardio/CAD.md",
+      "sourceSha256": "01be8a90e67079336b222552623147d743cc2143bba45e40c45ef27479c08aa9",
+      "publicSha256": "01be8a90e67079336b222552623147d743cc2143bba45e40c45ef27479c08aa9"
+    },
+    {
+      "path": "Disease/Cardio/Cardiac tamponade.md",
+      "sourceSha256": "c480b393b5d90dd2f46ebedfbd5ae84523cb3c9990de3d322b9237a944220f9c",
+      "publicSha256": "c480b393b5d90dd2f46ebedfbd5ae84523cb3c9990de3d322b9237a944220f9c"
+    },
+    {
+      "path": "Disease/Cardio/Cardio Category.md",
+      "sourceSha256": "481e5520388531d08b939d3956c241c31160776caf9c3007d1ca567401bace29",
+      "publicSha256": "481e5520388531d08b939d3956c241c31160776caf9c3007d1ca567401bace29"
+    },
+    {
+      "path": "Disease/Cardio/Constrictive pericarditis.md",
+      "sourceSha256": "c3088d54fb3a7887e562ede2cfa69e4505c1048899fec4a0658b86db1465a6be",
+      "publicSha256": "c3088d54fb3a7887e562ede2cfa69e4505c1048899fec4a0658b86db1465a6be"
+    },
+    {
+      "path": "Disease/Cardio/HCM.md",
+      "sourceSha256": "b3badea64b195d6caba8f493881b77cf05984a0626eb9b7aff7f361bd35f6ed4",
+      "publicSha256": "b3badea64b195d6caba8f493881b77cf05984a0626eb9b7aff7f361bd35f6ed4"
+    },
+    {
+      "path": "Disease/Cardio/Heart failure.md",
+      "sourceSha256": "08bac4e38dece575b9cb3113ebc2d4ab527aba8348b61317ffc8ff20e0ee1ad9",
+      "publicSha256": "08bac4e38dece575b9cb3113ebc2d4ab527aba8348b61317ffc8ff20e0ee1ad9"
+    },
+    {
+      "path": "Disease/Cardio/Infective endocarditis.md",
+      "sourceSha256": "6a8ba371457bac6e31d0344c8a8ff0465ee92f754251cda08887debed3f13020",
+      "publicSha256": "6a8ba371457bac6e31d0344c8a8ff0465ee92f754251cda08887debed3f13020"
+    },
+    {
+      "path": "Disease/Cardio/Inherited arrhythmia syndromes.md",
+      "sourceSha256": "d0268c565af75e884fc2e131fb4861b59a446e6682ad7c7f81e06e21b82dbafd",
+      "publicSha256": "d0268c565af75e884fc2e131fb4861b59a446e6682ad7c7f81e06e21b82dbafd"
+    },
+    {
+      "path": "Disease/Cardio/Restrictive cardiomyopathy.md",
+      "sourceSha256": "42d06e605272b2f2b09220597309b25b2d39b515ebd634568538ab42f2dc7f94",
+      "publicSha256": "42d06e605272b2f2b09220597309b25b2d39b515ebd634568538ab42f2dc7f94"
+    },
+    {
+      "path": "Disease/Cardio/Ventricular tachycardia.md",
+      "sourceSha256": "e850c405d59fcc129cfb58f35a4ac9247f1697e3de8fe356e44eb2da350584d5",
+      "publicSha256": "e850c405d59fcc129cfb58f35a4ac9247f1697e3de8fe356e44eb2da350584d5"
+    },
+    {
+      "path": "Disease/Endo/Adrenal insufficiency.md",
+      "sourceSha256": "831b3221e48e26451488d3fd2a57206cbef96d29beae5bbbadac1fc86d2cb873",
+      "publicSha256": "831b3221e48e26451488d3fd2a57206cbef96d29beae5bbbadac1fc86d2cb873"
+    },
+    {
+      "path": "Disease/Endo/Congenital adrenal hyperplasia.md",
+      "sourceSha256": "a6f05a476bef026ae18698027fa4429c71aae1384ad05328814f3818ca11e0f2",
+      "publicSha256": "a6f05a476bef026ae18698027fa4429c71aae1384ad05328814f3818ca11e0f2"
+    },
+    {
+      "path": "Disease/Endo/Cushing syndrome.md",
+      "sourceSha256": "6e25d3ac8a9f496befef7c44d1f9c1f64a843ead6e9bda9ad1af9291578f5ba8",
+      "publicSha256": "e6d14553f3f08ae05026b16a15d76feff1b91c9d713298f5758fd7c8174781bc"
+    },
+    {
+      "path": "Disease/Endo/DKA.md",
+      "sourceSha256": "e7f98387cafc1783a998829667b26643c57b66eb369482a06a147d481d659624",
+      "publicSha256": "e7f98387cafc1783a998829667b26643c57b66eb369482a06a147d481d659624"
+    },
+    {
+      "path": "Disease/Endo/Endo Category.md",
+      "sourceSha256": "1319a9e92cd1be3c48f0e55bf466f1cf530b727e02f5f3e5ffd04f8d2ae6857d",
+      "publicSha256": "1319a9e92cd1be3c48f0e55bf466f1cf530b727e02f5f3e5ffd04f8d2ae6857d"
+    },
+    {
+      "path": "Disease/Endo/Metabolic syndrome.md",
+      "sourceSha256": "f1c9da036ef60034386f4bbaacf01764fae74d0dab8759b50cc7208a372e277e",
+      "publicSha256": "f1c9da036ef60034386f4bbaacf01764fae74d0dab8759b50cc7208a372e277e"
+    },
+    {
+      "path": "Disease/Endo/Primary aldosteronism.md",
+      "sourceSha256": "78d372fac36cc051b10c2daca914d569ca6135d42ea836847457874ec20009dd",
+      "publicSha256": "78d372fac36cc051b10c2daca914d569ca6135d42ea836847457874ec20009dd"
+    },
+    {
+      "path": "Disease/Endo/T2DM.md",
+      "sourceSha256": "2804ef95cf2efe468f4b2fe5a32ec992fc994464b5c8d9ecf9b0cbfc481fe840",
+      "publicSha256": "2804ef95cf2efe468f4b2fe5a32ec992fc994464b5c8d9ecf9b0cbfc481fe840"
+    },
+    {
+      "path": "Disease/Endo/Thyroid cancer.md",
+      "sourceSha256": "fc60a3801b06060c961948c192774fdb81e8561b3b50a7b0cbd64cf8b1e83b2f",
+      "publicSha256": "fc60a3801b06060c961948c192774fdb81e8561b3b50a7b0cbd64cf8b1e83b2f"
+    },
+    {
+      "path": "Disease/Endo/Thyroid storm.md",
+      "sourceSha256": "351377b358fc7a4646fe8bb42f62a9517d7a24781f8a73a9736d8bf994e74775",
+      "publicSha256": "351377b358fc7a4646fe8bb42f62a9517d7a24781f8a73a9736d8bf994e74775"
+    },
+    {
+      "path": "Disease/General/Delirium.md",
+      "sourceSha256": "68c2b1c338ef6ff2ee6e18ffb51d7f9165208118016c68f240982047438b32e1",
+      "publicSha256": "68c2b1c338ef6ff2ee6e18ffb51d7f9165208118016c68f240982047438b32e1"
+    },
+    {
+      "path": "Disease/General/Hypercalcemia.md",
+      "sourceSha256": "ddbf0cba584c755a2c66a3754fe8e2ddca1fde09de538921421683a8b54c2d6d",
+      "publicSha256": "ddbf0cba584c755a2c66a3754fe8e2ddca1fde09de538921421683a8b54c2d6d"
+    },
+    {
+      "path": "Disease/General/Shock.md",
+      "sourceSha256": "4d48f446133d5abf18823f43041e1300934772ef39fc672c59cbb07e3d0b7566",
+      "publicSha256": "4d48f446133d5abf18823f43041e1300934772ef39fc672c59cbb07e3d0b7566"
+    },
+    {
+      "path": "Disease/GI/Acute pancreatitis.md",
+      "sourceSha256": "0a1a68f32b96f30ceaee6e541487782ddb13d89e3703afe20f35bc564582a056",
+      "publicSha256": "0a1a68f32b96f30ceaee6e541487782ddb13d89e3703afe20f35bc564582a056"
+    },
+    {
+      "path": "Disease/GI/Cirrhosis.md",
+      "sourceSha256": "ffa8f3e9a19dd391a18f9f1d3d98662dd8a5bef9cc34172b411d817c3b51b7cc",
+      "publicSha256": "ffa8f3e9a19dd391a18f9f1d3d98662dd8a5bef9cc34172b411d817c3b51b7cc"
+    },
+    {
+      "path": "Disease/GI/CRC.md",
+      "sourceSha256": "3713e1b7df57ae572dba97c38abc8a1e4f9b8e21551b41f54493faf949776da8",
+      "publicSha256": "3713e1b7df57ae572dba97c38abc8a1e4f9b8e21551b41f54493faf949776da8"
+    },
+    {
+      "path": "Disease/GI/GI Category.md",
+      "sourceSha256": "089727d99547fce5934ef4af58652730d4bf79948b61a254652655a24af299c7",
+      "publicSha256": "089727d99547fce5934ef4af58652730d4bf79948b61a254652655a24af299c7"
+    },
+    {
+      "path": "Disease/GI/Hepatic encephalopathy.md",
+      "sourceSha256": "fc498f9718c0cd6cb519b115d517736c41a5f717456b7eace08de35c55b9ca6d",
+      "publicSha256": "fc498f9718c0cd6cb519b115d517736c41a5f717456b7eace08de35c55b9ca6d"
+    },
+    {
+      "path": "Disease/GI/IBD.md",
+      "sourceSha256": "9621343dd1ec88f1d5eb6b187fd66c4bc572b7435dff9f9e17d26b2f37d87cbe",
+      "publicSha256": "9621343dd1ec88f1d5eb6b187fd66c4bc572b7435dff9f9e17d26b2f37d87cbe"
+    },
+    {
+      "path": "Disease/GI/MASLD.md",
+      "sourceSha256": "f33ee98b47af184bb9fe1301b417a797bd7035adbc8e002c3b55bafae2539cf4",
+      "publicSha256": "f33ee98b47af184bb9fe1301b417a797bd7035adbc8e002c3b55bafae2539cf4"
+    },
+    {
+      "path": "Disease/GI/Pancreatic cancer.md",
+      "sourceSha256": "2018b0ce1bdba135072bf7537d730a4fe364623cbc12062e883e88b74da9c1e5",
+      "publicSha256": "2018b0ce1bdba135072bf7537d730a4fe364623cbc12062e883e88b74da9c1e5"
+    },
+    {
+      "path": "Disease/Hema/01-急性白血病/AML.md",
+      "sourceSha256": "cc377fea867dfc87bdc5b749a805107f95de628155086bf2a30b5f5f1d11bda0",
+      "publicSha256": "cc377fea867dfc87bdc5b749a805107f95de628155086bf2a30b5f5f1d11bda0"
+    },
+    {
+      "path": "Disease/Hema/01-急性白血病/APL.md",
+      "sourceSha256": "dc4ca30187ca557358fdad157c677d52e99aedd61e7a8cae619742547f5fec92",
+      "publicSha256": "dc4ca30187ca557358fdad157c677d52e99aedd61e7a8cae619742547f5fec92"
+    },
+    {
+      "path": "Disease/Hema/01-急性白血病/B-ALL.md",
+      "sourceSha256": "6dabdc67abd95827cf0a8d13fbe21f36f5e5aaba4a5f69d137d638aa775e0a53",
+      "publicSha256": "6dabdc67abd95827cf0a8d13fbe21f36f5e5aaba4a5f69d137d638aa775e0a53"
+    },
+    {
+      "path": "Disease/Hema/01-急性白血病/T-ALL.md",
+      "sourceSha256": "7588173edc6717d9097fa84a9ee5d0400cb74f789483c08097572938e2bc7c67",
+      "publicSha256": "7588173edc6717d9097fa84a9ee5d0400cb74f789483c08097572938e2bc7c67"
+    },
+    {
+      "path": "Disease/Hema/02-慢性髓性/CML.md",
+      "sourceSha256": "8d7593c25f9d805d8c5b6fedd3f28c630c3889014f6df0bdc2c3113e34bd1f97",
+      "publicSha256": "8d7593c25f9d805d8c5b6fedd3f28c630c3889014f6df0bdc2c3113e34bd1f97"
+    },
+    {
+      "path": "Disease/Hema/02-慢性髓性/ET.md",
+      "sourceSha256": "df64e52d40293b7897a5667cc08723bc8aa6fe4fcee043887b1652f085673dad",
+      "publicSha256": "df64e52d40293b7897a5667cc08723bc8aa6fe4fcee043887b1652f085673dad"
+    },
+    {
+      "path": "Disease/Hema/02-慢性髓性/MDS.md",
+      "sourceSha256": "f3cc36530f6d73cccc0bd13b859e47876403c024c4db803f1caa3b539e738fce",
+      "publicSha256": "f3cc36530f6d73cccc0bd13b859e47876403c024c4db803f1caa3b539e738fce"
+    },
+    {
+      "path": "Disease/Hema/02-慢性髓性/PMF.md",
+      "sourceSha256": "bf833bb0730469250edbaec679eab65d55e747806b08402dac0e8a726a8ee02c",
+      "publicSha256": "bf833bb0730469250edbaec679eab65d55e747806b08402dac0e8a726a8ee02c"
+    },
+    {
+      "path": "Disease/Hema/02-慢性髓性/PV.md",
+      "sourceSha256": "60e377398a4d3275272935c7b447fa968cb803948801d3cf19744bdf1aa65789",
+      "publicSha256": "60e377398a4d3275272935c7b447fa968cb803948801d3cf19744bdf1aa65789"
+    },
+    {
+      "path": "Disease/Hema/03-成熟B細胞/Burkitt.md",
+      "sourceSha256": "fcdd9f94c3baf367315adf658a1b0af7f91f1cf7b12808f1aba01338f0349b91",
+      "publicSha256": "fcdd9f94c3baf367315adf658a1b0af7f91f1cf7b12808f1aba01338f0349b91"
+    },
+    {
+      "path": "Disease/Hema/03-成熟B細胞/CLL-SLL.md",
+      "sourceSha256": "d3a2f3d476890a9604ba2e2fbe9b4f8412ae338565fc044e04b985dce4a785ef",
+      "publicSha256": "d3a2f3d476890a9604ba2e2fbe9b4f8412ae338565fc044e04b985dce4a785ef"
+    },
+    {
+      "path": "Disease/Hema/03-成熟B細胞/DLBCL.md",
+      "sourceSha256": "9f85eb65368f1c9baa2d6074174c842ee72e3c0d2183441115f16c16efcdd31f",
+      "publicSha256": "9f85eb65368f1c9baa2d6074174c842ee72e3c0d2183441115f16c16efcdd31f"
+    },
+    {
+      "path": "Disease/Hema/03-成熟B細胞/Follicular Lymphoma.md",
+      "sourceSha256": "edb067ab2665fb7cf637a2e58db7c331c084df71d7f98dcea2b81a718fcc6609",
+      "publicSha256": "edb067ab2665fb7cf637a2e58db7c331c084df71d7f98dcea2b81a718fcc6609"
+    },
+    {
+      "path": "Disease/Hema/03-成熟B細胞/Hairy Cell Leukemia.md",
+      "sourceSha256": "badeaeadfc1d7c019b4aeeff5071e209f58f80ccc470f412872062d42bb37aba",
+      "publicSha256": "badeaeadfc1d7c019b4aeeff5071e209f58f80ccc470f412872062d42bb37aba"
+    },
+    {
+      "path": "Disease/Hema/03-成熟B細胞/Hodgkin Lymphoma.md",
+      "sourceSha256": "d94067e7ba4a5e38e439ce64de45394d26267705787a3247cd06d4d70ad8d02c",
+      "publicSha256": "d94067e7ba4a5e38e439ce64de45394d26267705787a3247cd06d4d70ad8d02c"
+    },
+    {
+      "path": "Disease/Hema/03-成熟B細胞/MALT Lymphoma.md",
+      "sourceSha256": "e469f6c73180a3053dbe521b30f3ee341bb9cc350526fc2952aeb7eedf8653b7",
+      "publicSha256": "e469f6c73180a3053dbe521b30f3ee341bb9cc350526fc2952aeb7eedf8653b7"
+    },
+    {
+      "path": "Disease/Hema/03-成熟B細胞/Mantle Cell Lymphoma.md",
+      "sourceSha256": "3ab3f76ed2359d44cd6439b7c7eba5cac1c2b81170005b6e577b8917baa52d99",
+      "publicSha256": "3ab3f76ed2359d44cd6439b7c7eba5cac1c2b81170005b6e577b8917baa52d99"
+    },
+    {
+      "path": "Disease/Hema/03-成熟B細胞/Multiple Myeloma.md",
+      "sourceSha256": "b611a7d8ac412a6e90383bab8f1dc860ecad12acb7e342fb5f1f3bc37c5d72af",
+      "publicSha256": "b611a7d8ac412a6e90383bab8f1dc860ecad12acb7e342fb5f1f3bc37c5d72af"
+    },
+    {
+      "path": "Disease/Hema/04-成熟T-NK/AITL.md",
+      "sourceSha256": "cad4deed6489bf145014dd38e0164ac7cf344a3a5ae9f54ebf481841b0f74110",
+      "publicSha256": "cad4deed6489bf145014dd38e0164ac7cf344a3a5ae9f54ebf481841b0f74110"
+    },
+    {
+      "path": "Disease/Hema/04-成熟T-NK/ALCL.md",
+      "sourceSha256": "f03459f96311193566210ff68f62159eaefa1216e321299dcedbcadf66bdfe1c",
+      "publicSha256": "f03459f96311193566210ff68f62159eaefa1216e321299dcedbcadf66bdfe1c"
+    },
+    {
+      "path": "Disease/Hema/04-成熟T-NK/ATLL.md",
+      "sourceSha256": "02380816f5b2ba1b47d7f4d8e4c2d94bfe8960f6074b87c1ac5cb92e1761cc2d",
+      "publicSha256": "02380816f5b2ba1b47d7f4d8e4c2d94bfe8960f6074b87c1ac5cb92e1761cc2d"
+    },
+    {
+      "path": "Disease/Hema/04-成熟T-NK/Mycosis Fungoides.md",
+      "sourceSha256": "e0d7850ea54c305defa6e25f543edb7cab9a11318ccfa3c5a05de0672ac235b8",
+      "publicSha256": "e0d7850ea54c305defa6e25f543edb7cab9a11318ccfa3c5a05de0672ac235b8"
+    },
+    {
+      "path": "Disease/Hema/04-成熟T-NK/NK-T Lymphoma.md",
+      "sourceSha256": "9ae70f7dcd4aa1cc13d6b0cb0786eff935882859f17c48121901ad3145dcde12",
+      "publicSha256": "9ae70f7dcd4aa1cc13d6b0cb0786eff935882859f17c48121901ad3145dcde12"
+    },
+    {
+      "path": "Disease/Hema/04-成熟T-NK/PTCL.md",
+      "sourceSha256": "3a75e4d0ea00a52ff78772ae710c2a0bfd029d7da0777007e20fc27891a12f1f",
+      "publicSha256": "3a75e4d0ea00a52ff78772ae710c2a0bfd029d7da0777007e20fc27891a12f1f"
+    },
+    {
+      "path": "Disease/Hema/05-組織細胞/LCH.md",
+      "sourceSha256": "d575aa6a8971cd759451fcb227c7933111040e261396197f3628700ea78d04de",
+      "publicSha256": "d575aa6a8971cd759451fcb227c7933111040e261396197f3628700ea78d04de"
+    },
+    {
+      "path": "Disease/Hema/Anemia.md",
+      "sourceSha256": "178963f34ce8723d5e88f1f868b0d2f3362c115d926f71ed3ef2e2c390feab01",
+      "publicSha256": "178963f34ce8723d5e88f1f868b0d2f3362c115d926f71ed3ef2e2c390feab01"
+    },
+    {
+      "path": "Disease/Hema/Hema Category.md",
+      "sourceSha256": "2598a23263c3063fb18e9386d03cb64f62e0aab2135d4a94872dfa1c65e13b24",
+      "publicSha256": "2598a23263c3063fb18e9386d03cb64f62e0aab2135d4a94872dfa1c65e13b24"
+    },
+    {
+      "path": "Disease/immune/Gout.md",
+      "sourceSha256": "b17e31996a165e723d1a8675ecf8e90ac5744db4d8b4e2fd2658a2fcbe96ba0c",
+      "publicSha256": "239c4692d937318d3d1a6e5c4a88770176f411f09afecdf16aaa99aaa3812c9d"
+    },
+    {
+      "path": "Disease/Nephro/AKI.md",
+      "sourceSha256": "9849a865da03daf2dd746e7d48c9e2fe9f0c3ffd36686cb1da8732cf67cb1d0c",
+      "publicSha256": "9849a865da03daf2dd746e7d48c9e2fe9f0c3ffd36686cb1da8732cf67cb1d0c"
+    },
+    {
+      "path": "Disease/Nephro/CKD.md",
+      "sourceSha256": "6fd3c8763a045a119645052198735f97729baad8d1512d027d576059c72a2c19",
+      "publicSha256": "6fd3c8763a045a119645052198735f97729baad8d1512d027d576059c72a2c19"
+    },
+    {
+      "path": "Disease/Nephro/Renal tubulopathies.md",
+      "sourceSha256": "cae50fb4c35518f3facfd6084da08c65fa3b8060b6dd62c2bcccdaa212a9acaa",
+      "publicSha256": "cae50fb4c35518f3facfd6084da08c65fa3b8060b6dd62c2bcccdaa212a9acaa"
+    },
+    {
+      "path": "Disease/Pediatrics/Pediatric heart disease/Pulmonary atresia.md",
+      "sourceSha256": "25e42dc4f11b70063a0896c3c2871d771207766a71f020fb0311e122cbf3ad94",
+      "publicSha256": "25e42dc4f11b70063a0896c3c2871d771207766a71f020fb0311e122cbf3ad94"
+    },
+    {
+      "path": "Disease/Pediatrics/Pediatric heart disease/TGA.md",
+      "sourceSha256": "6090690d11b2a0d76fc6195a7fb20aa8583d21450317e6d6e078da90e169f5c2",
+      "publicSha256": "6090690d11b2a0d76fc6195a7fb20aa8583d21450317e6d6e078da90e169f5c2"
+    },
+    {
+      "path": "Disease/Pediatrics/Pediatric heart disease/TOF.md",
+      "sourceSha256": "3f512df4533506bf66ab4f649a621f9c950454ef89ff642381258cd6bf04c535",
+      "publicSha256": "3f512df4533506bf66ab4f649a621f9c950454ef89ff642381258cd6bf04c535"
+    },
+    {
+      "path": "Disease/Pediatrics/Pediatric proteinuria and nephrotic syndrome.md",
+      "sourceSha256": "1d542924fc1970bc90094086c20e331ebf7fce8c960a8966a28e328c80a4a454",
+      "publicSha256": "eee7b75ec9749a1fdf20c51899911a9da24d1bfc993d0f0cad2d98ea4c21d0bc"
+    },
+    {
+      "path": "Disease/Resp/ARDS.md",
+      "sourceSha256": "c73a72f497aff5d398ea82f1aef907edd566f091ee6ad97096b66d42f566a699",
+      "publicSha256": "c73a72f497aff5d398ea82f1aef907edd566f091ee6ad97096b66d42f566a699"
+    },
+    {
+      "path": "Disease/Resp/Empyema.md",
+      "sourceSha256": "b4670664bee018a7ec6d5c61d7b81e33b875d5ee5bcac0e85f21225e54825be6",
+      "publicSha256": "b4670664bee018a7ec6d5c61d7b81e33b875d5ee5bcac0e85f21225e54825be6"
+    },
+    {
+      "path": "Disease/Resp/Pneumonia.md",
+      "sourceSha256": "04332977ac04f0a766e59fe7d90a5bfda7fc8c285e61dd2f168fe55e394354a6",
+      "publicSha256": "04332977ac04f0a766e59fe7d90a5bfda7fc8c285e61dd2f168fe55e394354a6"
+    },
+    {
+      "path": "Disease/Resp/Pulmonary embolism.md",
+      "sourceSha256": "f861e0142aad39a332f802bfb604fa699c6ccf5f4037c62ee4f3dc7f072288bd",
+      "publicSha256": "f861e0142aad39a332f802bfb604fa699c6ccf5f4037c62ee4f3dc7f072288bd"
+    },
+    {
+      "path": "Drafts/抗生素.md",
+      "sourceSha256": "c688b7d776f980f122457ef67742b8d1d6fe847ce8b58b395272b2b15e1349d2",
+      "publicSha256": "c688b7d776f980f122457ef67742b8d1d6fe847ce8b58b395272b2b15e1349d2"
+    },
+    {
+      "path": "Drug/Antiarrhythmics.md",
+      "sourceSha256": "61d3e66630f7fac2e1a6d0351fe59096fe3bf3004d268ec1a8e9c8f55787ec9a",
+      "publicSha256": "61d3e66630f7fac2e1a6d0351fe59096fe3bf3004d268ec1a8e9c8f55787ec9a"
+    },
+    {
+      "path": "Drug/Antibiotics Category.md",
+      "sourceSha256": "480eaf79d8fcf0ca0d35b0a0848c61c5c1b63855e87bc368b9a0ecefb3ffa1f4",
+      "publicSha256": "480eaf79d8fcf0ca0d35b0a0848c61c5c1b63855e87bc368b9a0ecefb3ffa1f4"
+    },
+    {
+      "path": "Drug/Antidiabetics.md",
+      "sourceSha256": "39268f26719aca75f9409a8a303dddb183a13a433023bce555e71891e7d91522",
+      "publicSha256": "39268f26719aca75f9409a8a303dddb183a13a433023bce555e71891e7d91522"
+    },
+    {
+      "path": "Drug/Antiplatelet.md",
+      "sourceSha256": "8c8dd18e30ee4769b76ceb5204361753fcf245064899749047793d64a9385801",
+      "publicSha256": "8c8dd18e30ee4769b76ceb5204361753fcf245064899749047793d64a9385801"
+    },
+    {
+      "path": "Drug/DOAC.md",
+      "sourceSha256": "73f9188411d329942a1a5a09ad8be21301881c8a535b5023b677392124a14416",
+      "publicSha256": "73f9188411d329942a1a5a09ad8be21301881c8a535b5023b677392124a14416"
+    },
+    {
+      "path": "Drug/Statin.md",
+      "sourceSha256": "731d64a05aca0be7ee2ee7edd29f865642d79fbdbb58962612591edc3d87081f",
+      "publicSha256": "731d64a05aca0be7ee2ee7edd29f865642d79fbdbb58962612591edc3d87081f"
+    },
+    {
+      "path": "Intervention/Adjuvant therapy of breast cancer.md",
+      "sourceSha256": "870b1b1acde1984cbaaca53c79d617d60c4596d240ccc470f953515096aca346",
+      "publicSha256": "870b1b1acde1984cbaaca53c79d617d60c4596d240ccc470f953515096aca346"
+    },
+    {
+      "path": "Intervention/Axillary management.md",
+      "sourceSha256": "926783d17d6a28c9abde3a7ae67853133a794a4acf9497ff7ee88d41a69b6c7a",
+      "publicSha256": "926783d17d6a28c9abde3a7ae67853133a794a4acf9497ff7ee88d41a69b6c7a"
+    },
+    {
+      "path": "Intervention/Chest tube drainage.md",
+      "sourceSha256": "921121f78c4aa26060ba6916050be41d11a59645332ea49236cc9cfd19b758e7",
+      "publicSha256": "921121f78c4aa26060ba6916050be41d11a59645332ea49236cc9cfd19b758e7"
+    },
+    {
+      "path": "Intervention/Dialysis.md",
+      "sourceSha256": "e159575af0613b5ddc06eff9c52093070cc40509a28c3899fa7a79339ac42c38",
+      "publicSha256": "e159575af0613b5ddc06eff9c52093070cc40509a28c3899fa7a79339ac42c38"
+    },
+    {
+      "path": "Intervention/ECMO.md",
+      "sourceSha256": "4cd41e0825721118586423d97e12579f2e1090ec8d1ca672fe9ac35990cf1ffa",
+      "publicSha256": "4cd41e0825721118586423d97e12579f2e1090ec8d1ca672fe9ac35990cf1ffa"
+    },
+    {
+      "path": "Intervention/Fine-needle aspiration.md",
+      "sourceSha256": "d407393d0ddc1a7b5b78f98881bfc6ba5865b6509f340c24c8458b9ccaf14572",
+      "publicSha256": "d407393d0ddc1a7b5b78f98881bfc6ba5865b6509f340c24c8458b9ccaf14572"
+    },
+    {
+      "path": "Intervention/ICD.md",
+      "sourceSha256": "7e3bd131794d77c84fdb36e2037f5d9a2487d1539dd63be2ae6cb61883679813",
+      "publicSha256": "7e3bd131794d77c84fdb36e2037f5d9a2487d1539dd63be2ae6cb61883679813"
+    },
+    {
+      "path": "Intervention/Kidney transplantation.md",
+      "sourceSha256": "e113314a2321dcb7cae2b4e68979805ce4d38b42b9c9dd5777af79b4facd4b88",
+      "publicSha256": "e113314a2321dcb7cae2b4e68979805ce4d38b42b9c9dd5777af79b4facd4b88"
+    },
+    {
+      "path": "Intervention/Pulmonary atresia intervention.md",
+      "sourceSha256": "bfb93a2d2f0061bdd84c468d860757a1f2744d7109c86521d49042f069e278e3",
+      "publicSha256": "bfb93a2d2f0061bdd84c468d860757a1f2744d7109c86521d49042f069e278e3"
+    },
+    {
+      "path": "Intervention/TGA correction.md",
+      "sourceSha256": "79ce1938d65e7799a7ad8b58218a80177de4b70e81fbae62b1b1a8c979393d89",
+      "publicSha256": "79ce1938d65e7799a7ad8b58218a80177de4b70e81fbae62b1b1a8c979393d89"
+    },
+    {
+      "path": "Intervention/TOF correction.md",
+      "sourceSha256": "624b6b95dce21cac4a339e72a8b20da50a1c03f0a4324a0bdf991b65f50bdc32",
+      "publicSha256": "624b6b95dce21cac4a339e72a8b20da50a1c03f0a4324a0bdf991b65f50bdc32"
+    },
+    {
+      "path": "MOC/Breast Surgery.md",
+      "sourceSha256": "04781e1aa724d9d763658f38c69c27c83741584fd239bc3e6273e19b799a108e",
+      "publicSha256": "04781e1aa724d9d763658f38c69c27c83741584fd239bc3e6273e19b799a108e"
+    },
+    {
+      "path": "MOC/Cardiac Surgery.md",
+      "sourceSha256": "03ef62a78d0d31550e1de773b3d525f909928183c24e99aff3d8e91bdbbff846",
+      "publicSha256": "03ef62a78d0d31550e1de773b3d525f909928183c24e99aff3d8e91bdbbff846"
+    },
+    {
+      "path": "MOC/Neurosurgery.md",
+      "sourceSha256": "a99ebb96f887863d478b4b19623b13af8c89f9bbf928d8e8d4b1004b2e624941",
+      "publicSha256": "a99ebb96f887863d478b4b19623b13af8c89f9bbf928d8e8d4b1004b2e624941"
+    },
+    {
+      "path": "MOC/Pediatric heart disease.md",
+      "sourceSha256": "a02d90eec25121f37f52bf0c33b898d0e7e89ffa1690728ef86b420a59c18398",
+      "publicSha256": "a02d90eec25121f37f52bf0c33b898d0e7e89ffa1690728ef86b420a59c18398"
+    },
+    {
+      "path": "MOC/Surgery Rotation.md",
+      "sourceSha256": "d73448d0a1c5fe60b0cb0c4711c528dbd44db7c665feeff94ac5b4f57819f0d7",
+      "publicSha256": "d73448d0a1c5fe60b0cb0c4711c528dbd44db7c665feeff94ac5b4f57819f0d7"
+    },
+    {
+      "path": "MOC/Thyroid Surgery.md",
+      "sourceSha256": "c6c1ebee06f5187f05fb0102b7dabec48f5bb1594bf2d63adc86700c5c18bec4",
+      "publicSha256": "c6c1ebee06f5187f05fb0102b7dabec48f5bb1594bf2d63adc86700c5c18bec4"
+    },
+    {
+      "path": "MOC/Transplant Surgery.md",
+      "sourceSha256": "900efcdd182aa8756aaad63e629992996c34dd370fc371774390dfbed3fcef41",
+      "publicSha256": "900efcdd182aa8756aaad63e629992996c34dd370fc371774390dfbed3fcef41"
+    },
+    {
+      "path": "OSCE 拆解法.md",
+      "sourceSha256": "ae8ba395cadb74768e998bf4a204be67fec02ac2b2dda812c2080bee5b982668",
+      "publicSha256": "ae8ba395cadb74768e998bf4a204be67fec02ac2b2dda812c2080bee5b982668"
+    },
+    {
+      "path": "README 使用說明.md",
+      "sourceSha256": "af78bafdbb641c6e2e2080ad5c968000a64cc93ac039c63c2f987600c2f9401b",
+      "publicSha256": "af78bafdbb641c6e2e2080ad5c968000a64cc93ac039c63c2f987600c2f9401b"
+    },
+    {
+      "path": "Test/Arterial blood gas.md",
+      "sourceSha256": "8485bbacff4605d48d3c031e067b8419cd982a9c32055d3b6be6a6daa65fde3d",
+      "publicSha256": "8485bbacff4605d48d3c031e067b8419cd982a9c32055d3b6be6a6daa65fde3d"
+    },
+    {
+      "path": "Test/Ascitic fluid analysis.md",
+      "sourceSha256": "eed07c899adbfd2a3f88a07d3f75c8e50631553ab39f4083001cbce14bca1261",
+      "publicSha256": "eed07c899adbfd2a3f88a07d3f75c8e50631553ab39f4083001cbce14bca1261"
+    },
+    {
+      "path": "Test/BUN Cr eGFR.md",
+      "sourceSha256": "22c0a5e5f4af45af828315df986e7ff9cb87d4b4991f052639c883a13a111f41",
+      "publicSha256": "22c0a5e5f4af45af828315df986e7ff9cb87d4b4991f052639c883a13a111f41"
+    },
+    {
+      "path": "Test/Cardiac auscultation.md",
+      "sourceSha256": "7e0a8f0d1e16cdec0a5c8cdb8ef2470e67ede5842248ae5f040ebf7eef019062",
+      "publicSha256": "7e0a8f0d1e16cdec0a5c8cdb8ef2470e67ede5842248ae5f040ebf7eef019062"
+    },
+    {
+      "path": "Test/Echocardiography.md",
+      "sourceSha256": "f24de12e8650eea62a99ead6077ea0384b597594d44eb9f7869b93e12dfec985",
+      "publicSha256": "f24de12e8650eea62a99ead6077ea0384b597594d44eb9f7869b93e12dfec985"
+    },
+    {
+      "path": "Test/EKG ischemia.md",
+      "sourceSha256": "072affd988323e9cb7bbca4d5eb260a402df77145d24ce232b811ba0d93e51a9",
+      "publicSha256": "072affd988323e9cb7bbca4d5eb260a402df77145d24ce232b811ba0d93e51a9"
+    },
+    {
+      "path": "Test/Myocardial perfusion imaging.md",
+      "sourceSha256": "8303043dbebf54a0d35c15ad973ec69ec5859c2660b8fd64918102becc34241e",
+      "publicSha256": "8303043dbebf54a0d35c15ad973ec69ec5859c2660b8fd64918102becc34241e"
+    },
+    {
+      "path": "Test/Pleural fluid analysis.md",
+      "sourceSha256": "ab5fb897e7c3a055b592c48b0482acb3b868d1876e66e879c03fad44245e445f",
+      "publicSha256": "ab5fb897e7c3a055b592c48b0482acb3b868d1876e66e879c03fad44245e445f"
+    },
+    {
+      "path": "Test/Troponin.md",
+      "sourceSha256": "48853fa2f6280f2f734d96c4a89949201c6dc899bc4e08a4cbf7a2434e7fe74d",
+      "publicSha256": "48853fa2f6280f2f734d96c4a89949201c6dc899bc4e08a4cbf7a2434e7fe74d"
+    },
+    {
+      "path": "Test/UPCR UACR.md",
+      "sourceSha256": "732f33bf192409dfbc7f5a58c7e8f434b2b8a053be91de5c5e999053ddafa5d7",
+      "publicSha256": "732f33bf192409dfbc7f5a58c7e8f434b2b8a053be91de5c5e999053ddafa5d7"
+    },
+    {
+      "path": "Test/Urine indices.md",
+      "sourceSha256": "63a6a032e5518e651f4d4347efc85a05c6311f2b31dbd29f7f2ac72077af7932",
+      "publicSha256": "63a6a032e5518e651f4d4347efc85a05c6311f2b31dbd29f7f2ac72077af7932"
+    },
+    {
+      "path": "Workup/Acute liver injury.md",
+      "sourceSha256": "5fe033b7da2253ae18bca501599e656536d2ab6f1762e25a0f02da67ccacdc6e",
+      "publicSha256": "5fe033b7da2253ae18bca501599e656536d2ab6f1762e25a0f02da67ccacdc6e"
+    },
+    {
+      "path": "Workup/Breast mass.md",
+      "sourceSha256": "006e7f9b2a72024305897a85f670f78e15f00119aae81684983bd06b5ffa6304",
+      "publicSha256": "006e7f9b2a72024305897a85f670f78e15f00119aae81684983bd06b5ffa6304"
+    },
+    {
+      "path": "Workup/Dyspnea.md",
+      "sourceSha256": "54ccdb01077ce0526d8ecae461ad9a17c7cd438850f69186af8740f43ca9064e",
+      "publicSha256": "54ccdb01077ce0526d8ecae461ad9a17c7cd438850f69186af8740f43ca9064e"
+    },
+    {
+      "path": "Workup/Edema.md",
+      "sourceSha256": "89aed9ea36401305fb89807a0bacc86d7faecb46463b64711f6f90166a236cb0",
+      "publicSha256": "89aed9ea36401305fb89807a0bacc86d7faecb46463b64711f6f90166a236cb0"
+    },
+    {
+      "path": "Workup/Fever.md",
+      "sourceSha256": "4ddf4dc3a3dca9961212e9d2c2559bae4abf8b835f068888455151fb268c0696",
+      "publicSha256": "4ddf4dc3a3dca9961212e9d2c2559bae4abf8b835f068888455151fb268c0696"
+    },
+    {
+      "path": "Workup/Hypokalemia.md",
+      "sourceSha256": "7c09fe8734e6d38220501adcfbdfc3db028717619b5f916ff3d5b66ce5e8d591",
+      "publicSha256": "7c09fe8734e6d38220501adcfbdfc3db028717619b5f916ff3d5b66ce5e8d591"
+    },
+    {
+      "path": "Workup/Jaundice.md",
+      "sourceSha256": "8e25b0220eeda81d195d5617ce54741c98fd51f8d3f96234b8256832c7c7fbe0",
+      "publicSha256": "8e25b0220eeda81d195d5617ce54741c98fd51f8d3f96234b8256832c7c7fbe0"
+    },
+    {
+      "path": "Workup/Neck mass.md",
+      "sourceSha256": "89ab7dc97083182db4c51e220c95129b56ae2355962f8be1897b4fe013669a46",
+      "publicSha256": "89ab7dc97083182db4c51e220c95129b56ae2355962f8be1897b4fe013669a46"
+    },
+    {
+      "path": "Workup/RUQ pain.md",
+      "sourceSha256": "ba95318663a3add2dcf495c3f00497a628a5b37e33a86e19069d7643a9976b01",
+      "publicSha256": "ba95318663a3add2dcf495c3f00497a628a5b37e33a86e19069d7643a9976b01"
+    },
+    {
+      "path": "禁忌選項.md",
+      "sourceSha256": "7d1d7338526cac4845df8f40f02bd04e1660f8c5c60cd1b41b4240c74a5b4d84",
+      "publicSha256": "7d1d7338526cac4845df8f40f02bd04e1660f8c5c60cd1b41b4240c74a5b4d84"
+    }
+  ],
+  "exclusions": [
+    "隱藏設定與聊天紀錄",
+    "原 Git 歷史",
+    "歡迎範例、空檔與獨立題庫 HTML",
+    "Workup/Chest pain.md（空檔）"
+  ],
+  "redactions": [
+    {
+      "file": "Disease/Pediatrics/Pediatric proteinuria and nephrotic syndrome.md",
+      "kind": "本機檔案 URI",
+      "replacement": "小兒科Vol.8.pdf（本機參考資料）"
+    },
+    {
+      "file": "Disease/immune/Gout.md",
+      "kind": "含識別標記的圖像",
+      "replacement": "gout-tophaceous-mtp.jpg：只保留原來源連結"
+    }
+  ],
+  "metadataFormatting": [
+    {
+      "file": "Disease/Endo/Cushing syndrome.md",
+      "change": "含冒號的來源欄位加上 YAML 引號；內容不變"
+    }
+  ]
+}

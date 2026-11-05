@@ -1,0 +1,26 @@
+{
+  "snapshotDate": "2026-11-05",
+  "noteCount": 126,
+  "kindCounts": {
+    "Workup": 9,
+    "Disease": 71,
+    "Test": 11,
+    "Drug": 5,
+    "Intervention": 11,
+    "MOC": 15,
+    "Guide": 3,
+    "Drafts": 1
+  },
+  "resolvedLinks": 1109,
+  "unresolvedTargets": 273,
+  "imageErrors": [],
+  "headingRepairs": [
+    {
+      "note": "Disease/Hema/Hema Category.md",
+      "target": "Disease/Hema/Hema Category.md",
+      "from": "關鍵基因速查表",
+      "to": "關鍵基因速查表-translocations"
+    }
+  ],
+  "mermaidDiagrams": 104
+}

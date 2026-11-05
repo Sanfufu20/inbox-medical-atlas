@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",Arial,sans-serif;fill:#172033}
+    .title{font-size:30px;font-weight:700}.sub{font-size:16px;fill:#526174}.axis{stroke:#334155;stroke-width:2}
+    .grid{stroke:#e2e8f0;stroke-width:1}.lab{font-size:17px;font-weight:700}.tick{font-size:14px;fill:#64748b}
+  </style>
+  <rect width="1100" height="650" fill="#fff"/>
+  <text x="550" y="44" text-anchor="middle" class="title">T2DM 自然史：阻抗先、代償次之、血糖最後升</text>
+  <text x="550" y="72" text-anchor="middle" class="sub">概念曲線；縱軸均為相對變化，不可跨曲線直接比較絕對值</text>
+  <line x1="95" y1="520" x2="1010" y2="520" class="axis"/><line x1="95" y1="115" x2="95" y2="520" class="axis"/>
+  <line x1="95" y1="210" x2="1010" y2="210" class="grid"/><line x1="95" y1="310" x2="1010" y2="310" class="grid"/><line x1="95" y1="410" x2="1010" y2="410" class="grid"/>
+  <text x="50" y="320" transform="rotate(-90 50 320)" text-anchor="middle" class="sub">相對程度／功能</text>
+  <line x1="620" y1="105" x2="620" y2="525" stroke="#0f172a" stroke-width="2" stroke-dasharray="9 7"/>
+  <text x="620" y="100" text-anchor="middle" class="lab">臨床診斷</text>
+  <text x="210" y="558" text-anchor="middle" class="tick">正常代謝</text><text x="455" y="558" text-anchor="middle" class="tick">胰島素阻抗／代償期</text>
+  <text x="620" y="558" text-anchor="middle" class="tick">糖尿病門檻</text><text x="845" y="558" text-anchor="middle" class="tick">診斷後數年</text>
+
+  <path d="M95 455 C180 445,225 320,300 225 C390 145,520 145,1010 160" fill="none" stroke="#e11d48" stroke-width="6"/>
+  <path d="M95 410 C210 400,300 310,410 210 C505 135,555 205,620 285 C735 390,870 455,1010 490" fill="none" stroke="#2563eb" stroke-width="6"/>
+  <path d="M95 430 C310 430,440 420,520 390 C590 350,630 300,700 230 C785 155,900 130,1010 120" fill="none" stroke="#d97706" stroke-width="6"/>
+
+  <rect x="145" y="110" width="300" height="106" rx="14" fill="#fff1f2" stroke="#fb7185"/>
+  <text x="165" y="140" class="lab" fill="#be123c">① 胰島素阻抗</text><text x="165" y="169" class="sub">最早升高，之後維持高點</text><text x="165" y="195" class="sub">（肥胖、遺傳、脂毒性）</text>
+  <rect x="735" y="300" width="285" height="105" rx="14" fill="#eff6ff" stroke="#60a5fa"/>
+  <text x="755" y="330" class="lab" fill="#1d4ed8">② 胰島素分泌</text><text x="755" y="359" class="sub">先代償升高，診斷前已轉降</text><text x="755" y="385" class="sub">診斷時 β-cell reserve 已受損</text>
+  <rect x="750" y="425" width="270" height="80" rx="14" fill="#fffbeb" stroke="#f59e0b"/>
+  <text x="770" y="456" class="lab" fill="#b45309">③ 血糖</text><text x="770" y="483" class="sub">代償失敗後才明顯上升</text>
+
+  <line x1="150" y1="600" x2="200" y2="600" stroke="#e11d48" stroke-width="6"/><text x="212" y="606" class="lab">insulin resistance</text>
+  <line x1="440" y1="600" x2="490" y2="600" stroke="#2563eb" stroke-width="6"/><text x="502" y="606" class="lab">insulin secretion</text>
+  <line x1="760" y1="600" x2="810" y2="600" stroke="#d97706" stroke-width="6"/><text x="822" y="606" class="lab">glucose</text>
+</svg>

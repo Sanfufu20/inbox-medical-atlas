@@ -1,0 +1,366 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="從主訴、疾病、檢查、藥物與處置，閱讀同一份持續整理的醫學學習筆記。"><meta name="theme-color" content="#f5f6fa"><title>README 使用說明 · INBOX 醫學筆記</title><link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../assets/site.css"><link rel="stylesheet" href="../assets/vendor/katex/katex.min.css"><script defer src="../assets/site.js"></script></head><body class="article-page" data-page="note" data-note-id="readme-使用說明"><a class="skip-link" href="#main">跳到主要內容</a><header class="site-header"><a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><span>INBOX<small>醫學筆記</small></span></a><nav aria-label="主要導覽"><a href="../index.html" >筆記庫</a><a href="../index.html?view=moc">主題索引</a><a href="../index.html?view=saved">閱讀清單<span class="saved-count"></span></a></nav><a class="header-source" href="https://github.com/Sanfufu20/inbox-medical-atlas" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a></header><main id="main" class="reading-shell"><aside class="reading-toc"><a class="back-link" href="../index.html?angle=Guide">← 使用導覽</a><p class="sidebar-label">本頁內容</p><nav aria-label="本頁目錄"><a class="toc-depth-2" href="#%E4%BA%94%E5%80%8B%E8%A7%92%E5%BA%A6">五個角度</a><a class="toc-depth-3" href="#%E5%A4%96%E7%A7%91%E6%80%8E%E9%BA%BC%E6%94%BE">外科怎麼放</a><a class="toc-depth-2" href="#%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E4%B8%80%E6%A2%9D-case-%E6%98%AF%E4%BE%86%E6%BA%90-%E4%B8%8D%E6%98%AF%E5%85%A7%E5%AE%B9">最重要的一條：Case 是來源，不是內容</a><a class="toc-depth-2" href="#%E5%9C%96%E7%9A%84%E5%B0%BA%E5%AF%B8%E7%B4%80%E5%BE%8B">圖的尺寸紀律</a><a class="toc-depth-2" href="#%E9%96%8B%E4%B8%80%E7%AF%87%E6%96%B0%E7%AD%86%E8%A8%98">開一篇新筆記</a><a class="toc-depth-2" href="#%E5%AE%8C%E6%88%90%E5%BA%A6-status-%E4%B8%89%E7%B4%9A">完成度：status 三級</a><a class="toc-depth-3" href="#%E5%8F%AF%E7%94%A8-%E7%9A%84%E5%AF%86%E5%BA%A6%E6%A8%99%E6%BA%96">「可用」的密度標準</a><a class="toc-depth-2" href="#%E7%A9%BA%E7%9A%84%E7%AF%80%E6%80%8E%E9%BA%BC%E8%BE%A6">空的節怎麼辦</a><a class="toc-depth-2" href="#%E9%80%A3%E7%B5%90%E6%80%8E%E9%BA%BC%E5%AF%AB-%E7%9F%AD%E6%B8%85%E5%96%AE%E5%8E%9F%E5%89%87">連結怎麼寫：短清單原則</a><a class="toc-depth-2" href="#%E5%85%A7%E6%96%87%E9%80%A3%E7%B5%90%E5%85%A9%E6%A2%9D%E8%A6%8F%E5%89%87">內文連結兩條規則</a><a class="toc-depth-2" href="#%E5%9C%96%E7%A4%BA">圖示</a><a class="toc-depth-2" href="#%E6%B7%B1%E5%BA%A6%E6%AD%B8%E5%B1%AC-%E5%90%8C%E4%B8%80%E4%BB%B6%E4%BA%8B%E5%8F%AA%E5%AF%AB%E4%B8%80%E6%AC%A1">深度歸屬：同一件事只寫一次</a><a class="toc-depth-2" href="#%E7%A6%81%E5%BF%8C">禁忌</a><a class="toc-depth-2" href="#%E5%BE%85%E8%BE%A6">待辦</a></nav></aside><div class="reading-main"><header class="article-header"><div class="article-meta"><span class="kind-pill kind-Guide">使用導覽</span><span></span></div><h1>這個 Vault 怎麼用</h1><div class="article-subline"><p>筆記更新 2026-08-03<span>·</span>整理狀態：未標示</p><button class="bookmark js-only" data-save="readme-使用說明" aria-pressed="false" aria-label="收藏 README 使用說明"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4.5h12v16l-6-4-6 4z"/></svg><span>加入閱讀清單</span></button></div><details class="alias-details"><summary>其他名稱 <span>2</span></summary><p>README · 使用說明</p></details></header><article class="prose"><aside class="callout callout-abstract"><div class="callout-title">一句話</div>
+<p>五個固定角度保存知識，<code>MOC/</code> 負責導航。同一角度維持固定結構；手術只是 Intervention 的 subtype，不另開 Surgery 知識庫。</p>
+</aside>
+<p>詞彙定義看 <a class="wikilink" href="context.html">CONTEXT</a>；為什麼這樣設計看 <code>docs/adr/</code>。</p>
+<hr />
+<h2 id="五個角度">五個角度</h2>
+<table>
+<thead>
+<tr>
+<th>資料夾</th>
+<th>放什麼</th>
+<th>這個角度回答的問題</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Disease/</code></td>
+<td>有診斷名稱的病理狀態（syndrome 也放這）</td>
+<td>這個病是什麼、怎麼診斷、怎麼治</td>
+</tr>
+<tr>
+<td><code>Workup/</code></td>
+<td><strong>尚未診斷</strong>的主訴流程</td>
+<td>值班遇到這個主訴，下一步做什麼</td>
+</tr>
+<tr>
+<td><code>Test/</code></td>
+<td>PE、抽血、影像、病理</td>
+<td>這個檢查在測什麼、怎麼判讀</td>
+</tr>
+<tr>
+<td><code>Drug/</code></td>
+<td>藥品與藥理分類</td>
+<td>機轉、適應症、要注意什麼</td>
+</tr>
+<tr>
+<td><code>Intervention/</code></td>
+<td>手術、透析、插管、引流</td>
+<td>什麼時候做、怎麼做、會有什麼併發症</td>
+</tr>
+</tbody>
+</table>
+<p><code>MOC/</code> 不在上表，因為它不是第六個角度；它只把不同資料夾裡的專篇串成科別入口。外科輪訓從 <a class="wikilink" href="moc-surgery-rotation.html">Surgery Rotation</a> 進入。</p>
+<aside class="callout callout-warning"><div class="callout-title">Test 和 Intervention 的分界是「意圖」</div>
+<p>為了<strong>取得資訊</strong> → Test。為了<strong>改變病人狀態</strong> → Intervention。
+診斷性腹腔穿刺是 Test，治療性腹水引流是 Intervention。同一個技術動作，各寫一篇並互連。</p>
+</aside>
+<h3 id="外科怎麼放">外科怎麼放</h3>
+<ul>
+<li>疾病與手術門檻 → <code>Disease/</code></li>
+<li>影像、病理、定位與分期 → <code>Test/</code></li>
+<li>手術 → <code>Intervention/</code>，使用 <code>Operation 手術</code> 模板</li>
+<li>術後症狀或偏離的分流 → <code>Workup/</code></li>
+<li>停藥、預防、止痛與免疫抑制 → <code>Drug/</code></li>
+<li>一個 service 的總入口 → <code>MOC/</code></li>
+</ul>
+<aside class="callout callout-warning"><div class="callout-title">不建立平行的 `Surgery/` 知識庫</div>
+<p>例如 CAD 只有一篇 Disease；Cardio 與 CardiacSurgery 透過 <code>services:</code> 與各自的 MOC 觀看同一篇。不要再複製「內科版 CAD」與「外科版 CAD」。</p>
+</aside>
+<hr />
+<h2 id="最重要的一條-case-是來源-不是內容">最重要的一條：Case 是來源，不是內容</h2>
+<p>案例可能來自考古題、case discussion、晨會、或你真正照顧過的病人。<strong>不管哪一種，case 都只是觸發學習的事件。</strong></p>
+<p>從 case 學到的東西要用<strong>通用臨床語言</strong>寫進五個角度的筆記；case 本身只記在 <code>source:</code> 欄位。</p>
+<table>
+<thead>
+<tr>
+<th>✗ 不要寫</th>
+<th>✓ 改成</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>「考古說上腹痛要開 EKG」</td>
+<td>「上腹痛必開 EKG 排除下壁 MI」</td>
+</tr>
+<tr>
+<td>「本題答案是膿胸」</td>
+<td>（刪掉——換個 case 答案就不同）</td>
+</tr>
+<tr>
+<td>「這是評分表的給分點」</td>
+<td>「這是知情同意的底線」</td>
+</tr>
+<tr>
+<td>「B06 B 組記載病人兩週前感冒」</td>
+<td>「近期呼吸道感染是 parapneumonic effusion 的關鍵病史」</td>
+</tr>
+</tbody>
+</table>
+<aside class="callout callout-tip"><div class="callout-title">判準只有一句</div>
+<p><strong>這句話換一個來源還成立嗎？</strong> 不成立就不該寫進筆記。</p>
+</aside>
+<h2 id="圖的尺寸紀律">圖的尺寸紀律</h2>
+<p>Obsidian <strong>不會自動縮放 Mermaid</strong>——太寬會被切掉、太高會一眼看不完。</p>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>上限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>節點總數</td>
+<td>約 <strong>14 個</strong></td>
+</tr>
+<tr>
+<td>分類樹層數</td>
+<td><strong>3 層</strong>（主訴 → 系統 → 疾病群）</td>
+</tr>
+<tr>
+<td>單行字數</td>
+<td>約 <strong>14 個中文字</strong>（用 <code>&lt;br/&gt;</code> 換行）</td>
+</tr>
+<tr>
+<td>末梢處理</td>
+<td>同一系統下的疾病<strong>合併成 1 個節點</strong>，用 <code>・</code> 隔開</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>分類樹 → <code>flowchart LR</code></strong>：寬度＝層數，好控制；高度＝分支數，可捲動。</li>
+<li><strong>機制／流程 → <code>flowchart TD</code></strong>：<code>LR</code> 會愈接愈寬而被截斷；<code>TD</code> 只會變高，捲動即可。</li>
+</ul>
+<h2 id="開一篇新筆記">開一篇新筆記</h2>
+<ol>
+<li>在對應資料夾建立新檔案，檔名 = <strong>最常用的英文名或縮寫</strong>（<code>DLBCL</code>、<code>Gout</code>、<code>Chest pain</code>）</li>
+<li><code>Cmd + P</code> → <code>Insert template</code> → 選對應角度；正式手術選 <code>Operation 手術</code>，科別入口選 <code>MOC 科別索引</code></li>
+<li>補 <code>aliases</code>：中文名 + 英文全名 + 其他縮寫。之後你打「痛風」也連得到 <code>[[Gout]]</code></li>
+<li>新筆記使用 <code>Clinical/&lt;Angle&gt;/...</code> tag；既有 <code>Med/...</code> 是 legacy，不需為了改名立即批次遷移</li>
+<li>補 <code>services:</code>：列出會實際使用這篇的團隊，例如 <code>Cardio</code>、<code>CardiacSurgery</code>；跨科時列多個，不複製筆記</li>
+</ol>
+<h2 id="完成度-status-三級">完成度：<code>status</code> 三級</h2>
+<p>不要求一次寫完。用 <code>status</code> 標清楚哪些信得過：</p>
+<table>
+<thead>
+<tr>
+<th>status</th>
+<th>意思</th>
+<th>必須有</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>骨架</code></td>
+<td>只有模板，還沒填</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>可用</code></td>
+<td><strong>值班時信得過，而且讀得完</strong></td>
+<td>一句話總覽 + 頂部行動卡 + 禁忌區塊（沒有就明寫「無」）+ 下方三條密度標準</td>
+</tr>
+<tr>
+<td><code>完整</code></td>
+<td>全部節都填了</td>
+<td>上述 + 所有節</td>
+</tr>
+</tbody>
+</table>
+<aside class="callout callout-tip"><div class="callout-title">目標是先讓每篇都到「可用」</div>
+<p>一篇「可用」大約 5–10 分鐘。20 篇可用的筆記，價值遠高於 3 篇完整加 17 個空檔。</p>
+</aside>
+<h3 id="可用-的密度標準">「可用」的密度標準</h3>
+<p>「可用」不只是「有寫」，是<strong>值班時查得到、考前讀得完</strong>。寫太多跟沒寫一樣沒用——因為你不會去讀。</p>
+<p><strong>一、資訊型態決定呈現方式</strong></p>
+<table>
+<thead>
+<tr>
+<th>這種內容</th>
+<th>用這個</th>
+<th>不要用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>可列舉、彼此平行（分型、藥物、鑑別診斷、禁忌）</td>
+<td><strong>表格</strong></td>
+<td>攤成散文——會失去掃描性</td>
+</tr>
+<tr>
+<td>有因果或推導（機制、「一句話推出整張清單」、反直覺的點）</td>
+<td><strong>callout</strong></td>
+<td>塞進表格——因果會被切碎</td>
+</tr>
+<tr>
+<td>銜接與定位（這一節在講什麼、兩個概念的關係）</td>
+<td><strong>兩三句話的段落</strong></td>
+<td>條列——邏輯會斷掉</td>
+</tr>
+</tbody>
+</table>
+<p>判準：<strong>這段是「一堆並列的東西」還是「一條推理」？</strong> 並列用表，推理用 callout，其餘才用段落。整篇都是散文跟整篇都是表格一樣難讀。</p>
+<p><strong>二、刪不刪，只問兩句話</strong></p>
+<blockquote>
+<p><strong>值班時我會翻回來查嗎？考古題考過這件事嗎？</strong>
+兩個都不是 → 刪。</p>
+</blockquote>
+<p>依這把尺，這四類幾乎一定要刪：</p>
+<table>
+<thead>
+<tr>
+<th>該刪</th>
+<th>留什麼</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>完整診斷準則的逐條表（Framingham criteria、Duke criteria 的每一項）</td>
+<td>一句話說明它存在、判定門檻、以及現在還算不算數</td>
+</tr>
+<tr>
+<td>評分系統的計分細節（H₂FPEF 哪一項幾分）</td>
+<td>評分名稱 ＋ 它由哪幾類因子組成</td>
+</tr>
+<tr>
+<td>效應量數字與世代研究名（HR 4.7、Framingham／WHI／LIFE）</td>
+<td><strong>方向</strong>——哪個是危險因子、往哪邊偏</td>
+</tr>
+<tr>
+<td>指引建議等級的細分（Class 2a vs 2b、ESC 與 AHA 的下界差 20 ms）</td>
+<td>最強適應症 ＋ 一句「缺條件就降一級」</td>
+</tr>
+</tbody>
+</table>
+<p><strong>三、三種東西再長也不刪</strong></p>
+<ol>
+<li><strong>反直覺的點</strong>——推不出來、只能記的。低血鈉在心衰竭是壞事；心搏過緩對 HFpEF 反而是保護；甲狀腺低下不是高輸出量心衰竭。</li>
+<li><strong><code>絕對不可</code> 四欄表</strong>——這是禁忌系統的資料來源。</li>
+<li><strong>頂部行動卡</strong>——值班時只看得到這一格。</li>
+</ol>
+<p><strong>四、寫法</strong></p>
+<ul>
+<li><strong>專有名詞用英文</strong>，縮寫<strong>首次出現時給全稱</strong>：<code>left ventricular ejection fraction (LVEF)</code>、<code>mineralocorticoid receptor antagonist (MRA)</code>。之後直接用縮寫。</li>
+<li>篇幅參考值：一篇 Disease <strong>約 300 行以內</strong>。超過就回頭套第二把尺。</li>
+</ul>
+<h2 id="空的節怎麼辦">空的節怎麼辦</h2>
+<p><strong>直接不寫</strong>。模板不編號就是為了這件事——刪掉一節不會讓後面跳號，heading 連結（<code>[[AML#診斷]]</code>）也不會斷。</p>
+<hr />
+<h2 id="連結怎麼寫-短清單原則">連結怎麼寫：短清單原則</h2>
+<p>跨角度連結寫在 frontmatter 的具名欄位裡（<code>treated_by</code>、<code>indication</code>…），不散在內文。<strong>但只寫在清單短的那一端。</strong></p>
+<table>
+<thead>
+<tr>
+<th>這個清單</th>
+<th>短嗎</th>
+<th>寫不寫</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>洗腎的適應症（AEIOU，5 條）</td>
+<td>短</td>
+<td><strong>寫</strong>在 <code>Intervention/Dialysis</code></td>
+</tr>
+<tr>
+<td>胸痛的鑑別診斷</td>
+<td>短</td>
+<td><strong>寫</strong>在 <code>Workup/Chest pain</code></td>
+</tr>
+<tr>
+<td>高血鉀的治療</td>
+<td>短</td>
+<td><strong>寫</strong>在 <code>Disease/Hyperkalemia</code></td>
+</tr>
+<tr>
+<td>哪些疾病要驗 CBC</td>
+<td>無上限</td>
+<td><strong>不寫</strong>，靠 backlinks</td>
+</tr>
+</tbody>
+</table>
+<p>反查（「誰連了我」）用右側 <strong>Backlinks</strong> 面板。日後若要自動化，裝 Dataview 即可直接查詢這些欄位，不用回頭改筆記——見 <code>docs/adr/0001</code>。</p>
+<h2 id="內文連結兩條規則">內文連結兩條規則</h2>
+<p><strong>規則一：連什麼</strong></p>
+<blockquote>
+<p>這個詞會不會有自己的一篇筆記？<strong>會 → 連。不會 → 用粗體。</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>連</th>
+<th>不連（用粗體）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>疾病名、檢查名、藥名、處置名（＝五個角度的實體）</td>
+<td>PE 手法（Murphy's sign）、症狀描述（板狀腹）、指標（pH、LDH）、解剖名詞、口訣（Charcot 三徵）</td>
+</tr>
+</tbody>
+</table>
+<p><strong>規則二：連幾次</strong></p>
+<blockquote>
+<p><strong>每個 H2 章節第一次出現時連，同章節內第二次起用純文字。</strong></p>
+</blockquote>
+<p>理由：連結是為了「跳過去」，不是為了「標記提到過」。全篇只連一次的話，你讀到「鑑別診斷」看到 EKG 想點，得往回捲到最上面；每次都連則會洗版 backlinks 面板。以章節為單位剛好平衡。</p>
+<aside class="callout callout-info"><div class="callout-title">重複連結對 Graph 沒有影響</div>
+<p>官方文件：「Lines represent internal links <strong>between two nodes</strong>」「The more <strong>nodes</strong> that reference a given node, the bigger it gets」。
+所以同一篇裡連 5 次 <code>[[EKG]]</code> 仍然只有<strong>一條線</strong>，節點也不會變大——節點大小取決於<strong>有幾篇筆記連它</strong>。
+真正的代價只在 <strong>Backlinks 面板</strong>：那裡會逐一列出每次出現的上下文片段。</p>
+<p>Graph 的雜訊用設定解決：<strong>Filters → Existing files only</strong> 打開，就不會顯示還沒寫的筆記。</p>
+</aside>
+<aside class="callout callout-danger"><div class="callout-title">最容易犯的錯：反引號會殺掉連結</div>
+<p><code>`[[EKG]]`</code> ← 反引號 = 程式碼，<strong>連結失效</strong>
+<code>[[EKG]]</code> 寫成 <code>[[EKG]]</code>（不加反引號）才是真連結。
+模板裡的空槽 <code>[[]]</code> 是刻意留白，填入名稱即生效。</p>
+</aside>
+<h2 id="圖示">圖示</h2>
+<p>圖檔一律放 vault 根目錄的 <code>assets/</code>，用 <code>![[assets/檔名.png]]</code> 嵌入。</p>
+<p><strong>流程</strong>：模板在該配圖的位置已經留好統一標記——</p>
+<pre><code class="language-markdown">&gt; [!todo] 📷 要插入圖片｜{什麼圖}
+&gt; **要能看到**：{判讀重點}
+</code></pre>
+<p>寫筆記時先把「要能看到」填掉（這行決定你之後挑圖時能不能一眼判斷合不合用），之後找到圖再把整個 callout 換成 <code>![[assets/檔名.png]]</code>。</p>
+<p><strong>找待補的圖</strong>：全域搜尋 <code>要插入圖片</code> 就是你的配圖待辦清單。</p>
+<aside class="callout callout-warning"><div class="callout-title">版權</div>
+<p>教科書與 UpToDate 的圖有版權。個人筆記自用屬灰色地帶，但優先用明確可用的來源：
+<strong>Wikimedia Commons</strong> → <strong>NCBI Bookshelf / StatPearls</strong> → <strong>Radiopaedia</strong>。存進來時在圖下註明出處。</p>
+</aside>
+<p><strong>Mermaid 架構圖</strong>：Obsidian 內建支援，不需外掛。Workup 的「鑑別架構圖」用 <code>flowchart LR</code>，致命分支上紅色 class。
+<strong>注意</strong>：Mermaid 節點裡放不了 wikilink——圖負責看全貌，表格負責點進去。</p>
+<h2 id="深度歸屬-同一件事只寫一次">深度歸屬：同一件事只寫一次</h2>
+<p>UPCR 的原理只寫在 <code>Test/UPCR</code>。<code>Disease/DM</code> 只寫「要驗 UPCR」與判讀結論，不重抄原理。</p>
+<p>否則三個月後你有五份版本不一的說明，而且不知道哪份才對。</p>
+<hr />
+<h2 id="禁忌">禁忌</h2>
+<p>每個模板倒數第二節固定是 <code>## 禁忌與陷阱</code>，裡面是<strong>四欄表</strong>：</p>
+<pre><code>情境 │ 絕對不可 │ 為什麼 │ 該做什麼
+</code></pre>
+<p>同時在 <code>tags</code> 加 <code>禁忌</code>，就會自動出現在 <a class="wikilink" href="%E7%A6%81%E5%BF%8C%E9%81%B8%E9%A0%85.html">禁忌選項</a>。考前讀那一頁。</p>
+<hr />
+<h2 id="待辦">待辦</h2>
+<ul>
+<li>
+<p>[x] 建立 <code>MOC/</code> 導航層與外科輪訓四站入口</p>
+</li>
+<li>
+<p>[x] 新增 <code>Operation 手術</code> 與 <code>MOC 科別索引</code> 模板，所有新模板加入 <code>services:</code></p>
+</li>
+<li>
+<p>[ ] 既有 <code>Med/...</code> tags 採漸進式遷移；只有在重寫該篇時才換成 <code>Clinical/...</code></p>
+</li>
+<li>
+<p>[ ] 既有 Category MOC 日後視需要移入 <code>MOC/</code>，目前不為整理而整理</p>
+</li>
+<li>
+<p>[ ] 手動刪掉空資料夾 <code>PE/</code>、<code>未命名/</code> 與空檔 <code>Drug/未命名.md</code>（沙箱權限刪不掉）</p>
+</li>
+<li>
+<p>[ ] 既有 26 篇 Hema 筆記逐步套用新 Disease 骨架——<strong>不急</strong>，新 schema 是向後相容的擴充（既有 frontmatter 欄位全部保留），舊筆記不改也能用</p>
+</li>
+<li>
+<p>[ ] <code>Test/UPCR UACR.md</code> 考慮拆成兩篇，用模板的「與相關檢查的取捨」節互相對照</p>
+</li>
+<li>
+<p>[x] <code>Shock</code> 已移入 <code>Disease/General/</code> 並加上 <code>syndrome</code> tag（原 <code>Disease/Shock.md</code> 空檔已刪）</p>
+</li>
+<li>
+<p>[ ] 一般內科下一批：<code>Disease/General/</code> 的 Sepsis、Hyponatremia、Hyperkalemia、AKI；<code>Workup/</code> 的 Altered mental status；<code>Test/</code> 的 Urinalysis、Chest X-ray</p>
+</li>
+<li>
+<p>[ ] 高頻紅連結待補（被 2 篇以上引用）：<code>[[Sepsis]]</code>、<code>[[Pulmonary embolism]]</code>、<code>[[COPD]]</code>、<code>[[Acute kidney injury]]</code>、<code>[[Chest X-ray]]</code></p>
+</li>
+</ul>
+</article><section class="note-source"><p class="eyebrow">SOURCE & CONTEXT</p><h2>來源與原始筆記</h2><p>原筆記未另列 source 欄位；內文如有來源，請依原文查閱。</p><a href="../content/README%20%E4%BD%BF%E7%94%A8%E8%AA%AA%E6%98%8E.md" download>下載這篇 Markdown ↗</a><span class="source-note">網站保留原筆記的內容與整理狀態。</span></section><section class="related-section"><div><p class="eyebrow">FOLLOW THE CONNECTIONS</p><h2>循著連結繼續讀</h2></div><div class="related-list"><a href="context.html"><span>使用導覽</span><strong>CONTEXT</strong><b aria-hidden="true">↗</b></a><a href="moc-surgery-rotation.html"><span>主題索引</span><strong>Surgery Rotation</strong><b aria-hidden="true">↗</b></a><a href="%E7%A6%81%E5%BF%8C%E9%81%B8%E9%A0%85.html"><span>主題索引</span><strong>禁忌選項</strong><b aria-hidden="true">↗</b></a></div></section><section class="backlinks-section"><h2>哪些筆記連到這裡 <span>1</span></h2><div><a href="guides-knowledge-map-workflow.html">Knowledge map workflow <span aria-hidden="true">↗</span></a></div></section></div></main><footer class="site-footer"><div><strong>INBOX</strong><span>從問題出發，讓知識彼此連結。</span></div><p>個人醫學學習筆記。整理狀態沿用原筆記，本次網站轉換未重新完成醫學內容驗證；不作個別病人的診療依據。</p><div class="footer-links"><a href="../notes/readme-%E4%BD%BF%E7%94%A8%E8%AA%AA%E6%98%8E.html">這份筆記庫怎麼用</a><a href="https://github.com/Sanfufu20/inbox-medical-atlas/blob/main/AGENTS.md" target="_blank" rel="noopener">專案規則 ↗</a><span>公開副本 · 2026-11-05</span></div></footer><a class="back-top" href="#main" aria-label="回到頁首">↑</a></body></html>

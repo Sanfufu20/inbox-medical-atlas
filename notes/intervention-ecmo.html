@@ -1,0 +1,349 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="從主訴、疾病、檢查、藥物與處置，閱讀同一份持續整理的醫學學習筆記。"><meta name="theme-color" content="#f5f6fa"><title>ECMO · INBOX 醫學筆記</title><link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../assets/site.css"><link rel="stylesheet" href="../assets/vendor/katex/katex.min.css"><script defer src="../assets/site.js"></script><script defer src="../assets/vendor/mermaid.min.js"></script></head><body class="article-page" data-page="note" data-note-id="intervention-ecmo"><a class="skip-link" href="#main">跳到主要內容</a><header class="site-header"><a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><span>INBOX<small>醫學筆記</small></span></a><nav aria-label="主要導覽"><a href="../index.html" >筆記庫</a><a href="../index.html?view=moc">主題索引</a><a href="../index.html?view=saved">閱讀清單<span class="saved-count"></span></a></nav><a class="header-source" href="https://github.com/Sanfufu20/inbox-medical-atlas" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a></header><main id="main" class="reading-shell"><aside class="reading-toc"><a class="back-link" href="../index.html?angle=Intervention">← 處置</a><p class="sidebar-label">本頁內容</p><nav aria-label="本頁目錄"><a class="toc-depth-2" href="#%E5%8E%9F%E7%90%86%E8%88%87%E7%9B%AE%E7%9A%84">原理與目的</a><a class="toc-depth-2" href="#%E9%81%A9%E6%87%89%E7%97%87-indications">適應症 Indications</a><a class="toc-depth-2" href="#%E8%A1%93%E5%89%8D%E6%BA%96%E5%82%99%E8%88%87%E8%A9%95%E4%BC%B0">術前準備與評估</a><a class="toc-depth-2" href="#%E6%93%8D%E4%BD%9C%E6%A6%82%E8%A6%81">操作概要</a><a class="toc-depth-2" href="#%E4%BD%B5%E7%99%BC%E7%97%87-complications">併發症 Complications</a><a class="toc-depth-2" href="#%E8%A1%93%E5%BE%8C%E7%9B%A3%E6%B8%AC">術後監測</a><a class="toc-depth-2" href="#%E7%A6%81%E5%BF%8C%E8%88%87%E9%99%B7%E9%98%B1">禁忌與陷阱</a><a class="toc-depth-2" href="#%E7%9B%B8%E9%97%9C%E9%80%A3%E7%B5%90">相關連結</a></nav></aside><div class="reading-main"><header class="article-header"><div class="article-meta"><span class="kind-pill kind-Intervention">處置</span><span></span></div><h1>ECMO ｜ 體外膜氧合（葉克膜） · Extracorporeal Membrane Oxygenation</h1><div class="article-subline"><p>筆記更新 2026-07-28<span>·</span>整理狀態：可用</p><button class="bookmark js-only" data-save="intervention-ecmo" aria-pressed="false" aria-label="收藏 ECMO"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4.5h12v16l-6-4-6 4z"/></svg><span>加入閱讀清單</span></button></div><details class="alias-details"><summary>其他名稱 <span>8</span></summary><p>ECMO · Extracorporeal membrane oxygenation · 葉克膜 · 體外膜氧合 · VV-ECMO · VA-ECMO · ECLS · ECPR</p></details></header><article class="prose"><aside class="callout callout-abstract"><div class="callout-title">一句話總覽</div>
+<p>把血引出體外、用膜肺換氣、再打回體內——<strong>它不治療任何疾病，只是買時間</strong>。所以決定要不要上 ECMO 的問題永遠不是「病人現在多重」，而是**「這個病有沒有可逆的可能，或有沒有出路（恢復、手術、移植）」**。沒有出路的 ECMO 只是把死亡延長成一個沒有人敢關機的困局。</p>
+</aside>
+<aside class="callout callout-tip"><div class="callout-title">30 秒行動卡</div>
+<p><strong>最該記的適應症</strong>：<strong>VV</strong> ＝ 肺壞了（<strong>重度 <a class="wikilink" href="disease-resp-ards.html">ARDS</a></strong>：P/F ＜50 ＞3 小時、P/F ＜80 ＞6 小時，或 pH ＜7.25 且 PaCO₂ ≥60 ＞6 小時）；<strong>VA</strong> ＝ 心臟壞了（心因性休克、無法脫離體外循環、ECPR）
+<strong>做之前一定要確認</strong>：<strong>這個病可逆嗎？出路是什麼？</strong>（恢復／手術／移植／或明確的撤除計畫）＋ 神經學狀態 ＋ 凝血功能
+<strong>絕對不可</strong>：在<strong>不可逆且無出路</strong>的病況上啟動；VA 股動脈插管而<strong>不評估遠端肢體灌流</strong></p>
+</aside>
+<hr />
+<h2 id="原理與目的">原理與目的</h2>
+<figure class="diagram"><pre class="mermaid" data-graph-id="intervention-ecmo-0">flowchart TD
+  A["靜脈血引出&lt;br/&gt;離心幫浦"] --&gt; B["膜肺&lt;br/&gt;加氧・排二氧化碳"]
+  B --&gt; C{"打回哪裡"}
+  C --&gt;|"回靜脈 VV"| D["只取代肺&lt;br/&gt;心臟自己打"]
+  C --&gt;|"回動脈 VA"| E["同時取代心與肺&lt;br/&gt;提供心輸出量"]
+  D --&gt; F["呼吸器可以調到&lt;br/&gt;極低設定 讓肺休息"]
+  E --&gt; G["但左心室後負荷上升&lt;br/&gt;可能脹大"]
+  classDef good fill:#1b5e20,stroke:#0b3d0b,color:#fff,font-weight:bold
+  classDef bad fill:#8e0000,stroke:#5f0000,color:#fff,font-weight:bold
+  class F good
+  class G bad
+</pre><figcaption>筆記中的流程與關係</figcaption></figure><aside class="callout callout-tip"><div class="callout-title">VV 與 VA 的差別只有一句話：血打回靜脈還是動脈</div>
+<p><strong>VV（靜脈→靜脈）</strong>：氧合過的血回到右心房，<strong>仍然靠病人自己的心臟推出去</strong>。因此<strong>不提供任何循環支持</strong>——病人若同時休克，VV 撐不住。
+<strong>VA（靜脈→動脈）</strong>：血直接打進主動脈，<strong>同時取代心與肺</strong>，但代價是<strong>逆行血流增加左心室後負荷 → 左心室脹大、肺水腫</strong>，可能需要 venting（IABP／Impella／中膈造口）。
+判準：<strong>只有氧合的問題 → VV；有幫浦的問題 → VA。</strong> 選錯的典型後果是「重度 ARDS 合併休克只上 VV」或「單純呼吸衰竭卻上 VA，白白承擔血栓與肢體缺血風險」。</p>
+</aside>
+<aside class="callout callout-note"><div class="callout-title">與 Test 的分界</div>
+<p>ECMO 從頭到尾都是為了<strong>改變病人的狀態</strong>（維持氧合與灌流），是純粹的 Intervention。它產生的數據（膜前後血氧、流量）是監測，不是診斷。</p>
+</aside>
+<p><strong>ECMO 真正的治療價值在於「讓肺休息」</strong>：上機後呼吸器可調到極低設定（低潮氣容積、低平原壓、低 FiO₂），<strong>切斷呼吸器誘發肺損傷的惡性循環</strong>——這才是它在 <a class="wikilink" href="disease-resp-ards.html">ARDS</a> 降低死亡率的可能機轉，而不是把 PaO₂ 拉高本身。</p>
+<h2 id="適應症-indications">適應症 Indications</h2>
+<table>
+<thead>
+<tr>
+<th>型式</th>
+<th>適應症</th>
+<th>判斷閾值／時機</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>VV</strong></td>
+<td>重度 <a class="wikilink" href="disease-resp-ards.html">ARDS</a>：已做足肺保護通氣（含俯臥）仍失敗</td>
+<td><strong>EOLIA 收案條件</strong>：P/F ＜50 ＞3 小時｜P/F ＜80 ＞6 小時｜pH ＜7.25 且 PaCO₂ ≥60 ＞6 小時（呼吸次數已加到 35 且 Pplat ≤32）</td>
+</tr>
+<tr>
+<td><strong>VV</strong></td>
+<td>頑固性高碳酸血症、嚴重氣漏、支氣管肋膜瘻管</td>
+<td>無法在可接受壓力下通氣時</td>
+</tr>
+<tr>
+<td><strong>VV</strong></td>
+<td>肺移植前橋接（bridge to transplant）</td>
+<td><strong>有移植資格</strong>才成立——這就是「出路」</td>
+</tr>
+<tr>
+<td><strong>VA</strong></td>
+<td>心因性 <a class="wikilink" href="disease-general-shock.html">Shock</a>（急性心肌炎、大範圍 <a class="wikilink" href="disease-cardio-acs.html">ACS</a>、藥物中毒、頑固性心律不整）</td>
+<td>足量強心／升壓藥仍持續低灌流、乳酸高且器官衰竭進展。<strong>IABP 不是必經步驟</strong>（IABP-SHOCK II 陰性後，AMI 併心因性休克常規用 IABP 已降為不建議）。<strong>猛爆性心肌炎預後最好（存活率約 55–78%），是最值得上的一群</strong></td>
+</tr>
+<tr>
+<td><strong>VA</strong></td>
+<td>心臟手術後無法脫離體外循環</td>
+<td>術中決策</td>
+</tr>
+<tr>
+<td><strong>VA（ECPR）</strong></td>
+<td>經篩選的心跳停止</td>
+<td><strong>病人選擇比技術重要</strong>：目擊、<strong>arrest→CPR ＜5 分鐘</strong>、初始心律 VF/pVT（ELSO 亦納入 PEA）、<strong>arrest→上機 ＜60 分鐘</strong>、年齡 ＜70 歲、CPR 中 <strong>EtCO₂ ＞10 mmHg</strong> 或有生命徵象／間歇 ROSC。條件不符時效益極差</td>
+</tr>
+<tr>
+<td><strong>VA</strong></td>
+<td>大量肺栓塞或高風險介入的圍術期支持</td>
+<td>見 <a class="wikilink" href="disease-resp-pulmonary-embolism.html">Pulmonary embolism</a></td>
+</tr>
+</tbody>
+</table>
+<aside class="callout callout-warning"><div class="callout-title">EOLIA 的結果要誠實記</div>
+<p>60 天死亡率 <strong>ECMO 組 35% vs 對照組 46%</strong>，<strong>p ＝ 0.09 未達統計顯著</strong>；但對照組有 <strong>28%（35/125）</strong> 因難治性低血氧跨組接受救援 ECMO（平均在第 6.5 天），稀釋了差異——<strong>這個 28% 就是「為什麼 p 值不顯著」的標準答案</strong>。事後分析多半支持有效益。
+<strong>2024 ATS 是「對選定的重度病人有條件建議、低證據等級」，ESICM 2023 卻給「強烈建議、中等證據等級」——兩大學會公開不一致，考題要看它問的是哪一本。</strong> 早年的 CESAR（2009）比較的是「轉到 ECMO 中心」而非 ECMO 本身（介入組僅 76% 真的上機，對照組只有 70% 接受肺保護通氣 vs 介入組 93%），證據力更弱。
+一句話：<strong>ECMO 是「肺保護通氣＋俯臥都失敗之後」的選項，不是重度 ARDS 的第一步。</strong></p>
+</aside>
+<aside class="callout callout-note"><div class="callout-title">台灣本土：使用密度偏高，而這件事本身有爭議</div>
+<p>台灣的 ECMO 使用強度在國際上明顯偏高（健保資料庫 2000–2010 年，年使用量由 52 例增至 1,045 例，適應症以心血管疾病 68.7% 為主），健保有給付但耗材與併發症成本高。該研究自己下的結論值得記住：<strong>使用量的成長與給付制度相關，而偏高的死亡率提示部分使用可能沒有帶來實質效益</strong>。這正好呼應本篇的主軸——<strong>問題從來不是「能不能上」，而是「上了之後的出路是什麼」</strong>。</p>
+</aside>
+<h2 id="術前準備與評估">術前準備與評估</h2>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>內容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>最重要的一項</strong></td>
+<td><strong>可逆性與出路評估</strong>——恢復？手術？移植？沒有任何一條時不該上機。這是決策，不是檢驗</td>
+</tr>
+<tr>
+<td>神經學</td>
+<td>上機前的意識與瞳孔紀錄；已知嚴重不可逆腦傷是禁忌</td>
+</tr>
+<tr>
+<td>必查檢驗</td>
+<td><strong>CBC、PT/INR、aPTT、fibrinogen、D-dimer</strong>、血型與備血、生化與乳酸、血液培養</td>
+</tr>
+<tr>
+<td>影像／定位</td>
+<td><strong>超音波評估血管管徑與通暢度</strong>；<a class="wikilink" href="test-echocardiography.html">Echocardiography</a>（看心室功能決定 VV 或 VA、找主動脈剝離與嚴重主動脈瓣逆流）</td>
+</tr>
+<tr>
+<td>抗凝準備</td>
+<td>unfractionated heparin（見 <span class="wiki-pending" title="這篇筆記尚未建立">Heparin<span class="pending-mark" aria-label="待補">↗</span></span>）；確認有無 heparin-induced thrombocytopenia 病史</td>
+</tr>
+<tr>
+<td>同意書</td>
+<td><strong>必須說明出血、中風、肢體缺血、感染，以及「可能無法脫機」這件事</strong>——家屬事前不知道撤除的可能性，是最常見的糾紛來源</td>
+</tr>
+<tr>
+<td>團隊</td>
+<td>灌流師、心臟外科或重症團隊、血庫；<strong>是否轉診到 ECMO 中心要早決定，不要等到血壓掉了才轉</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="操作概要">操作概要</h2>
+<ol>
+<li><strong>選型式</strong>：純氧合問題 → <strong>VV</strong>；合併幫浦衰竭 → <strong>VA</strong></li>
+<li><strong>插管</strong>：VV 常用<strong>股靜脈引流 ＋ 頸內靜脈回輸</strong>，或單一雙腔導管置於頸內靜脈；VA 常用<strong>股靜脈引流 ＋ 股動脈回輸</strong>（周邊）或直接主動脈與右心房插管（中央，多為術中）</li>
+<li><strong>VA 周邊插管務必同時放遠端灌流導管</strong>——股動脈被大口徑管子塞住，同側下肢會缺血（ELSO：可把下肢缺血率由 <strong>25.4% 降到 9.7%</strong>）</li>
+<li><strong>啟動</strong>：<strong>「血流量管氧合、掃氣流量管 CO₂」——這才是彼此獨立的兩個旋鈕</strong>。氧合主要由 <strong>ECMO 血流量</strong>決定（幫浦轉速，實質是「引流走的血佔心輸出量多少比例」）；<strong>CO₂ 排除由 sweep gas 流量</strong>決定（等同膜肺的分鐘通氣量）。掃氣的 FiO₂ 通常固定在 1.0，調它幾乎沒有效果</li>
+<li><strong>抗凝</strong>：靜脈 heparin 持續輸注，依 ACT 或 aPTT 調整；出血時可短暫停用</li>
+<li><strong>上機後把呼吸器調到休息設定</strong>：低潮氣容積、低平原壓、低 FiO₂、適度 PEEP 維持肺不塌</li>
+<li><strong>每日評估脫機</strong>：VV 看關掉 sweep gas 後自己的氣體交換；VA 看降流量時的心輸出量與 <a class="wikilink" href="test-echocardiography.html">Echocardiography</a></li>
+</ol>
+<p><img class="note-image" src="../assets/notes/ecmo-vv-va-cannulation.svg" alt="ecmo vv va cannulation" loading="lazy" decoding="async" width="1000" />
+<em>VV 與 VA 的插管路徑對照：VV 的回輸端若太靠近引流端會發生再循環；周邊 VA 的股動脈回輸血沿主動脈逆行，與左心室順行血流形成分水嶺。自製示意圖。</em></p>
+<h2 id="併發症-complications">併發症 Complications</h2>
+<table>
+<thead>
+<tr>
+<th>併發症</th>
+<th>何時出現</th>
+<th>怎麼發現</th>
+<th>怎麼處理</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>出血（最常見）</strong></td>
+<td>任何時候，插管處與消化道最常見</td>
+<td>Hb 下降、插管處滲血、血便</td>
+<td>降低抗凝目標、補 fibrinogen 與血小板、局部止血</td>
+</tr>
+<tr>
+<td><strong>顱內出血或梗塞</strong></td>
+<td>數小時至數天</td>
+<td>瞳孔、鎮靜中斷評估、影像</td>
+<td><strong>預後最壞的併發症之一</strong>；立即停抗凝並評估撤除</td>
+</tr>
+<tr>
+<td><strong>acquired von Willebrand syndrome</strong></td>
+<td><strong>上機數小時內</strong>（剪切力使 vWF 高分子量多聚體流失，幾乎人人都有）</td>
+<td><strong>黏膜出血、鼻出血、插管處持續滲血</strong>；靠 <strong>VWF:RCo/VWF:Ag ＜0.7</strong> 與多聚體分析</td>
+<td>降低剪切力、補 vWF 濃縮劑或 cryoprecipitate；<strong>脫機後可逆</strong></td>
+</tr>
+<tr>
+<td><strong>溶血</strong></td>
+<td>數天</td>
+<td>血漿游離血紅素上升、尿色變深、LDH 上升</td>
+<td>檢查幫浦頭與管路血栓、調整流量</td>
+</tr>
+<tr>
+<td><strong>管路／膜肺血栓</strong></td>
+<td>數天</td>
+<td>膜前後壓差上升、氧合效率下降、D-dimer 上升</td>
+<td>更換膜肺或整套管路</td>
+</tr>
+<tr>
+<td><strong>同側下肢缺血（VA 股動脈）</strong></td>
+<td>數小時</td>
+<td>肢體溫度、脈搏、顏色；筋膜室症候群</td>
+<td><strong>預防為主：放遠端灌流導管</strong>；已缺血需外科介入</td>
+</tr>
+<tr>
+<td><strong>Harlequin（南北）症候群｜differential hypoxia</strong>（VA 周邊）</td>
+<td>心功能回復、肺仍很差時</td>
+<td><strong>右手 SpO₂ 低於左手與下肢</strong>——上半身由自身心臟打出的缺氧血供應，分水嶺在主動脈弓。<strong>確診靠右橈動脈血氣</strong>，脈搏血氧只是篩檢</td>
+<td>先改善自身的肺（提高呼吸器 FiO₂/PEEP）→ 加一條靜脈回輸（<strong>VAV</strong>）→ 改 VV → 或改<strong>腋／鎖骨下動脈回輸</strong></td>
+</tr>
+<tr>
+<td><strong>左心室脹大與肺水腫</strong>（VA）</td>
+<td>數小時至數天</td>
+<td>脈壓變窄、超音波看到左心室不動且脹、肺水腫惡化（嚴重時肺出血）</td>
+<td><strong>venting</strong>：IABP、Impella、中膈造口</td>
+</tr>
+<tr>
+<td><strong>再循環（VV）</strong></td>
+<td>上機後隨時</td>
+<td>引流血過紅、膜前血氧偏高但病人仍低血氧</td>
+<td>調整插管位置與流量</td>
+</tr>
+<tr>
+<td><strong>感染、<a class="wikilink" href="disease-nephro-aki.html">Acute kidney injury</a>、heparin-induced thrombocytopenia</strong></td>
+<td>數天</td>
+<td>培養、尿量與 Cr、血小板下降</td>
+<td>對症處理；HIT 改用非 heparin 類抗凝</td>
+</tr>
+</tbody>
+</table>
+<h2 id="術後監測">術後監測</h2>
+<table>
+<thead>
+<tr>
+<th>要盯的</th>
+<th>頻率</th>
+<th>異常閾值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>右上肢 SpO₂ 與動脈血氣</strong>（VA）</td>
+<td>持續</td>
+<td>右手低於下肢 → <strong>Harlequin</strong>，代表上半身在缺氧</td>
+</tr>
+<tr>
+<td>幫浦流量與轉速、管路抖動（chattering）</td>
+<td>持續</td>
+<td>流量掉、管路抖 → <strong>容積不足或引流管貼壁</strong></td>
+</tr>
+<tr>
+<td>膜前後壓差、膜後血氧</td>
+<td>每班</td>
+<td>壓差上升、氧合下降 → 膜肺血栓，準備換膜</td>
+</tr>
+<tr>
+<td>ACT／aPTT、血小板、fibrinogen、血漿游離血紅素</td>
+<td>每 4–6 小時至每日</td>
+<td>依出血與血栓風險動態調整</td>
+</tr>
+<tr>
+<td><strong>雙下肢脈搏、溫度、顏色</strong>（VA 周邊）</td>
+<td>每班</td>
+<td>任何不對稱 → 立即處理遠端灌流</td>
+</tr>
+<tr>
+<td>神經學評估（每日中斷鎮靜）</td>
+<td>每日</td>
+<td>新出現的局灶症狀 → 立即影像</td>
+</tr>
+<tr>
+<td>呼吸器設定與胸部影像</td>
+<td>每日</td>
+<td>確認確實維持在「肺休息」設定</td>
+</tr>
+<tr>
+<td><strong>脫機可能性與家庭會議</strong></td>
+<td>每日</td>
+<td><strong>上機後就要開始談出路與界線</strong>，不是等到走不下去才談</td>
+</tr>
+</tbody>
+</table>
+<h2 id="禁忌與陷阱">禁忌與陷阱</h2>
+<aside class="callout callout-danger"><div class="callout-title">絕對不可</div>
+
+<table>
+<thead>
+<tr>
+<th>情境</th>
+<th>絕對不可</th>
+<th>為什麼</th>
+<th>該做什麼</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>不可逆病況且無出路</strong>（末期惡性腫瘤、末期肺纖維化但無移植資格、嚴重不可逆腦傷）</td>
+<td>啟動 ECMO</td>
+<td>只能延長瀕死，且事後撤除極其困難</td>
+<td>安寧與家庭會議；<strong>上機前就要定義撤除條件</strong></td>
+</tr>
+<tr>
+<td><strong>急性主動脈剝離且牽涉主要分支、尚未手術</strong>；或<strong>重度主動脈瓣逆流而預期左心室幾乎不會打</strong></td>
+<td>上周邊 <strong>VA</strong>-ECMO</td>
+<td>逆行血流灌進假腔；逆流灌爆不打的左心室</td>
+<td>先影像確認；改中央或腋動脈插管、或其他支持。⚠ <strong>剝離術後</strong>反而是腋動脈回輸 VA-ECMO 的適應症之一，別記成「剝離一律不可」</td>
+</tr>
+<tr>
+<td>VA 股動脈插管</td>
+<td>不放<strong>遠端灌流導管</strong>、不查下肢脈搏</td>
+<td>同側肢體缺血甚至截肢</td>
+<td>常規放置並每班評估雙下肢</td>
+</tr>
+<tr>
+<td>心跳停止而<strong>無目擊、無旁觀者 CPR、低血流時間長</strong></td>
+<td>為了「盡力」而上 ECPR</td>
+<td>神經學預後極差</td>
+<td>依 ECPR 收案條件篩選（＜5 分鐘開始 CPR、＜60 分鐘上機）</td>
+</tr>
+<tr>
+<td>已知 <strong>heparin-induced thrombocytopenia</strong></td>
+<td>繼續用 heparin 抗凝</td>
+<td>血栓惡化</td>
+<td>改非 heparin 類：<strong>bivalirudin</strong>（目前 ECMO 上最常用）或 argatroban</td>
+</tr>
+<tr>
+<td>重度 ARDS 而<strong>尚未做足肺保護通氣與俯臥</strong></td>
+<td>直接上 ECMO</td>
+<td>跳過已證實有效、風險遠低的介入</td>
+<td>先 6 mL/kg PBW ＋ Pplat ≤30 ＋ 俯臥 ≥16 小時（見 <a class="wikilink" href="disease-resp-ards.html">ARDS</a>）</td>
+</tr>
+<tr>
+<td><strong>VA</strong> 上機後左心室不打、脈壓變窄</td>
+<td>只顧衝高流量</td>
+<td>後負荷上升 → 左心室脹大、肺水腫</td>
+<td><strong>venting</strong>（IABP／Impella／中膈造口）</td>
+</tr>
+<tr>
+<td>活動性大出血或近期顱內出血</td>
+<td>用常規抗凝目標</td>
+<td>致命出血</td>
+<td>降低甚至暫停抗凝（<strong>相對禁忌，不是絕對</strong>——現代管路可短時間無抗凝運轉）</td>
+</tr>
+</tbody>
+</table>
+</aside>
+<aside class="callout callout-warning"><div class="callout-title">常見錯誤</div>
+
+<ul>
+<li><strong>把 ECMO 當治療</strong>——它不治病，只換時間。<strong>沒有出路就不該啟動</strong>，這句話比任何參數都重要。</li>
+<li><strong>重度 ARDS 合併休克卻選 VV</strong>——VV 完全不提供循環支持。</li>
+<li><strong>VA 病人只看左手或下肢血氧</strong>——要看<strong>右上肢</strong>，那裡才反映腦部拿到的是哪一種血。</li>
+<li><strong>VV-ECMO 病人低血氧就去調高掃氣 FiO₂</strong>——膜後血早已飽和，正確動作是<strong>提高 ECMO 血流量</strong>；高碳酸血症才調 sweep gas 流量。</li>
+<li><strong>把「氧合變漂亮」當成病情好轉</strong>——ECMO 一定會讓數字變好看，肺本身可能毫無進展。</li>
+<li><strong>把 IABP 當成上 VA-ECMO 前的必經步驟</strong>——IABP-SHOCK II 之後它已不是常規。</li>
+<li><strong>上機時才第一次跟家屬談撤除的可能</strong>——同意過程就該說明「可能無法脫機」。</li>
+<li><strong>跳過俯臥直接上 ECMO</strong>——俯臥的死亡率效益比 ECMO 的證據更強、成本更低。</li>
+</ul>
+</aside>
+<h2 id="相關連結">相關連結</h2>
+<ul>
+<li><a class="wikilink" href="disease-resp-ards.html">ARDS</a> — VV-ECMO 的主要適應症；升級順序與 EOLIA 條件的完整脈絡在那一篇</li>
+<li><span class="wiki-pending" title="這篇筆記尚未建立">Mechanical ventilation<span class="pending-mark" aria-label="待補">↗</span></span> — 上機後的「肺休息」設定；ECMO 的價值來自切斷 VILI</li>
+<li><a class="wikilink" href="disease-general-shock.html">Shock</a> — VA-ECMO 的適應症來源；心因性休克的完整分流在那一篇</li>
+<li><span class="wiki-pending" title="這篇筆記尚未建立">Heparin<span class="pending-mark" aria-label="待補">↗</span></span> — 抗凝主力與 HIT 的處理</li>
+<li><a class="wikilink" href="test-echocardiography.html">Echocardiography</a> — 選型式、找禁忌、評估脫機都靠它</li>
+<li><a class="wikilink" href="disease-resp-pulmonary-embolism.html">Pulmonary embolism</a> · <a class="wikilink" href="disease-cardio-acs.html">ACS</a> — 兩個常見的 VA-ECMO 情境</li>
+<li><a class="wikilink" href="%E7%A6%81%E5%BF%8C%E9%81%B8%E9%A0%85.html">禁忌選項</a></li>
+</ul>
+</article><section class="note-source"><p class="eyebrow">SOURCE & CONTEXT</p><h2>來源與原始筆記</h2><p>EOLIA（2018 NEJM，VV-ECMO 於重度 [[ARDS]]）；CESAR（2009）；2024 ATS ARDS 指引（對選定重度 ARDS 有條件建議 VV-ECMO，ESICM 2023 則為強烈建議）；ELSO 2021 成人 VA-ECMO 指引與 ECPR 共識；Harrison&#39;s</p><a href="../content/Intervention/ECMO.md" download>下載這篇 Markdown ↗</a><span class="source-note">網站保留原筆記的內容與整理狀態。</span></section><section class="related-section"><div><p class="eyebrow">FOLLOW THE CONNECTIONS</p><h2>循著連結繼續讀</h2></div><div class="related-list"><a href="disease-cardio-acs.html"><span>疾病</span><strong>ACS</strong><b aria-hidden="true">↗</b></a><a href="disease-nephro-aki.html"><span>疾病</span><strong>AKI</strong><b aria-hidden="true">↗</b></a><a href="disease-resp-ards.html"><span>疾病</span><strong>ARDS</strong><b aria-hidden="true">↗</b></a><a href="test-echocardiography.html"><span>檢查</span><strong>Echocardiography</strong><b aria-hidden="true">↗</b></a><a href="disease-resp-pulmonary-embolism.html"><span>疾病</span><strong>Pulmonary embolism</strong><b aria-hidden="true">↗</b></a><a href="disease-general-shock.html"><span>疾病</span><strong>Shock</strong><b aria-hidden="true">↗</b></a><a href="%E7%A6%81%E5%BF%8C%E9%81%B8%E9%A0%85.html"><span>主題索引</span><strong>禁忌選項</strong><b aria-hidden="true">↗</b></a></div></section><section class="backlinks-section"><h2>哪些筆記連到這裡 <span>5</span></h2><div><a href="disease-resp-ards.html">ARDS <span aria-hidden="true">↗</span></a><a href="intervention-tof-correction.html">TOF correction <span aria-hidden="true">↗</span></a><a href="moc-cardiac-surgery.html">Cardiac Surgery <span aria-hidden="true">↗</span></a><a href="moc-cardiovascular-reading-route.html">Cardiovascular reading route <span aria-hidden="true">↗</span></a><a href="%E7%A6%81%E5%BF%8C%E9%81%B8%E9%A0%85.html">禁忌選項 <span aria-hidden="true">↗</span></a></div></section></div></main><footer class="site-footer"><div><strong>INBOX</strong><span>從問題出發，讓知識彼此連結。</span></div><p>個人醫學學習筆記。整理狀態沿用原筆記，本次網站轉換未重新完成醫學內容驗證；不作個別病人的診療依據。</p><div class="footer-links"><a href="../notes/readme-%E4%BD%BF%E7%94%A8%E8%AA%AA%E6%98%8E.html">這份筆記庫怎麼用</a><a href="https://github.com/Sanfufu20/inbox-medical-atlas/blob/main/AGENTS.md" target="_blank" rel="noopener">專案規則 ↗</a><span>公開副本 · 2026-11-05</span></div></footer><a class="back-top" href="#main" aria-label="回到頁首">↑</a></body></html>

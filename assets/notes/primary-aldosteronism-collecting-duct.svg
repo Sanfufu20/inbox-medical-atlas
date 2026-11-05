@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <defs>
+    <marker id="blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker>
+    <marker id="red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker>
+    <style>
+      text{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",Arial,sans-serif;fill:#172033}
+      .title{font-size:30px;font-weight:700}.head{font-size:22px;font-weight:700}.b{font-size:16px}.s{font-size:14px;fill:#526174}
+      .cell{fill:#f8fafc;stroke:#64748b;stroke-width:2}.na{stroke:#2563eb;stroke-width:4;fill:none;marker-end:url(#blue)}
+      .out{stroke:#dc2626;stroke-width:4;fill:none;marker-end:url(#red)}
+    </style>
+  </defs>
+  <rect width="1200" height="680" fill="#fff"/>
+  <text x="600" y="42" text-anchor="middle" class="title">Aldosterone 在集尿管：同時排 K⁺ 與排 H⁺</text>
+  <rect x="55" y="95" width="1090" height="70" rx="14" fill="#e0f2fe" stroke="#38bdf8"/>
+  <text x="600" y="138" text-anchor="middle" class="head" fill="#0369a1">管腔（尿液）</text>
+  <rect x="55" y="550" width="1090" height="70" rx="14" fill="#fee2e2" stroke="#f87171"/>
+  <text x="600" y="593" text-anchor="middle" class="head" fill="#b91c1c">間質／血液</text>
+
+  <rect x="90" y="190" width="520" height="330" rx="22" class="cell"/>
+  <text x="350" y="225" text-anchor="middle" class="head">Principal cell</text>
+  <ellipse cx="350" cy="360" rx="85" ry="60" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+  <text x="350" y="352" text-anchor="middle" class="b">aldosterone → MR</text><text x="350" y="380" text-anchor="middle" class="s">轉錄 ENaC、ROMK、Na/K pump</text>
+  <rect x="195" y="178" width="105" height="26" rx="8" fill="#dbeafe" stroke="#2563eb"/><text x="247" y="197" text-anchor="middle" class="s">ENaC</text>
+  <path d="M247 165 L247 300" class="na"/><text x="195" y="260" class="b" fill="#1d4ed8">Na⁺ 進細胞</text>
+  <rect x="430" y="178" width="105" height="26" rx="8" fill="#fee2e2" stroke="#dc2626"/><text x="482" y="197" text-anchor="middle" class="s">ROMK</text>
+  <path d="M482 300 L482 165" class="out"/><text x="440" y="260" class="b" fill="#b91c1c">K⁺ 排尿</text>
+  <rect x="290" y="505" width="120" height="28" rx="8" fill="#e0e7ff" stroke="#6366f1"/><text x="350" y="525" text-anchor="middle" class="s">Na⁺/K⁺-ATPase</text>
+  <path d="M320 420 L320 545" class="na"/><path d="M390 545 L390 420" class="out"/>
+  <text x="140" y="485" class="s">Na⁺ 回到血液</text><text x="420" y="485" class="s">K⁺ 進細胞</text>
+
+  <rect x="650" y="190" width="460" height="330" rx="22" class="cell"/>
+  <text x="880" y="225" text-anchor="middle" class="head">α-intercalated cell</text>
+  <ellipse cx="880" cy="365" rx="85" ry="60" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="880" y="357" text-anchor="middle" class="b">CO₂ + H₂O</text><text x="880" y="385" text-anchor="middle" class="s">→ H⁺ + HCO₃⁻</text>
+  <rect x="720" y="178" width="125" height="26" rx="8" fill="#fee2e2" stroke="#dc2626"/><text x="782" y="197" text-anchor="middle" class="s">H⁺-ATPase</text>
+  <path d="M782 305 L782 165" class="out"/><text x="690" y="270" class="b" fill="#b91c1c">H⁺ 排尿</text>
+  <path d="M950 420 L950 545" class="na"/><text x="965" y="485" class="b" fill="#1d4ed8">HCO₃⁻ 入血</text>
+
+  <rect x="235" y="635" width="730" height="35" rx="10" fill="#fff1f2" stroke="#fb7185"/>
+  <text x="600" y="659" text-anchor="middle" class="b" fill="#be123c">Aldosterone 過多 → K⁺ 流失＋H⁺ 流失 → 低血鉀性代謝性鹼中毒</text>
+</svg>

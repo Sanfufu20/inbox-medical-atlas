@@ -1,0 +1,23 @@
+{
+  "name": "inbox-medical-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {"node": ">=22"},
+  "type": "module",
+  "description": "An Obsidian medical learning notebook, published through documented agent rules.",
+  "scripts": {
+    "import": "node scripts/import-vault.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "serve": "python3 -m http.server 8769 --bind 127.0.0.1"
+  },
+  "dependencies": {
+    "gray-matter": "4.0.3",
+    "katex": "0.16.22",
+    "markdown-it": "15.0.3",
+    "markdown-it-footnote": "4.0.0",
+    "markdown-it-texmath": "1.0.0",
+    "mermaid": "10.9.3",
+    "sanitize-html": "2.17.0"
+  }
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",Arial,sans-serif;fill:#172033}
+    .title{font-size:30px;font-weight:700}.head{font-size:22px;font-weight:700}.b{font-size:16px}.s{font-size:14px;fill:#526174}
+  </style>
+  <rect width="1100" height="650" fill="#fff"/>
+  <text x="550" y="42" text-anchor="middle" class="title">相近 BMI／腰圍，不同脂肪分布：風險不一樣</text>
+  <text x="550" y="70" text-anchor="middle" class="s">腹部軸位概念圖；黃色＝皮下脂肪（SAT），紅橘＝內臟脂肪（VAT）</text>
+
+  <rect x="45" y="100" width="480" height="440" rx="20" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="285" y="138" text-anchor="middle" class="head">皮下脂肪優勢</text>
+  <ellipse cx="285" cy="335" rx="190" ry="165" fill="#fde68a" stroke="#d97706" stroke-width="3"/>
+  <ellipse cx="285" cy="335" rx="128" ry="110" fill="#f8fafc" stroke="#94a3b8" stroke-width="3"/>
+  <ellipse cx="285" cy="350" rx="65" ry="60" fill="#fed7aa" stroke="#fb923c" stroke-width="2"/>
+  <ellipse cx="285" cy="350" rx="32" ry="48" fill="#e2e8f0" stroke="#64748b"/>
+  <text x="285" y="205" text-anchor="middle" class="b" fill="#b45309">厚 SAT</text><text x="285" y="430" text-anchor="middle" class="b" fill="#c2410c">較少 VAT</text>
+  <text x="285" y="500" text-anchor="middle" class="s">外圈脂肪多，但門靜脈暴露較少</text>
+
+  <rect x="575" y="100" width="480" height="440" rx="20" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="815" y="138" text-anchor="middle" class="head">內臟脂肪優勢</text>
+  <ellipse cx="815" cy="335" rx="190" ry="165" fill="#fde68a" stroke="#d97706" stroke-width="3"/>
+  <ellipse cx="815" cy="335" rx="162" ry="138" fill="#f8fafc" stroke="#94a3b8" stroke-width="3"/>
+  <ellipse cx="815" cy="350" rx="128" ry="105" fill="#fb923c" stroke="#c2410c" stroke-width="3"/>
+  <g fill="#fff7ed" stroke="#9a3412"><ellipse cx="765" cy="330" rx="25" ry="35"/><ellipse cx="830" cy="315" rx="30" ry="40"/><ellipse cx="875" cy="370" rx="28" ry="38"/><ellipse cx="790" cy="390" rx="32" ry="35"/></g>
+  <text x="815" y="205" text-anchor="middle" class="b" fill="#b45309">較薄 SAT</text><text x="815" y="470" text-anchor="middle" class="b" fill="#c2410c">大量 VAT：腸繫膜／網膜</text>
+  <path d="M900 290 C960 255,990 220,1000 175" fill="none" stroke="#dc2626" stroke-width="4"/>
+  <polygon points="995,175 1010,180 1000,160" fill="#dc2626"/><text x="940" y="190" class="s">FFA／IL-6 → 門靜脈 → 肝</text>
+
+  <rect x="120" y="565" width="860" height="60" rx="15" fill="#fff1f2" stroke="#fb7185"/>
+  <text x="550" y="591" text-anchor="middle" class="b" fill="#be123c">BMI 只告訴你總重量，不告訴你脂肪放在哪裡</text>
+  <text x="550" y="614" text-anchor="middle" class="s">中央型肥胖／腰圍更接近 VAT 負荷；真正量化仍以 CT／MRI 為準</text>
+</svg>

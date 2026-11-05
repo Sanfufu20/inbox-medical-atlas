@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="690" viewBox="0 0 1100 690">
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker>
+    <style>
+      text{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",Arial,sans-serif;fill:#172033}
+      .title{font-size:30px;font-weight:700}.head{font-size:21px;font-weight:700}.b{font-size:16px}.s{font-size:14px;fill:#526174}
+      .box{fill:#f8fafc;stroke:#64748b;stroke-width:2}.arr{stroke:#475569;stroke-width:3;fill:none;marker-end:url(#a)}
+    </style>
+  </defs>
+  <rect width="1100" height="690" fill="#fff"/>
+  <text x="550" y="42" text-anchor="middle" class="title">HPA 軸、三層病灶與 aldosterone 的獨立控制</text>
+
+  <rect x="80" y="100" width="260" height="95" rx="18" class="box"/><text x="210" y="135" text-anchor="middle" class="head">下視丘</text><text x="210" y="166" text-anchor="middle" class="b">CRH</text>
+  <rect x="420" y="100" width="260" height="95" rx="18" class="box"/><text x="550" y="135" text-anchor="middle" class="head">腦下垂體前葉</text><text x="550" y="166" text-anchor="middle" class="b">ACTH（由 POMC 而來）</text>
+  <rect x="760" y="100" width="260" height="95" rx="18" class="box"/><text x="890" y="135" text-anchor="middle" class="head">腎上腺皮質</text><text x="890" y="166" text-anchor="middle" class="b">cortisol</text>
+  <path d="M340 148 L415 148" class="arr"/><path d="M680 148 L755 148" class="arr"/>
+  <path d="M890 200 C890 255,550 245,550 200" fill="none" stroke="#e11d48" stroke-width="3" marker-end="url(#a)"/>
+  <path d="M860 200 C840 285,210 285,210 200" fill="none" stroke="#e11d48" stroke-width="3" marker-end="url(#a)"/>
+  <text x="550" y="272" text-anchor="middle" class="b" fill="#be123c">cortisol 對 CRH／ACTH 負回饋</text>
+
+  <rect x="55" y="330" width="315" height="170" rx="16" fill="#fff1f2" stroke="#fb7185" stroke-width="2"/>
+  <text x="212" y="365" text-anchor="middle" class="head" fill="#be123c">原發性｜腎上腺壞掉</text>
+  <text x="212" y="400" text-anchor="middle" class="b">cortisol ↓　ACTH ↑↑</text><text x="212" y="430" text-anchor="middle" class="b">aldosterone ↓　renin ↑</text>
+  <text x="212" y="462" text-anchor="middle" class="s">高血鉀＋色素沉著（POMC/MSH）</text><text x="212" y="486" text-anchor="middle" class="s">Addison disease、出血／感染／浸潤</text>
+
+  <rect x="392" y="330" width="315" height="170" rx="16" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+  <text x="550" y="365" text-anchor="middle" class="head" fill="#1d4ed8">續發性｜腦下垂體壞掉</text>
+  <text x="550" y="400" text-anchor="middle" class="b">cortisol ↓　ACTH ↓／不適當正常</text><text x="550" y="430" text-anchor="middle" class="b">aldosterone 多半保留</text>
+  <text x="550" y="462" text-anchor="middle" class="s">通常無高血鉀、無色素沉著</text><text x="550" y="486" text-anchor="middle" class="s">腫瘤、手術、apoplexy、hypophysitis</text>
+
+  <rect x="730" y="330" width="315" height="170" rx="16" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="887" y="365" text-anchor="middle" class="head" fill="#6d28d9">三發性｜下視丘／外源類固醇</text>
+  <text x="887" y="400" text-anchor="middle" class="b">CRH ↓ → ACTH ↓ → cortisol ↓</text><text x="887" y="430" text-anchor="middle" class="b">aldosterone 多半保留</text>
+  <text x="887" y="462" text-anchor="middle" class="s">長期類固醇突然停藥最常見</text><text x="887" y="486" text-anchor="middle" class="s">壓力時無法增加 cortisol</text>
+
+  <rect x="155" y="550" width="790" height="100" rx="18" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/>
+  <text x="550" y="582" text-anchor="middle" class="head" fill="#047857">Aldosterone 不屬於 HPA 軸</text>
+  <text x="550" y="612" text-anchor="middle" class="b">低腎灌流／低 NaCl → renin → angiotensin II　＋　高血鉀 → zona glomerulosa</text>
+  <text x="550" y="638" text-anchor="middle" class="s">因此續發／三發性 adrenal insufficiency 通常不缺 aldosterone；原發性才會一起缺</text>
+</svg>

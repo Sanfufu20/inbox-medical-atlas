@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="720" viewBox="0 0 1100 720">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker>
+    <style>
+      text{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",Arial,sans-serif;fill:#172033}
+      .title{font-size:30px;font-weight:700}.sub{font-size:17px;fill:#526174}.h{font-size:21px;font-weight:700}.b{font-size:16px}
+      .organ{fill:#f8fafc;stroke:#94a3b8;stroke-width:2}.low{fill:#ecfdf5;stroke:#059669;stroke-width:2.5}
+      .dep{fill:#fff1f2;stroke:#e11d48;stroke-width:2.5}.gdep{fill:#fffbeb;stroke:#d97706;stroke-width:2.5}
+      .arrow{stroke:#475569;stroke-width:2;fill:none;marker-end:url(#arr)}
+    </style>
+  </defs>
+  <rect width="1100" height="720" fill="#fff"/>
+  <text x="550" y="42" text-anchor="middle" class="title">八類降血糖藥：作用器官與低血糖風險</text>
+  <text x="550" y="70" text-anchor="middle" class="sub">判斷核心：是否在低血糖時仍會強迫胰島素分泌</text>
+
+  <rect x="405" y="105" width="290" height="80" rx="18" class="organ"/>
+  <text x="550" y="136" text-anchor="middle" class="h">胰島 β 細胞</text>
+  <text x="550" y="164" text-anchor="middle" class="b">胰島素分泌的最後共同出口</text>
+
+  <rect x="45" y="112" width="300" height="98" rx="16" class="dep"/>
+  <text x="195" y="143" text-anchor="middle" class="h">SU／glinide</text>
+  <text x="195" y="169" text-anchor="middle" class="b">關 KATP channel → 強迫放胰島素</text>
+  <text x="195" y="194" text-anchor="middle" class="b" fill="#be123c">分泌依賴｜低血糖高風險</text>
+  <path d="M345 160 L400 148" class="arrow"/>
+
+  <rect x="755" y="105" width="300" height="112" rx="16" class="gdep"/>
+  <text x="905" y="136" text-anchor="middle" class="h">DPP-4 inhibitor／GLP-1 RA</text>
+  <text x="905" y="164" text-anchor="middle" class="b">incretin ↑ → 葡萄糖依賴性分泌</text>
+  <text x="905" y="190" text-anchor="middle" class="b">血糖低時訊號自動關小</text>
+  <text x="905" y="211" text-anchor="middle" class="b" fill="#b45309">分泌相關但低風險</text>
+  <path d="M755 158 L700 148" class="arrow"/>
+
+  <rect x="50" y="270" width="290" height="115" rx="16" class="low"/>
+  <text x="195" y="303" text-anchor="middle" class="h">肝臟｜metformin</text>
+  <text x="195" y="332" text-anchor="middle" class="b">肝糖新生 ↓</text>
+  <text x="195" y="358" text-anchor="middle" class="b" fill="#047857">不靠分泌｜低血糖低風險</text>
+
+  <rect x="405" y="250" width="290" height="135" rx="16" class="low"/>
+  <text x="550" y="283" text-anchor="middle" class="h">肌肉／脂肪｜TZD</text>
+  <text x="550" y="312" text-anchor="middle" class="b">PPAR-γ → insulin sensitivity ↑</text>
+  <text x="550" y="340" text-anchor="middle" class="b">葡萄糖攝取 ↑、脂肪酸外溢 ↓</text>
+  <text x="550" y="368" text-anchor="middle" class="b" fill="#047857">不靠分泌｜低血糖低風險</text>
+
+  <rect x="760" y="270" width="290" height="115" rx="16" class="low"/>
+  <text x="905" y="303" text-anchor="middle" class="h">腎近端小管｜SGLT2 inhibitor</text>
+  <text x="905" y="332" text-anchor="middle" class="b">葡萄糖再吸收 ↓ → 尿糖 ↑</text>
+  <text x="905" y="358" text-anchor="middle" class="b" fill="#047857">不靠分泌｜低血糖低風險</text>
+
+  <rect x="50" y="445" width="290" height="120" rx="16" class="low"/>
+  <text x="195" y="478" text-anchor="middle" class="h">腸道｜α-glucosidase inhibitor</text>
+  <text x="195" y="507" text-anchor="middle" class="b">雙醣分解與吸收延後</text>
+  <text x="195" y="536" text-anchor="middle" class="b" fill="#047857">不靠分泌｜低血糖低風險</text>
+
+  <rect x="405" y="445" width="290" height="120" rx="16" class="gdep"/>
+  <text x="550" y="478" text-anchor="middle" class="h">腸腦軸｜GLP-1 RA</text>
+  <text x="550" y="507" text-anchor="middle" class="b">胃排空 ↓、食慾 ↓、glucagon ↓</text>
+  <text x="550" y="536" text-anchor="middle" class="b" fill="#b45309">單用低風險｜體重下降</text>
+
+  <rect x="760" y="445" width="290" height="120" rx="16" class="dep"/>
+  <text x="905" y="478" text-anchor="middle" class="h">外源性 insulin</text>
+  <text x="905" y="507" text-anchor="middle" class="b">直接補充，不受血糖回饋煞車</text>
+  <text x="905" y="536" text-anchor="middle" class="b" fill="#be123c">低血糖高風險｜體重增加</text>
+
+  <rect x="105" y="615" width="890" height="64" rx="16" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <circle cx="155" cy="647" r="10" fill="#059669"/><text x="176" y="653" class="b">不靠分泌：單用通常不低血糖</text>
+  <circle cx="455" cy="647" r="10" fill="#d97706"/><text x="476" y="653" class="b">葡萄糖依賴：血糖低時會煞車</text>
+  <circle cx="775" cy="647" r="10" fill="#e11d48"/><text x="796" y="653" class="b">強迫分泌／直接補充：高風險</text>
+</svg>

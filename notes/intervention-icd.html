@@ -1,0 +1,307 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="從主訴、疾病、檢查、藥物與處置，閱讀同一份持續整理的醫學學習筆記。"><meta name="theme-color" content="#f5f6fa"><title>ICD · INBOX 醫學筆記</title><link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../assets/site.css"><link rel="stylesheet" href="../assets/vendor/katex/katex.min.css"><script defer src="../assets/site.js"></script><script defer src="../assets/vendor/mermaid.min.js"></script></head><body class="article-page" data-page="note" data-note-id="intervention-icd"><a class="skip-link" href="#main">跳到主要內容</a><header class="site-header"><a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><span>INBOX<small>醫學筆記</small></span></a><nav aria-label="主要導覽"><a href="../index.html" >筆記庫</a><a href="../index.html?view=moc">主題索引</a><a href="../index.html?view=saved">閱讀清單<span class="saved-count"></span></a></nav><a class="header-source" href="https://github.com/Sanfufu20/inbox-medical-atlas" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a></header><main id="main" class="reading-shell"><aside class="reading-toc"><a class="back-link" href="../index.html?angle=Intervention">← 處置</a><p class="sidebar-label">本頁內容</p><nav aria-label="本頁目錄"><a class="toc-depth-2" href="#%E5%8E%9F%E7%90%86%E8%88%87%E7%9B%AE%E7%9A%84">原理與目的</a><a class="toc-depth-2" href="#%E9%81%A9%E6%87%89%E7%97%87-indications">適應症 Indications</a><a class="toc-depth-2" href="#%E8%A1%93%E5%89%8D%E6%BA%96%E5%82%99%E8%88%87%E8%A9%95%E4%BC%B0">術前準備與評估</a><a class="toc-depth-2" href="#%E6%93%8D%E4%BD%9C%E6%A6%82%E8%A6%81">操作概要</a><a class="toc-depth-2" href="#%E4%BD%B5%E7%99%BC%E7%97%87-complications">併發症 Complications</a><a class="toc-depth-2" href="#%E8%A1%93%E5%BE%8C%E7%9B%A3%E6%B8%AC">術後監測</a><a class="toc-depth-2" href="#%E9%80%99%E5%80%8B%E8%99%95%E7%BD%AE%E6%94%B9%E5%96%84%E4%BA%86%E4%BB%80%E9%BA%BC-%E6%B2%92%E6%94%B9%E5%96%84%E4%BB%80%E9%BA%BC">這個處置改善了什麼、沒改善什麼</a><a class="toc-depth-2" href="#%E7%A6%81%E5%BF%8C%E8%88%87%E9%99%B7%E9%98%B1">禁忌與陷阱</a><a class="toc-depth-2" href="#%E7%9B%B8%E9%97%9C%E9%80%A3%E7%B5%90">相關連結</a></nav></aside><div class="reading-main"><header class="article-header"><div class="article-meta"><span class="kind-pill kind-Intervention">處置</span><span></span></div><h1>ICD ｜ 植入式心律去顫器 · Implantable Cardioverter-Defibrillator</h1><div class="article-subline"><p>筆記更新 2026-07-26<span>·</span>整理狀態：可用</p><button class="bookmark js-only" data-save="intervention-icd" aria-pressed="false" aria-label="收藏 ICD"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4.5h12v16l-6-4-6 4z"/></svg><span>加入閱讀清單</span></button></div><details class="alias-details"><summary>其他名稱 <span>4</span></summary><p>ICD · 植入式心律去顫器 · Implantable Cardioverter-Defibrillator · 體內去顫器</p></details></header><article class="prose"><aside class="callout callout-abstract"><div class="callout-title">一句話總覽</div>
+<p>植入體內、持續監測心律的去顫器。偵測到心室頻脈或心室顫動就以<strong>抗頻脈節律或電擊</strong>終止它。它做的是<strong>一件事</strong>：把「這次會死」變成「這次不會死」。<strong>它不治療底層心臟病</strong>——這句話是所有 ICD 考題的核心。</p>
+</aside>
+<aside class="callout callout-tip"><div class="callout-title">30 秒行動卡</div>
+<p><strong>最該記的適應症</strong>：<strong>次級預防</strong>＝曾發生非可逆原因的 VT／VF 或心因性昏厥｜<strong>初級預防</strong>＝LVEF ≤30–35% 的心衰竭，且已過等待期
+<strong>做之前一定要確認</strong>：① <strong>原因可不可逆</strong>（可逆就不放）② <strong>等待期過了沒</strong>（MI 後 ≥40 天、血管再灌流後 ≥90 天）③ 預期存活與生活品質是否 ≥1 年
+<strong>絕對不可</strong>：對可逆原因造成的 VT／VF 植入 ICD</p>
+</aside>
+<hr />
+<h2 id="原理與目的">原理與目的</h2>
+<figure class="diagram"><pre class="mermaid" data-graph-id="intervention-icd-0">flowchart TD
+  A["心室頻脈&lt;br/&gt;或心室顫動"] --&gt; B["裝置偵測心率&lt;br/&gt;與訊號型態"]
+  B --&gt; C["抗頻脈節律&lt;br/&gt;ATP 無痛終止"]
+  B --&gt; D["同步整流&lt;br/&gt;或去顫電擊"]
+  C --&gt; E["恢復竇性節律"]
+  D --&gt; E
+  E --&gt; F["避免這次猝死"]
+
+  classDef key fill:#1b5e20,stroke:#0b3d0b,color:#fff,font-weight:bold
+  class F key
+</pre><figcaption>筆記中的流程與關係</figcaption></figure><aside class="callout callout-note"><div class="callout-title">與 Test 的分界</div>
+<p>ICD 會<strong>記錄</strong>心律事件（這部分是取得資訊），但植入它的目的是<strong>改變病人的結局</strong>，所以歸 Intervention。
+它記錄下來的心電圖資料在診斷上很有價值——心室性心律不整可透過<strong>體表心電圖、植入裝置紀錄、或電生理檢查誘發</strong>三條路確立診斷。</p>
+</aside>
+<h2 id="適應症-indications">適應症 Indications</h2>
+<table>
+<thead>
+<tr>
+<th>類別</th>
+<th>適應症</th>
+<th>判斷閾值／時機</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>次級預防</strong>（已發生過）</td>
+<td>VT／VF 造成的心跳停止存活者、血行動力不穩的持續性 VT、不明原因昏厥且電生理檢查誘發出 VT</td>
+<td><strong>前提：非可逆原因</strong></td>
+</tr>
+<tr>
+<td><strong>初級預防</strong>（尚未發生）</td>
+<td>缺血性心肌病變 LVEF ≤30–35% ＋ NYHA II–III</td>
+<td><strong>心肌梗塞後 ≥40 天、血管再灌流後 ≥90 天</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>非缺血性擴張型心肌病變 LVEF ≤35% ＋ NYHA II–III</td>
+<td>需已接受 ≥3 個月最佳藥物治療</td>
+</tr>
+<tr>
+<td></td>
+<td>遺傳性心律不整：長 QT 症候群、Brugada syndrome、兒茶酚胺敏感性多形性 VT</td>
+<td>依各症候群風險分層</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>ARVC</strong>（右心室心肌病變）</td>
+<td>依風險分層</td>
+</tr>
+<tr>
+<td></td>
+<td>高風險 <a class="wikilink" href="disease-cardio-hcm.html">HCM</a></td>
+<td>見 HCM 猝死危險因子清單</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>修補過的先天性心臟病出現自發性 VT</strong></td>
+<td>例如法洛氏四重症術後——疤痕相關折返；風險因子含 <strong>QRS ＞180 ms</strong>、5 歲後才修補、右心血行動力異常</td>
+</tr>
+</tbody>
+</table>
+<aside class="callout callout-warning"><div class="callout-title">那兩個等待期是重點，而且有理由</div>
+<p><strong>MI 後 40 天內植入沒有存活好處</strong>（DINAMIT、IRIS 試驗）——因為早期死亡多來自泵衰竭與再梗塞，不是可電的心律。而且 EF 在這段期間<strong>還可能自己恢復</strong>，太早放會讓不需要的人挨一刀。</p>
+</aside>
+<h2 id="術前準備與評估">術前準備與評估</h2>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>內容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>必查檢驗</td>
+<td>LVEF（超音波或核醫）、電解質（尤其鉀、鎂）、腎功能、<span class="wiki-pending" title="這篇筆記尚未建立">CBC<span class="pending-mark" aria-label="待補">↗</span></span></td>
+</tr>
+<tr>
+<td>一定要先排除</td>
+<td><strong>可逆原因</strong>：急性心肌缺血、電解質異常、藥物（延長 QT 者）、甲狀腺功能異常</td>
+</tr>
+<tr>
+<td>影像／定位</td>
+<td>胸部 X 光；評估靜脈通路</td>
+</tr>
+<tr>
+<td>同意書與風險說明</td>
+<td>手術風險、<strong>不適當放電的可能</strong>、日後更換電池、開車與職業限制、末期時的關閉討論</td>
+</tr>
+<tr>
+<td>停藥</td>
+<td>依抗凝方案調整；多數情況 warfarin 可不中斷，DOAC 常暫停 1–2 次劑量</td>
+</tr>
+</tbody>
+</table>
+<aside class="callout callout-danger"><div class="callout-title">預期壽命是適應症的一部分</div>
+<p>預期存活 ＜1 年（且生活品質不佳）時，ICD 只會把「猝死」換成「較不好受的死亡方式」。這在腫瘤末期或極高齡多重共病者是實際的臨床判斷。</p>
+</aside>
+<h2 id="操作概要">操作概要</h2>
+<ol>
+<li>局部麻醉，在左（或右）鎖骨下做囊袋</li>
+<li>經鎖骨下或頭靜脈把導線送入右心室（必要時加右心房、冠狀竇導線）</li>
+<li>測試導線的感知與起搏閾值</li>
+<li>接上脈衝產生器、置入囊袋、縫合</li>
+<li>術後程式設定與（部分中心）去顫閾值測試</li>
+</ol>
+<p><img class="note-image" src="../assets/notes/icd-transvenous-cxr.jpg" alt="icd transvenous cxr" loading="lazy" decoding="async" width="420" />
+<em>經靜脈 ICD：脈衝產生器位於左鎖骨下囊袋，導線經中心靜脈進入右心，末端固定在右心室心尖。Source: <a href="https://commons.wikimedia.org/wiki/File:Implantable_cardioverter_defibrillator_chest_X-ray.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons — Implantable cardioverter defibrillator chest X-ray</a>（CC BY 3.0）。</em></p>
+<p><img class="note-image" src="../assets/notes/icd-subcutaneous-cxr.jpg" alt="icd subcutaneous cxr" loading="lazy" decoding="async" width="720" />
+<em>S-ICD 側位片：產生器在左側胸壁皮下，導線沿胸骨旁走行，完全不進入血管或心腔；與上圖的 transvenous lead 形成關鍵對照。Source: <a href="https://commons.wikimedia.org/wiki/File:Subcutaneous_ICD_XRay.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons — Subcutaneous ICD XRay</a>, PaulT（授權條款見來源頁）。</em></p>
+<aside class="callout callout-info"><div class="callout-title">皮下式 ICD（S-ICD）</div>
+<p>導線完全在皮下、不進入血管與心臟 → <strong>感染與導線併發症少</strong>，適合年輕、需長期使用或血管通路困難者。
+代價：<strong>不能做抗頻脈節律（ATP）、不能做長期心搏過緩起搏、不能做心臟再同步治療</strong>。</p>
+</aside>
+<h2 id="併發症-complications">併發症 Complications</h2>
+<table>
+<thead>
+<tr>
+<th>併發症</th>
+<th>何時出現</th>
+<th>怎麼發現</th>
+<th>怎麼處理</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>不適當放電</strong></td>
+<td>任何時候</td>
+<td>病人主訴被電但當時無症狀；裝置紀錄顯示 Afib 快速心室反應或訊號雜訊</td>
+<td>重新程式設定、控制心室率、必要時換導線</td>
+</tr>
+<tr>
+<td>囊袋血腫</td>
+<td>術後數日</td>
+<td>局部腫脹瘀青</td>
+<td>壓迫；避免不必要的抗凝中斷</td>
+</tr>
+<tr>
+<td><strong>感染／心內膜炎</strong></td>
+<td>術後數週至數年</td>
+<td>囊袋紅腫、發燒、菌血症</td>
+<td><strong>整套系統移除</strong>＋抗生素——只給抗生素幾乎必復發</td>
+</tr>
+<tr>
+<td>導線移位或斷裂</td>
+<td>早期或多年後</td>
+<td>感知／起搏異常、不適當放電</td>
+<td>更換導線</td>
+</tr>
+<tr>
+<td>氣胸、心臟穿孔</td>
+<td>術中至術後 24 小時</td>
+<td>胸痛、呼吸困難、低血壓</td>
+<td>影像確認；引流或外科處置</td>
+</tr>
+<tr>
+<td><strong>電風暴</strong>（24 小時內 ≥3 次放電）</td>
+<td>任何時候</td>
+<td>反覆放電</td>
+<td><strong>緊急處理</strong>：找誘因、抗心律不整藥、鎮靜、必要時電燒</td>
+</tr>
+</tbody>
+</table>
+<h2 id="術後監測">術後監測</h2>
+<table>
+<thead>
+<tr>
+<th>要盯的</th>
+<th>頻率</th>
+<th>異常閾值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>傷口與囊袋</td>
+<td>每日至出院、術後 1–2 週回診</td>
+<td>紅、熱、滲液、張力性腫脹</td>
+</tr>
+<tr>
+<td>裝置參數（感知、閾值、阻抗）</td>
+<td>出院前、之後每 3–12 個月或遠距監測</td>
+<td>阻抗突變提示導線問題</td>
+</tr>
+<tr>
+<td><strong>放電事件</strong></td>
+<td>每次回診／遠距警示</td>
+<td><strong>任何一次適當放電都要當成臨床事件處理</strong></td>
+</tr>
+<tr>
+<td>電池餘量</td>
+<td>每次回診</td>
+<td>到達 ERI 即安排更換</td>
+</tr>
+</tbody>
+</table>
+<h2 id="這個處置改善了什麼-沒改善什麼">這個處置改善了什麼、沒改善什麼</h2>
+<p><em>這一節是 ICD 考題最集中的地方。</em></p>
+<table>
+<thead>
+<tr>
+<th>問題</th>
+<th>答案</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>降低<strong>心律不整性猝死</strong>？</td>
+<td><strong>是</strong>——這是它唯一直接做到的事</td>
+</tr>
+<tr>
+<td>降低<strong>整體死亡率</strong>？</td>
+<td><strong>在符合適應症的族群，是</strong>（MADIT-II ↓31%、SCD-HeFT ↓23%）</td>
+</tr>
+<tr>
+<td>改善<strong>心衰竭</strong>本身？</td>
+<td><strong>否</strong>——不減少心衰竭惡化與住院</td>
+</tr>
+<tr>
+<td>改善症狀或運動耐受？</td>
+<td><strong>否</strong></td>
+</tr>
+</tbody>
+</table>
+<aside class="callout callout-danger"><div class="callout-title">適當放電是預後變差的訊號，不是「已經沒事了」</div>
+<p>SCD-HeFT 次分析顯示，接受過適當放電的病人<strong>全因死亡風險顯著升高</strong>，最常見的死因正是<strong>心衰竭惡化</strong>。放電代表底層心臟病在進展，應觸發完整的重新評估。</p>
+</aside>
+<aside class="callout callout-warning"><div class="callout-title">「ICD 不降低整體死亡率」這句話講得太滿</div>
+<p>在符合適應症的族群整體死亡率<strong>是</strong>會下降的。<strong>沒有</strong>整體死亡率好處的是三個特定情境：
+① <strong>心肌梗塞後 40 天內</strong>（DINAMIT、IRIS）
+② <strong>現代藥物治療下的非缺血性擴張型心肌症</strong>（DANISH 2016）
+③ <strong>可逆原因</strong>造成的 VT／VF
+這也正好解釋了那兩個等待期為什麼存在。</p>
+</aside>
+<h2 id="禁忌與陷阱">禁忌與陷阱</h2>
+<aside class="callout callout-danger"><div class="callout-title">絕對不可</div>
+
+<table>
+<thead>
+<tr>
+<th>情境</th>
+<th>絕對不可</th>
+<th>為什麼</th>
+<th>該做什麼</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VT／VF 由<strong>可逆原因</strong>造成（急性缺血、低血鉀、藥物延長 QT、電解質異常）</td>
+<td>直接植入 ICD</td>
+<td>矯正原因後不會再發，白挨一刀還帶終身併發症</td>
+<td>矯正原因、觀察；仍反覆發作再評估</td>
+</tr>
+<tr>
+<td><strong>心肌梗塞後 40 天內</strong></td>
+<td>植入 ICD 作初級預防</td>
+<td>無存活好處；EF 可能自行恢復</td>
+<td>等待期內用<strong>穿戴式去顫背心</strong>過渡</td>
+</tr>
+<tr>
+<td>裝置<strong>感染</strong></td>
+<td>只給抗生素而不移除</td>
+<td>生物膜使感染幾乎必然復發</td>
+<td><strong>整套系統移除</strong>＋足療程抗生素</td>
+</tr>
+<tr>
+<td>預期存活 ＜1 年且生活品質不佳</td>
+<td>植入 ICD</td>
+<td>只是改變死亡方式</td>
+<td>安寧共照；已植入者討論<strong>關閉去顫功能</strong></td>
+</tr>
+<tr>
+<td>任何心室性心律不整發作當下</td>
+<td>忙著分辨心律型態而延誤處置</td>
+<td><strong>初始治療目標是穩定血行動力學</strong></td>
+<td>不穩定 → 立即電擊整流</td>
+</tr>
+</tbody>
+</table>
+</aside>
+<aside class="callout callout-warning"><div class="callout-title">常見錯誤</div>
+
+<ul>
+<li>把「ICD 降低心衰竭風險」當正確——<strong>不降低</strong>。</li>
+<li>反過來把「ICD 完全不降低整體死亡率」當正確——<strong>在適應症族群是會降低的</strong>，兩個方向都能出題。</li>
+<li>忘記 <strong>40 天／90 天</strong> 等待期，或把兩個數字對調。</li>
+<li>對可逆原因的 VT／VF 植入 ICD。</li>
+<li>把 ICD 與<strong>心律調節器（pacemaker）</strong> 混為一談：前者治過快、後者治過慢；ICD 內建起搏功能，反之不然。</li>
+</ul>
+</aside>
+<h2 id="相關連結">相關連結</h2>
+<ul>
+<li><a class="wikilink" href="disease-cardio-hcm.html">HCM</a> — 猝死危險因子決定要不要放 ICD</li>
+<li><a class="wikilink" href="disease-cardio-restrictive-cardiomyopathy.html">Restrictive cardiomyopathy</a> — 浸潤性心肌病變的心律不整風險</li>
+<li><a class="wikilink" href="disease-cardio-heart-failure.html">Heart failure</a> — 初級預防適應症的母體</li>
+<li><span class="wiki-pending" title="這篇筆記尚未建立">ECG<span class="pending-mark" aria-label="待補">↗</span></span> — 診斷心室性心律不整的第一線工具</li>
+</ul>
+</article><section class="note-source"><p class="eyebrow">SOURCE & CONTEXT</p><h2>來源與原始筆記</h2><p>113-1 醫學(三) 14、113-2 醫學(三) 10 延伸；MADIT-II、SCD-HeFT、DANISH、DINAMIT 試驗；AHA/ACC 心室性心律不整與猝死指引</p><a href="../content/Intervention/ICD.md" download>下載這篇 Markdown ↗</a><span class="source-note">網站保留原筆記的內容與整理狀態。</span></section><section class="related-section"><div><p class="eyebrow">FOLLOW THE CONNECTIONS</p><h2>循著連結繼續讀</h2></div><div class="related-list"><a href="disease-cardio-hcm.html"><span>疾病</span><strong>HCM</strong><b aria-hidden="true">↗</b></a><a href="disease-cardio-heart-failure.html"><span>疾病</span><strong>Heart failure</strong><b aria-hidden="true">↗</b></a><a href="disease-cardio-restrictive-cardiomyopathy.html"><span>疾病</span><strong>Restrictive cardiomyopathy</strong><b aria-hidden="true">↗</b></a></div></section><section class="backlinks-section"><h2>哪些筆記連到這裡 <span>9</span></h2><div><a href="disease-cardio-acs.html">ACS <span aria-hidden="true">↗</span></a><a href="disease-cardio-cardio-category.html">Cardio Category <span aria-hidden="true">↗</span></a><a href="disease-cardio-hcm.html">HCM <span aria-hidden="true">↗</span></a><a href="disease-cardio-heart-failure.html">Heart failure <span aria-hidden="true">↗</span></a><a href="disease-cardio-inherited-arrhythmia-syndromes.html">Inherited arrhythmia syndromes <span aria-hidden="true">↗</span></a><a href="disease-cardio-ventricular-tachycardia.html">Ventricular tachycardia <span aria-hidden="true">↗</span></a><a href="drug-antiarrhythmics.html">Antiarrhythmics <span aria-hidden="true">↗</span></a><a href="moc-cardiac-surgery.html">Cardiac Surgery <span aria-hidden="true">↗</span></a><a href="moc-cardiovascular-reading-route.html">Cardiovascular reading route <span aria-hidden="true">↗</span></a></div></section></div></main><footer class="site-footer"><div><strong>INBOX</strong><span>從問題出發，讓知識彼此連結。</span></div><p>個人醫學學習筆記。整理狀態沿用原筆記，本次網站轉換未重新完成醫學內容驗證；不作個別病人的診療依據。</p><div class="footer-links"><a href="../notes/readme-%E4%BD%BF%E7%94%A8%E8%AA%AA%E6%98%8E.html">這份筆記庫怎麼用</a><a href="https://github.com/Sanfufu20/inbox-medical-atlas/blob/main/AGENTS.md" target="_blank" rel="noopener">專案規則 ↗</a><span>公開副本 · 2026-11-05</span></div></footer><a class="back-top" href="#main" aria-label="回到頁首">↑</a></body></html>

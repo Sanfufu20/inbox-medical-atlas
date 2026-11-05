@@ -1,0 +1,17 @@
+{
+  "title": "INBOX · 醫學筆記",
+  "subtitle": "把每一次學到的，放回知識的脈絡。",
+  "description": "從主訴、疾病、檢查、藥物與處置，閱讀同一份持續整理的醫學學習筆記。",
+  "repository": "https://github.com/Sanfufu20/inbox-medical-atlas",
+  "publishedUrl": "https://sanfufu20.github.io/inbox-medical-atlas/",
+  "snapshotDate": "2026-11-05",
+  "contentDirectory": "content",
+  "imageDirectory": "assets/notes",
+  "angles": [
+    {"id":"Workup","zh":"主訴流程","en":"Workup","prompt":"從一個尚未診斷的主訴開始。","color":"#48647d"},
+    {"id":"Disease","zh":"疾病","en":"Disease","prompt":"理解疾病之間的差異與關聯。","color":"#67599a"},
+    {"id":"Test","zh":"檢查","en":"Test","prompt":"這項檢查，想回答什麼問題？","color":"#39797c"},
+    {"id":"Drug","zh":"藥物","en":"Drug","prompt":"沿著機轉、用途與注意事項閱讀。","color":"#956f38"},
+    {"id":"Intervention","zh":"處置","en":"Intervention","prompt":"把手術與處置放回完整的流程。","color":"#9b5666"}
+  ]
+}

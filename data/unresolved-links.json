@@ -1,0 +1,2076 @@
+[
+  {
+    "target": "Chest pain",
+    "from": [
+      "disease-cardio-acs",
+      "disease-cardio-aortic-dissection",
+      "disease-cardio-atrial-fibrillation",
+      "disease-cardio-cad",
+      "disease-cardio-cardiac-tamponade",
+      "disease-cardio-cardio-category",
+      "disease-cardio-hcm",
+      "disease-cardio-heart-failure",
+      "disease-cardio-ventricular-tachycardia",
+      "disease-endo-metabolic-syndrome",
+      "disease-general-shock",
+      "disease-resp-empyema",
+      "disease-resp-pulmonary-embolism",
+      "moc-cardiac-surgery",
+      "moc-cardiovascular-reading-route",
+      "test-cardiac-auscultation",
+      "test-ekg-ischemia",
+      "test-echocardiography",
+      "test-myocardial-perfusion-imaging",
+      "test-troponin",
+      "workup-dyspnea"
+    ]
+  },
+  {
+    "target": "Bone marrow biopsy",
+    "from": [
+      "disease-hema-01-急性白血病-aml",
+      "disease-hema-01-急性白血病-apl",
+      "disease-hema-01-急性白血病-b-all",
+      "disease-hema-01-急性白血病-t-all",
+      "disease-hema-02-慢性髓性-cml",
+      "disease-hema-02-慢性髓性-et",
+      "disease-hema-02-慢性髓性-mds",
+      "disease-hema-02-慢性髓性-pmf",
+      "disease-hema-02-慢性髓性-pv",
+      "disease-hema-03-成熟b細胞-burkitt",
+      "disease-hema-03-成熟b細胞-dlbcl",
+      "disease-hema-03-成熟b細胞-follicular-lymphoma",
+      "disease-hema-03-成熟b細胞-hairy-cell-leukemia",
+      "disease-hema-03-成熟b細胞-mantle-cell-lymphoma",
+      "disease-hema-03-成熟b細胞-multiple-myeloma",
+      "disease-hema-04-成熟t-nk-aitl",
+      "disease-hema-04-成熟t-nk-nk-t-lymphoma",
+      "disease-hema-04-成熟t-nk-ptcl",
+      "disease-hema-05-組織細胞-lch",
+      "disease-hema-anemia"
+    ]
+  },
+  {
+    "target": "Flow cytometry",
+    "from": [
+      "disease-hema-01-急性白血病-aml",
+      "disease-hema-01-急性白血病-apl",
+      "disease-hema-01-急性白血病-b-all",
+      "disease-hema-01-急性白血病-t-all",
+      "disease-hema-03-成熟b細胞-burkitt",
+      "disease-hema-03-成熟b細胞-cll-sll",
+      "disease-hema-03-成熟b細胞-dlbcl",
+      "disease-hema-03-成熟b細胞-follicular-lymphoma",
+      "disease-hema-03-成熟b細胞-hairy-cell-leukemia",
+      "disease-hema-03-成熟b細胞-malt-lymphoma",
+      "disease-hema-03-成熟b細胞-mantle-cell-lymphoma",
+      "disease-hema-03-成熟b細胞-multiple-myeloma",
+      "disease-hema-04-成熟t-nk-aitl",
+      "disease-hema-04-成熟t-nk-alcl",
+      "disease-hema-04-成熟t-nk-atll",
+      "disease-hema-04-成熟t-nk-mycosis-fungoides",
+      "disease-hema-04-成熟t-nk-ptcl"
+    ]
+  },
+  {
+    "target": "Allogeneic HSCT",
+    "from": [
+      "disease-hema-01-急性白血病-aml",
+      "disease-hema-01-急性白血病-b-all",
+      "disease-hema-01-急性白血病-t-all",
+      "disease-hema-02-慢性髓性-cml",
+      "disease-hema-02-慢性髓性-mds",
+      "disease-hema-02-慢性髓性-pmf",
+      "disease-hema-02-慢性髓性-pv",
+      "disease-hema-04-成熟t-nk-aitl",
+      "disease-hema-04-成熟t-nk-alcl",
+      "disease-hema-04-成熟t-nk-atll",
+      "disease-hema-04-成熟t-nk-mycosis-fungoides",
+      "disease-hema-04-成熟t-nk-nk-t-lymphoma",
+      "disease-hema-04-成熟t-nk-ptcl",
+      "disease-hema-anemia"
+    ]
+  },
+  {
+    "target": "Cytogenetics FISH",
+    "from": [
+      "disease-hema-01-急性白血病-aml",
+      "disease-hema-01-急性白血病-apl",
+      "disease-hema-01-急性白血病-b-all",
+      "disease-hema-02-慢性髓性-cml",
+      "disease-hema-02-慢性髓性-et",
+      "disease-hema-02-慢性髓性-mds",
+      "disease-hema-02-慢性髓性-pmf",
+      "disease-hema-03-成熟b細胞-burkitt",
+      "disease-hema-03-成熟b細胞-cll-sll",
+      "disease-hema-03-成熟b細胞-dlbcl",
+      "disease-hema-03-成熟b細胞-malt-lymphoma",
+      "disease-hema-03-成熟b細胞-mantle-cell-lymphoma",
+      "disease-hema-04-成熟t-nk-alcl"
+    ]
+  },
+  {
+    "target": "Peripheral blood smear",
+    "from": [
+      "disease-hema-01-急性白血病-aml",
+      "disease-hema-01-急性白血病-apl",
+      "disease-hema-02-慢性髓性-cml",
+      "disease-hema-02-慢性髓性-et",
+      "disease-hema-02-慢性髓性-mds",
+      "disease-hema-02-慢性髓性-pmf",
+      "disease-hema-02-慢性髓性-pv",
+      "disease-hema-03-成熟b細胞-cll-sll",
+      "disease-hema-03-成熟b細胞-hairy-cell-leukemia",
+      "disease-hema-03-成熟b細胞-multiple-myeloma",
+      "disease-hema-04-成熟t-nk-atll",
+      "disease-hema-04-成熟t-nk-mycosis-fungoides",
+      "disease-hema-anemia"
+    ]
+  },
+  {
+    "target": "Febrile neutropenia",
+    "from": [
+      "disease-hema-01-急性白血病-aml",
+      "disease-hema-01-急性白血病-b-all",
+      "disease-hema-01-急性白血病-t-all",
+      "disease-hema-02-慢性髓性-mds",
+      "disease-hema-03-成熟b細胞-burkitt",
+      "disease-hema-03-成熟b細胞-dlbcl",
+      "disease-hema-03-成熟b細胞-hairy-cell-leukemia",
+      "disease-hema-03-成熟b細胞-hodgkin-lymphoma",
+      "disease-hema-03-成熟b細胞-mantle-cell-lymphoma",
+      "disease-hema-04-成熟t-nk-alcl",
+      "disease-hema-04-成熟t-nk-ptcl",
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "Lymph node biopsy",
+    "from": [
+      "disease-hema-01-急性白血病-t-all",
+      "disease-hema-03-成熟b細胞-burkitt",
+      "disease-hema-03-成熟b細胞-cll-sll",
+      "disease-hema-03-成熟b細胞-dlbcl",
+      "disease-hema-03-成熟b細胞-follicular-lymphoma",
+      "disease-hema-03-成熟b細胞-hodgkin-lymphoma",
+      "disease-hema-03-成熟b細胞-malt-lymphoma",
+      "disease-hema-03-成熟b細胞-mantle-cell-lymphoma",
+      "disease-hema-04-成熟t-nk-aitl",
+      "disease-hema-04-成熟t-nk-alcl",
+      "disease-hema-04-成熟t-nk-atll",
+      "disease-hema-04-成熟t-nk-ptcl"
+    ]
+  },
+  {
+    "target": "Lymphadenopathy",
+    "from": [
+      "disease-hema-01-急性白血病-t-all",
+      "disease-hema-03-成熟b細胞-burkitt",
+      "disease-hema-03-成熟b細胞-cll-sll",
+      "disease-hema-03-成熟b細胞-dlbcl",
+      "disease-hema-03-成熟b細胞-follicular-lymphoma",
+      "disease-hema-03-成熟b細胞-hodgkin-lymphoma",
+      "disease-hema-03-成熟b細胞-malt-lymphoma",
+      "disease-hema-03-成熟b細胞-mantle-cell-lymphoma",
+      "disease-hema-04-成熟t-nk-aitl",
+      "disease-hema-04-成熟t-nk-alcl",
+      "disease-hema-04-成熟t-nk-atll",
+      "disease-hema-04-成熟t-nk-ptcl"
+    ]
+  },
+  {
+    "target": "Tumor lysis syndrome",
+    "from": [
+      "disease-hema-01-急性白血病-aml",
+      "disease-hema-01-急性白血病-apl",
+      "disease-hema-01-急性白血病-b-all",
+      "disease-hema-01-急性白血病-t-all",
+      "disease-hema-02-慢性髓性-cml",
+      "disease-hema-03-成熟b細胞-burkitt",
+      "disease-hema-03-成熟b細胞-dlbcl",
+      "disease-hema-03-成熟b細胞-mantle-cell-lymphoma",
+      "disease-hema-04-成熟t-nk-alcl",
+      "disease-hema-04-成熟t-nk-atll",
+      "disease-hema-04-成熟t-nk-ptcl"
+    ]
+  },
+  {
+    "target": "Beta blocker",
+    "from": [
+      "disease-cardio-acs",
+      "disease-cardio-aortic-dissection",
+      "disease-cardio-atrial-fibrillation",
+      "disease-cardio-cad",
+      "disease-cardio-heart-failure",
+      "disease-cardio-inherited-arrhythmia-syndromes",
+      "disease-cardio-ventricular-tachycardia",
+      "drug-antiarrhythmics",
+      "drug-antidiabetics",
+      "drug-statin"
+    ]
+  },
+  {
+    "target": "CBC with differential",
+    "from": [
+      "disease-hema-02-慢性髓性-cml",
+      "disease-hema-02-慢性髓性-et",
+      "disease-hema-02-慢性髓性-mds",
+      "disease-hema-02-慢性髓性-pmf",
+      "disease-hema-02-慢性髓性-pv",
+      "disease-hema-03-成熟b細胞-cll-sll",
+      "disease-hema-03-成熟b細胞-hairy-cell-leukemia",
+      "disease-hema-03-成熟b細胞-hodgkin-lymphoma",
+      "disease-hema-anemia",
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "Abdominal pain",
+    "from": [
+      "disease-endo-dka",
+      "disease-gi-acute-pancreatitis",
+      "disease-gi-crc",
+      "disease-gi-gi-category",
+      "disease-gi-ibd",
+      "disease-gi-pancreatic-cancer",
+      "disease-general-hypercalcemia",
+      "disease-general-shock",
+      "workup-jaundice"
+    ]
+  },
+  {
+    "target": "Chest X-ray",
+    "from": [
+      "disease-general-delirium",
+      "disease-resp-ards",
+      "disease-resp-empyema",
+      "disease-resp-pulmonary-embolism",
+      "intervention-chest-tube-drainage",
+      "test-pleural-fluid-analysis",
+      "workup-dyspnea",
+      "workup-fever",
+      "workup-ruq-pain"
+    ]
+  },
+  {
+    "target": "Radiotherapy",
+    "from": [
+      "disease-gi-crc",
+      "disease-gi-pancreatic-cancer",
+      "disease-hema-01-急性白血病-t-all",
+      "disease-hema-03-成熟b細胞-follicular-lymphoma",
+      "disease-hema-03-成熟b細胞-hodgkin-lymphoma",
+      "disease-hema-03-成熟b細胞-malt-lymphoma",
+      "disease-hema-04-成熟t-nk-alcl",
+      "disease-hema-04-成熟t-nk-mycosis-fungoides",
+      "disease-hema-04-成熟t-nk-nk-t-lymphoma"
+    ]
+  },
+  {
+    "target": "Tuberculosis",
+    "from": [
+      "disease-cardio-cardiac-tamponade",
+      "disease-endo-adrenal-insufficiency",
+      "disease-gi-ibd",
+      "disease-general-hypercalcemia",
+      "disease-resp-empyema",
+      "test-pleural-fluid-analysis",
+      "workup-fever",
+      "workup-jaundice",
+      "workup-ruq-pain"
+    ]
+  },
+  {
+    "target": "Abdominal ultrasound",
+    "from": [
+      "disease-gi-acute-pancreatitis",
+      "disease-gi-gi-category",
+      "disease-gi-masld",
+      "disease-gi-pancreatic-cancer",
+      "test-ascitic-fluid-analysis",
+      "workup-acute-liver-injury",
+      "workup-jaundice",
+      "workup-ruq-pain"
+    ]
+  },
+  {
+    "target": "Aortic stenosis",
+    "from": [
+      "disease-cardio-atrial-fibrillation",
+      "disease-cardio-cad",
+      "disease-cardio-hcm",
+      "disease-cardio-heart-failure",
+      "disease-cardio-infective-endocarditis",
+      "moc-cardiac-surgery",
+      "test-cardiac-auscultation",
+      "test-echocardiography"
+    ]
+  },
+  {
+    "target": "Pancytopenia",
+    "from": [
+      "disease-hema-01-急性白血病-aml",
+      "disease-hema-01-急性白血病-apl",
+      "disease-hema-01-急性白血病-b-all",
+      "disease-hema-01-急性白血病-t-all",
+      "disease-hema-02-慢性髓性-mds",
+      "disease-hema-02-慢性髓性-pmf",
+      "disease-hema-03-成熟b細胞-hairy-cell-leukemia",
+      "disease-hema-anemia"
+    ]
+  },
+  {
+    "target": "Sepsis",
+    "from": [
+      "disease-cardio-infective-endocarditis",
+      "disease-endo-thyroid-storm",
+      "disease-general-delirium",
+      "disease-general-shock",
+      "disease-hema-04-成熟t-nk-mycosis-fungoides",
+      "disease-resp-ards",
+      "test-arterial-blood-gas",
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "Autologous HSCT",
+    "from": [
+      "disease-hema-03-成熟b細胞-dlbcl",
+      "disease-hema-03-成熟b細胞-hodgkin-lymphoma",
+      "disease-hema-03-成熟b細胞-mantle-cell-lymphoma",
+      "disease-hema-03-成熟b細胞-multiple-myeloma",
+      "disease-hema-04-成熟t-nk-aitl",
+      "disease-hema-04-成熟t-nk-alcl",
+      "disease-hema-04-成熟t-nk-ptcl"
+    ]
+  },
+  {
+    "target": "Rituximab",
+    "from": [
+      "disease-hema-03-成熟b細胞-burkitt",
+      "disease-hema-03-成熟b細胞-cll-sll",
+      "disease-hema-03-成熟b細胞-dlbcl",
+      "disease-hema-03-成熟b細胞-follicular-lymphoma",
+      "disease-hema-03-成熟b細胞-hairy-cell-leukemia",
+      "disease-hema-03-成熟b細胞-hodgkin-lymphoma",
+      "disease-hema-03-成熟b細胞-malt-lymphoma"
+    ]
+  },
+  {
+    "target": "Acute cholangitis",
+    "from": [
+      "disease-gi-acute-pancreatitis",
+      "disease-gi-gi-category",
+      "disease-gi-pancreatic-cancer",
+      "workup-fever",
+      "workup-jaundice",
+      "workup-ruq-pain"
+    ]
+  },
+  {
+    "target": "CBD stone",
+    "from": [
+      "disease-gi-acute-pancreatitis",
+      "disease-gi-gi-category",
+      "disease-gi-pancreatic-cancer",
+      "workup-acute-liver-injury",
+      "workup-jaundice",
+      "workup-ruq-pain"
+    ]
+  },
+  {
+    "target": "Chest CT",
+    "from": [
+      "disease-cardio-aortic-dissection",
+      "disease-gi-crc",
+      "disease-gi-pancreatic-cancer",
+      "disease-resp-ards",
+      "disease-resp-pulmonary-embolism",
+      "test-pleural-fluid-analysis"
+    ]
+  },
+  {
+    "target": "Coronary angiography",
+    "from": [
+      "disease-cardio-acs",
+      "disease-cardio-cad",
+      "moc-cardiac-surgery",
+      "test-ekg-ischemia",
+      "test-echocardiography",
+      "test-myocardial-perfusion-imaging"
+    ]
+  },
+  {
+    "target": "PCI",
+    "from": [
+      "disease-cardio-acs",
+      "disease-cardio-cad",
+      "drug-antiplatelet",
+      "drug-statin",
+      "test-myocardial-perfusion-imaging",
+      "test-troponin"
+    ]
+  },
+  {
+    "target": "Skin lesion",
+    "from": [
+      "disease-hema-04-成熟t-nk-aitl",
+      "disease-hema-04-成熟t-nk-alcl",
+      "disease-hema-04-成熟t-nk-atll",
+      "disease-hema-04-成熟t-nk-mycosis-fungoides",
+      "disease-hema-04-成熟t-nk-nk-t-lymphoma",
+      "disease-hema-05-組織細胞-lch"
+    ]
+  },
+  {
+    "target": "Splenomegaly",
+    "from": [
+      "disease-hema-02-慢性髓性-cml",
+      "disease-hema-02-慢性髓性-pmf",
+      "disease-hema-02-慢性髓性-pv",
+      "disease-hema-03-成熟b細胞-cll-sll",
+      "disease-hema-03-成熟b細胞-hairy-cell-leukemia",
+      "disease-hema-03-成熟b細胞-mantle-cell-lymphoma"
+    ]
+  },
+  {
+    "target": "Thrombosis",
+    "from": [
+      "disease-gi-pancreatic-cancer",
+      "disease-hema-01-急性白血病-b-all",
+      "disease-hema-02-慢性髓性-et",
+      "disease-hema-02-慢性髓性-pmf",
+      "disease-hema-02-慢性髓性-pv",
+      "disease-hema-03-成熟b細胞-multiple-myeloma"
+    ]
+  },
+  {
+    "target": "Warfarin",
+    "from": [
+      "disease-cardio-atrial-fibrillation",
+      "disease-gi-pancreatic-cancer",
+      "disease-resp-pulmonary-embolism",
+      "drug-antiarrhythmics",
+      "drug-antiplatelet",
+      "drug-doac"
+    ]
+  },
+  {
+    "target": "Brentuximab vedotin",
+    "from": [
+      "disease-hema-03-成熟b細胞-hodgkin-lymphoma",
+      "disease-hema-04-成熟t-nk-aitl",
+      "disease-hema-04-成熟t-nk-alcl",
+      "disease-hema-04-成熟t-nk-mycosis-fungoides",
+      "disease-hema-04-成熟t-nk-ptcl"
+    ]
+  },
+  {
+    "target": "Cardiac catheterization",
+    "from": [
+      "disease-cardio-cardiac-tamponade",
+      "disease-cardio-constrictive-pericarditis",
+      "disease-cardio-restrictive-cardiomyopathy",
+      "test-echocardiography",
+      "test-myocardial-perfusion-imaging"
+    ]
+  },
+  {
+    "target": "ERCP",
+    "from": [
+      "disease-gi-acute-pancreatitis",
+      "disease-gi-gi-category",
+      "disease-gi-pancreatic-cancer",
+      "workup-acute-liver-injury",
+      "workup-jaundice"
+    ]
+  },
+  {
+    "target": "Hepatitis B",
+    "from": [
+      "disease-gi-cirrhosis",
+      "disease-gi-gi-category",
+      "disease-gi-masld",
+      "workup-acute-liver-injury",
+      "workup-jaundice"
+    ]
+  },
+  {
+    "target": "Interferon alfa",
+    "from": [
+      "disease-hema-02-慢性髓性-et",
+      "disease-hema-02-慢性髓性-pmf",
+      "disease-hema-02-慢性髓性-pv",
+      "disease-hema-04-成熟t-nk-atll",
+      "disease-hema-04-成熟t-nk-mycosis-fungoides"
+    ]
+  },
+  {
+    "target": "Pericarditis",
+    "from": [
+      "disease-cardio-acs",
+      "disease-cardio-cad",
+      "disease-cardio-cardiac-tamponade",
+      "test-ekg-ischemia",
+      "workup-ruq-pain"
+    ]
+  },
+  {
+    "target": "Pneumothorax",
+    "from": [
+      "disease-resp-ards",
+      "disease-resp-pulmonary-embolism",
+      "intervention-chest-tube-drainage",
+      "workup-dyspnea",
+      "workup-ruq-pain"
+    ]
+  },
+  {
+    "target": "Sudden cardiac death",
+    "from": [
+      "disease-cardio-cad",
+      "disease-cardio-hcm",
+      "disease-cardio-heart-failure",
+      "disease-cardio-inherited-arrhythmia-syndromes",
+      "disease-cardio-ventricular-tachycardia"
+    ]
+  },
+  {
+    "target": "BNP",
+    "from": [
+      "disease-cardio-heart-failure",
+      "disease-resp-ards",
+      "disease-resp-pulmonary-embolism",
+      "test-troponin"
+    ]
+  },
+  {
+    "target": "Bone pain",
+    "from": [
+      "disease-hema-01-急性白血病-b-all",
+      "disease-hema-02-慢性髓性-pmf",
+      "disease-hema-03-成熟b細胞-multiple-myeloma",
+      "disease-hema-05-組織細胞-lch"
+    ]
+  },
+  {
+    "target": "ECG",
+    "from": [
+      "disease-cardio-atrial-fibrillation",
+      "disease-cardio-hcm",
+      "intervention-icd",
+      "test-cardiac-auscultation"
+    ]
+  },
+  {
+    "target": "Graves disease",
+    "from": [
+      "disease-endo-endo-category",
+      "disease-endo-thyroid-storm",
+      "moc-thyroid-surgery",
+      "workup-neck-mass"
+    ]
+  },
+  {
+    "target": "Hemorrhage",
+    "from": [
+      "disease-hema-02-慢性髓性-et",
+      "disease-hema-02-慢性髓性-mds",
+      "disease-hema-02-慢性髓性-pv",
+      "disease-hema-04-成熟t-nk-nk-t-lymphoma"
+    ]
+  },
+  {
+    "target": "Heparin",
+    "from": [
+      "disease-gi-pancreatic-cancer",
+      "disease-resp-pulmonary-embolism",
+      "drug-antiplatelet",
+      "intervention-ecmo"
+    ]
+  },
+  {
+    "target": "Hydroxyurea",
+    "from": [
+      "disease-hema-01-急性白血病-aml",
+      "disease-hema-02-慢性髓性-cml",
+      "disease-hema-02-慢性髓性-et",
+      "disease-hema-02-慢性髓性-pv"
+    ]
+  },
+  {
+    "target": "Hypertension",
+    "from": [
+      "disease-endo-congenital-adrenal-hyperplasia",
+      "disease-endo-cushing-syndrome",
+      "disease-endo-primary-aldosteronism",
+      "disease-nephro-renal-tubulopathies"
+    ]
+  },
+  {
+    "target": "Pleural effusion",
+    "from": [
+      "disease-resp-empyema",
+      "intervention-chest-tube-drainage",
+      "workup-dyspnea",
+      "workup-ruq-pain"
+    ]
+  },
+  {
+    "target": "SBP",
+    "from": [
+      "disease-gi-cirrhosis",
+      "disease-gi-gi-category",
+      "disease-gi-hepatic-encephalopathy",
+      "test-ascitic-fluid-analysis"
+    ]
+  },
+  {
+    "target": "T1DM",
+    "from": [
+      "disease-endo-adrenal-insufficiency",
+      "disease-endo-endo-category",
+      "disease-endo-t2dm",
+      "drug-antidiabetics"
+    ]
+  },
+  {
+    "target": "Thyroid lobectomy",
+    "from": [
+      "disease-endo-thyroid-cancer",
+      "intervention-fine-needle-aspiration",
+      "moc-thyroid-surgery",
+      "workup-neck-mass"
+    ]
+  },
+  {
+    "target": "Thyroid nodule",
+    "from": [
+      "disease-endo-thyroid-cancer",
+      "intervention-fine-needle-aspiration",
+      "moc-thyroid-surgery",
+      "workup-neck-mass"
+    ]
+  },
+  {
+    "target": "Thyroid ultrasound",
+    "from": [
+      "disease-endo-thyroid-cancer",
+      "intervention-fine-needle-aspiration",
+      "moc-thyroid-surgery",
+      "workup-neck-mass"
+    ]
+  },
+  {
+    "target": "Wilson disease",
+    "from": [
+      "disease-gi-gi-category",
+      "disease-gi-masld",
+      "workup-acute-liver-injury",
+      "workup-jaundice"
+    ]
+  },
+  {
+    "target": "Acute hepatitis",
+    "from": [
+      "workup-acute-liver-injury",
+      "workup-jaundice",
+      "workup-ruq-pain"
+    ]
+  },
+  {
+    "target": "Bleeding",
+    "from": [
+      "disease-hema-01-急性白血病-aml",
+      "disease-hema-01-急性白血病-apl",
+      "disease-hema-02-慢性髓性-et"
+    ]
+  },
+  {
+    "target": "Breast cancer",
+    "from": [
+      "disease-breast-benign-breast-disease",
+      "moc-breast-surgery",
+      "workup-breast-mass"
+    ]
+  },
+  {
+    "target": "Colonoscopy",
+    "from": [
+      "disease-gi-crc",
+      "disease-gi-gi-category",
+      "disease-gi-ibd"
+    ]
+  },
+  {
+    "target": "Esophageal varices",
+    "from": [
+      "disease-gi-cirrhosis",
+      "disease-gi-gi-category",
+      "disease-gi-hepatic-encephalopathy"
+    ]
+  },
+  {
+    "target": "Fibrinolytics",
+    "from": [
+      "disease-cardio-acs",
+      "disease-resp-pulmonary-embolism",
+      "drug-antiplatelet"
+    ]
+  },
+  {
+    "target": "HCC",
+    "from": [
+      "disease-gi-cirrhosis",
+      "disease-gi-gi-category",
+      "disease-gi-masld"
+    ]
+  },
+  {
+    "target": "Hepatitis C",
+    "from": [
+      "disease-gi-masld",
+      "workup-acute-liver-injury",
+      "workup-jaundice"
+    ]
+  },
+  {
+    "target": "Hyperkalemia",
+    "from": [
+      "disease-nephro-aki",
+      "disease-nephro-ckd",
+      "intervention-dialysis"
+    ]
+  },
+  {
+    "target": "Hyponatremia",
+    "from": [
+      "disease-general-delirium",
+      "moc-neurosurgery",
+      "test-urine-indices"
+    ]
+  },
+  {
+    "target": "Hypothyroidism",
+    "from": [
+      "disease-endo-adrenal-insufficiency",
+      "disease-endo-endo-category",
+      "disease-endo-metabolic-syndrome"
+    ]
+  },
+  {
+    "target": "Levothyroxine",
+    "from": [
+      "disease-endo-thyroid-cancer",
+      "moc-thyroid-surgery",
+      "workup-neck-mass"
+    ]
+  },
+  {
+    "target": "Oliguria",
+    "from": [
+      "disease-nephro-aki",
+      "moc-surgery-rotation",
+      "moc-transplant-surgery"
+    ]
+  },
+  {
+    "target": "Primary hyperparathyroidism",
+    "from": [
+      "disease-endo-endo-category",
+      "disease-general-hypercalcemia",
+      "moc-thyroid-surgery"
+    ]
+  },
+  {
+    "target": "SPEP",
+    "from": [
+      "disease-hema-03-成熟b細胞-multiple-myeloma",
+      "disease-hema-04-成熟t-nk-aitl",
+      "disease-hema-04-成熟t-nk-atll"
+    ]
+  },
+  {
+    "target": "Spinal cord compression",
+    "from": [
+      "disease-hema-02-慢性髓性-pmf",
+      "disease-hema-03-成熟b細胞-multiple-myeloma",
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Takotsubo",
+    "from": [
+      "disease-cardio-acs",
+      "test-ekg-ischemia",
+      "test-troponin"
+    ]
+  },
+  {
+    "target": "Thyroid function test",
+    "from": [
+      "disease-endo-thyroid-cancer",
+      "disease-endo-thyroid-storm",
+      "workup-neck-mass"
+    ]
+  },
+  {
+    "target": "Total thyroidectomy",
+    "from": [
+      "disease-endo-thyroid-cancer",
+      "moc-thyroid-surgery",
+      "workup-neck-mass"
+    ]
+  },
+  {
+    "target": "Acute cholecystitis",
+    "from": [
+      "workup-jaundice",
+      "workup-ruq-pain"
+    ]
+  },
+  {
+    "target": "Acute pyelonephritis",
+    "from": [
+      "workup-fever",
+      "workup-ruq-pain"
+    ]
+  },
+  {
+    "target": "Alcohol withdrawal",
+    "from": [
+      "disease-gi-hepatic-encephalopathy",
+      "disease-general-delirium"
+    ]
+  },
+  {
+    "target": "Arsenic trioxide",
+    "from": [
+      "disease-hema-01-急性白血病-aml",
+      "disease-hema-01-急性白血病-apl"
+    ]
+  },
+  {
+    "target": "ATRA",
+    "from": [
+      "disease-hema-01-急性白血病-aml",
+      "disease-hema-01-急性白血病-apl"
+    ]
+  },
+  {
+    "target": "Bicuspid aortic valve",
+    "from": [
+      "disease-cardio-aortic-dissection",
+      "disease-cardio-infective-endocarditis"
+    ]
+  },
+  {
+    "target": "Blood culture",
+    "from": [
+      "disease-cardio-infective-endocarditis",
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "Budd-Chiari syndrome",
+    "from": [
+      "disease-gi-cirrhosis",
+      "test-ascitic-fluid-analysis"
+    ]
+  },
+  {
+    "target": "Cardiac MRI",
+    "from": [
+      "test-echocardiography",
+      "test-myocardial-perfusion-imaging"
+    ]
+  },
+  {
+    "target": "CBC",
+    "from": [
+      "drug-doac",
+      "intervention-icd"
+    ]
+  },
+  {
+    "target": "Central neck dissection",
+    "from": [
+      "disease-endo-thyroid-cancer",
+      "moc-thyroid-surgery"
+    ]
+  },
+  {
+    "target": "COPD",
+    "from": [
+      "test-arterial-blood-gas",
+      "workup-dyspnea"
+    ]
+  },
+  {
+    "target": "Diabetes insipidus",
+    "from": [
+      "disease-hema-05-組織細胞-lch",
+      "test-urine-indices"
+    ]
+  },
+  {
+    "target": "DIC",
+    "from": [
+      "disease-hema-01-急性白血病-aml",
+      "disease-hema-01-急性白血病-apl"
+    ]
+  },
+  {
+    "target": "EKG",
+    "from": [
+      "test-ekg-ischemia",
+      "workup-ruq-pain"
+    ]
+  },
+  {
+    "target": "Hashimoto thyroiditis",
+    "from": [
+      "disease-endo-adrenal-insufficiency",
+      "disease-endo-endo-category"
+    ]
+  },
+  {
+    "target": "Hepatitis A",
+    "from": [
+      "workup-acute-liver-injury",
+      "workup-jaundice"
+    ]
+  },
+  {
+    "target": "Hepatorenal syndrome",
+    "from": [
+      "test-bun-cr-egfr",
+      "test-urine-indices"
+    ]
+  },
+  {
+    "target": "Hyperviscosity syndrome",
+    "from": [
+      "disease-hema-02-慢性髓性-pv",
+      "disease-hema-03-成熟b細胞-multiple-myeloma"
+    ]
+  },
+  {
+    "target": "Hypoglycemia",
+    "from": [
+      "disease-gi-hepatic-encephalopathy",
+      "disease-general-delirium"
+    ]
+  },
+  {
+    "target": "Ibrutinib",
+    "from": [
+      "disease-hema-03-成熟b細胞-cll-sll",
+      "disease-hema-03-成熟b細胞-mantle-cell-lymphoma"
+    ]
+  },
+  {
+    "target": "Imatinib",
+    "from": [
+      "disease-hema-01-急性白血病-b-all",
+      "disease-hema-02-慢性髓性-cml"
+    ]
+  },
+  {
+    "target": "Lateral neck dissection",
+    "from": [
+      "disease-endo-thyroid-cancer",
+      "moc-thyroid-surgery"
+    ]
+  },
+  {
+    "target": "Lenalidomide",
+    "from": [
+      "disease-hema-02-慢性髓性-mds",
+      "disease-hema-03-成熟b細胞-multiple-myeloma"
+    ]
+  },
+  {
+    "target": "Leukapheresis",
+    "from": [
+      "disease-hema-01-急性白血病-aml",
+      "disease-hema-02-慢性髓性-cml"
+    ]
+  },
+  {
+    "target": "Leukostasis",
+    "from": [
+      "disease-hema-01-急性白血病-aml",
+      "disease-hema-02-慢性髓性-cml"
+    ]
+  },
+  {
+    "target": "Liver abscess",
+    "from": [
+      "workup-jaundice",
+      "workup-ruq-pain"
+    ]
+  },
+  {
+    "target": "Liver biopsy",
+    "from": [
+      "disease-gi-gi-category",
+      "disease-gi-masld"
+    ]
+  },
+  {
+    "target": "Liver transplantation",
+    "from": [
+      "disease-gi-cirrhosis",
+      "moc-transplant-surgery"
+    ]
+  },
+  {
+    "target": "Mechanical ventilation",
+    "from": [
+      "disease-resp-ards",
+      "intervention-ecmo"
+    ]
+  },
+  {
+    "target": "Neck swelling after thyroidectomy",
+    "from": [
+      "disease-endo-thyroid-cancer",
+      "moc-thyroid-surgery"
+    ]
+  },
+  {
+    "target": "Nephrolithiasis",
+    "from": [
+      "disease-general-hypercalcemia",
+      "workup-ruq-pain"
+    ]
+  },
+  {
+    "target": "Nephrotic syndrome",
+    "from": [
+      "test-pleural-fluid-analysis",
+      "test-upcr-uacr"
+    ]
+  },
+  {
+    "target": "Neuroleptic malignant syndrome",
+    "from": [
+      "disease-endo-thyroid-storm",
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "Peptic ulcer disease",
+    "from": [
+      "drug-antiplatelet",
+      "workup-ruq-pain"
+    ]
+  },
+  {
+    "target": "Pheochromocytoma",
+    "from": [
+      "disease-endo-endo-category",
+      "disease-endo-primary-aldosteronism"
+    ]
+  },
+  {
+    "target": "Post-thyroidectomy hypocalcemia",
+    "from": [
+      "disease-endo-thyroid-cancer",
+      "moc-thyroid-surgery"
+    ]
+  },
+  {
+    "target": "Post-transplant graft dysfunction",
+    "from": [
+      "intervention-kidney-transplantation",
+      "moc-transplant-surgery"
+    ]
+  },
+  {
+    "target": "Postoperative bleeding",
+    "from": [
+      "moc-cardiac-surgery",
+      "moc-surgery-rotation"
+    ]
+  },
+  {
+    "target": "RTA",
+    "from": [
+      "test-urine-indices",
+      "workup-hypokalemia"
+    ]
+  },
+  {
+    "target": "Ruxolitinib",
+    "from": [
+      "disease-hema-02-慢性髓性-pmf",
+      "disease-hema-02-慢性髓性-pv"
+    ]
+  },
+  {
+    "target": "Sarcoidosis",
+    "from": [
+      "disease-endo-adrenal-insufficiency",
+      "disease-general-hypercalcemia"
+    ]
+  },
+  {
+    "target": "Skin biopsy",
+    "from": [
+      "disease-hema-04-成熟t-nk-mycosis-fungoides",
+      "disease-hema-05-組織細胞-lch"
+    ]
+  },
+  {
+    "target": "Stool occult blood",
+    "from": [
+      "disease-gi-crc",
+      "workup-ruq-pain"
+    ]
+  },
+  {
+    "target": "Stress test",
+    "from": [
+      "disease-cardio-cad",
+      "test-myocardial-perfusion-imaging"
+    ]
+  },
+  {
+    "target": "Stroke",
+    "from": [
+      "disease-cardio-infective-endocarditis",
+      "drug-antiplatelet"
+    ]
+  },
+  {
+    "target": "Thyroid lymphoma",
+    "from": [
+      "disease-endo-thyroid-cancer",
+      "workup-neck-mass"
+    ]
+  },
+  {
+    "target": "Transplant Doppler ultrasound",
+    "from": [
+      "intervention-kidney-transplantation",
+      "moc-transplant-surgery"
+    ]
+  },
+  {
+    "target": "Urinalysis",
+    "from": [
+      "disease-general-delirium",
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "UTI",
+    "from": [
+      "disease-general-delirium",
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "Wernicke encephalopathy",
+    "from": [
+      "disease-gi-hepatic-encephalopathy",
+      "disease-general-delirium"
+    ]
+  },
+  {
+    "target": "ACEi ARB",
+    "from": [
+      "test-upcr-uacr"
+    ]
+  },
+  {
+    "target": "Acute neurologic deterioration",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Acute rejection",
+    "from": [
+      "moc-transplant-surgery"
+    ]
+  },
+  {
+    "target": "Adrenalectomy",
+    "from": [
+      "disease-endo-cushing-syndrome"
+    ]
+  },
+  {
+    "target": "Alcoholic ketoacidosis",
+    "from": [
+      "disease-endo-dka"
+    ]
+  },
+  {
+    "target": "Anaphylaxis",
+    "from": [
+      "workup-dyspnea"
+    ]
+  },
+  {
+    "target": "Anemia of Chronic Disease",
+    "from": [
+      "disease-hema-anemia"
+    ]
+  },
+  {
+    "target": "Anion gap",
+    "from": [
+      "disease-endo-dka"
+    ]
+  },
+  {
+    "target": "Anti",
+    "from": [
+      "drug-antibiotics-category"
+    ]
+  },
+  {
+    "target": "Anticoagulant reversal",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Antiepileptic drugs",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Antimetabolite immunosuppressants",
+    "from": [
+      "moc-transplant-surgery"
+    ]
+  },
+  {
+    "target": "Antiphospholipid syndrome",
+    "from": [
+      "disease-resp-pulmonary-embolism"
+    ]
+  },
+  {
+    "target": "Antithyroid drugs",
+    "from": [
+      "moc-thyroid-surgery"
+    ]
+  },
+  {
+    "target": "Aortic repair",
+    "from": [
+      "moc-cardiac-surgery"
+    ]
+  },
+  {
+    "target": "Aplastic Anemia",
+    "from": [
+      "disease-hema-anemia"
+    ]
+  },
+  {
+    "target": "Aromatase inhibitor",
+    "from": [
+      "moc-breast-surgery"
+    ]
+  },
+  {
+    "target": "Asthma",
+    "from": [
+      "workup-dyspnea"
+    ]
+  },
+  {
+    "target": "Bethesda system",
+    "from": [
+      "moc-thyroid-surgery"
+    ]
+  },
+  {
+    "target": "Bortezomib",
+    "from": [
+      "disease-hema-03-成熟b細胞-multiple-myeloma"
+    ]
+  },
+  {
+    "target": "BRAF inhibitor",
+    "from": [
+      "disease-hema-05-組織細胞-lch"
+    ]
+  },
+  {
+    "target": "Brain MRI",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Brain tumor",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Breast conserving surgery",
+    "from": [
+      "moc-breast-surgery"
+    ]
+  },
+  {
+    "target": "Breast MRI",
+    "from": [
+      "moc-breast-surgery"
+    ]
+  },
+  {
+    "target": "Breast ultrasound",
+    "from": [
+      "moc-breast-surgery"
+    ]
+  },
+  {
+    "target": "CABG",
+    "from": [
+      "moc-cardiac-surgery"
+    ]
+  },
+  {
+    "target": "Calcineurin inhibitors",
+    "from": [
+      "moc-transplant-surgery"
+    ]
+  },
+  {
+    "target": "Calcium replacement",
+    "from": [
+      "moc-thyroid-surgery"
+    ]
+  },
+  {
+    "target": "Cardiopulmonary bypass",
+    "from": [
+      "moc-cardiac-surgery"
+    ]
+  },
+  {
+    "target": "Cellulitis",
+    "from": [
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "Chest ultrasound",
+    "from": [
+      "test-pleural-fluid-analysis"
+    ]
+  },
+  {
+    "target": "Chronic rejection",
+    "from": [
+      "moc-transplant-surgery"
+    ]
+  },
+  {
+    "target": "Cladribine",
+    "from": [
+      "disease-hema-03-成熟b細胞-hairy-cell-leukemia"
+    ]
+  },
+  {
+    "target": "Clostridioides difficile colitis",
+    "from": [
+      "disease-gi-ibd"
+    ]
+  },
+  {
+    "target": "Coagulation panel",
+    "from": [
+      "disease-hema-01-急性白血病-apl"
+    ]
+  },
+  {
+    "target": "Core needle biopsy",
+    "from": [
+      "moc-breast-surgery"
+    ]
+  },
+  {
+    "target": "Coronary CTA",
+    "from": [
+      "test-myocardial-perfusion-imaging"
+    ]
+  },
+  {
+    "target": "Corticosteroids",
+    "from": [
+      "moc-transplant-surgery"
+    ]
+  },
+  {
+    "target": "Cosyntropin stimulation test",
+    "from": [
+      "disease-endo-adrenal-insufficiency"
+    ]
+  },
+  {
+    "target": "Craniotomy",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Cryptococcal meningitis",
+    "from": [
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "Decompressive craniectomy",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Delayed graft function",
+    "from": [
+      "intervention-kidney-transplantation"
+    ]
+  },
+  {
+    "target": "Dementia",
+    "from": [
+      "disease-general-delirium"
+    ]
+  },
+  {
+    "target": "Dengue fever",
+    "from": [
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "Differentiation syndrome",
+    "from": [
+      "disease-hema-01-急性白血病-apl"
+    ]
+  },
+  {
+    "target": "DKD",
+    "from": [
+      "test-upcr-uacr"
+    ]
+  },
+  {
+    "target": "Donor-specific antibody",
+    "from": [
+      "moc-transplant-surgery"
+    ]
+  },
+  {
+    "target": "Early mobilization",
+    "from": [
+      "moc-surgery-rotation"
+    ]
+  },
+  {
+    "target": "EBER in situ hybridization",
+    "from": [
+      "disease-hema-04-成熟t-nk-nk-t-lymphoma"
+    ]
+  },
+  {
+    "target": "Enteral nutrition",
+    "from": [
+      "moc-surgery-rotation"
+    ]
+  },
+  {
+    "target": "External ventricular drain",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Ezetimibe",
+    "from": [
+      "drug-statin"
+    ]
+  },
+  {
+    "target": "FAP",
+    "from": [
+      "disease-gi-crc"
+    ]
+  },
+  {
+    "target": "Fatigue",
+    "from": [
+      "disease-hema-anemia"
+    ]
+  },
+  {
+    "target": "Fever in transplant recipient",
+    "from": [
+      "moc-transplant-surgery"
+    ]
+  },
+  {
+    "target": "Fibrate",
+    "from": [
+      "drug-statin"
+    ]
+  },
+  {
+    "target": "Head CT",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Hemolytic Anemia",
+    "from": [
+      "disease-hema-anemia"
+    ]
+  },
+  {
+    "target": "Hemorrhoids",
+    "from": [
+      "disease-gi-crc"
+    ]
+  },
+  {
+    "target": "Hemothorax",
+    "from": [
+      "intervention-chest-tube-drainage"
+    ]
+  },
+  {
+    "target": "HLA matching",
+    "from": [
+      "moc-transplant-surgery"
+    ]
+  },
+  {
+    "target": "HLH",
+    "from": [
+      "disease-hema-04-成熟t-nk-nk-t-lymphoma"
+    ]
+  },
+  {
+    "target": "Hydrocephalus",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Hypernatremia",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Hyperosmolar therapy",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Hyperthyroidism",
+    "from": [
+      "disease-cardio-atrial-fibrillation"
+    ]
+  },
+  {
+    "target": "Hypoaldosteronism",
+    "from": [
+      "test-urine-indices"
+    ]
+  },
+  {
+    "target": "ICP monitoring",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Influenza",
+    "from": [
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "Intracranial hemorrhage",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Iron Deficiency Anemia",
+    "from": [
+      "disease-hema-anemia"
+    ]
+  },
+  {
+    "target": "Ischemia-reperfusion injury",
+    "from": [
+      "moc-transplant-surgery"
+    ]
+  },
+  {
+    "target": "Kidney allograft biopsy",
+    "from": [
+      "intervention-kidney-transplantation"
+    ]
+  },
+  {
+    "target": "Kidney allograft rejection",
+    "from": [
+      "intervention-kidney-transplantation"
+    ]
+  },
+  {
+    "target": "Kidney transplant compatibility",
+    "from": [
+      "intervention-kidney-transplantation"
+    ]
+  },
+  {
+    "target": "Kidney transplant immunosuppression",
+    "from": [
+      "intervention-kidney-transplantation"
+    ]
+  },
+  {
+    "target": "L-asparaginase",
+    "from": [
+      "disease-hema-04-成熟t-nk-nk-t-lymphoma"
+    ]
+  },
+  {
+    "target": "Lactic acidosis",
+    "from": [
+      "disease-endo-dka"
+    ]
+  },
+  {
+    "target": "Laryngoscopy",
+    "from": [
+      "moc-thyroid-surgery"
+    ]
+  },
+  {
+    "target": "Lumbar puncture",
+    "from": [
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "Lung abscess",
+    "from": [
+      "disease-resp-empyema"
+    ]
+  },
+  {
+    "target": "Lymphoma",
+    "from": [
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "Lynch syndrome",
+    "from": [
+      "disease-gi-crc"
+    ]
+  },
+  {
+    "target": "Malaria",
+    "from": [
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "Malignant hyperthermia",
+    "from": [
+      "disease-endo-thyroid-storm"
+    ]
+  },
+  {
+    "target": "Mammography",
+    "from": [
+      "moc-breast-surgery"
+    ]
+  },
+  {
+    "target": "Marfan syndrome",
+    "from": [
+      "disease-cardio-aortic-dissection"
+    ]
+  },
+  {
+    "target": "Massive transfusion",
+    "from": [
+      "moc-surgery-rotation"
+    ]
+  },
+  {
+    "target": "Mastectomy",
+    "from": [
+      "moc-breast-surgery"
+    ]
+  },
+  {
+    "target": "Megaloblastic Anemia",
+    "from": [
+      "disease-hema-anemia"
+    ]
+  },
+  {
+    "target": "Meningitis",
+    "from": [
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "Mitral regurgitation",
+    "from": [
+      "moc-cardiac-surgery"
+    ]
+  },
+  {
+    "target": "Mitral stenosis",
+    "from": [
+      "disease-cardio-atrial-fibrillation"
+    ]
+  },
+  {
+    "target": "Mitral valve prolapse",
+    "from": [
+      "disease-cardio-infective-endocarditis"
+    ]
+  },
+  {
+    "target": "MODY",
+    "from": [
+      "disease-endo-t2dm"
+    ]
+  },
+  {
+    "target": "Nasal biopsy",
+    "from": [
+      "disease-hema-04-成熟t-nk-nk-t-lymphoma"
+    ]
+  },
+  {
+    "target": "Necrotizing fasciitis",
+    "from": [
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "Neurologic examination",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "New focal neurologic deficit",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "New postoperative atrial fibrillation",
+    "from": [
+      "moc-cardiac-surgery"
+    ]
+  },
+  {
+    "target": "Nitrates",
+    "from": [
+      "disease-cardio-cad"
+    ]
+  },
+  {
+    "target": "Osmotic demyelination syndrome",
+    "from": [
+      "disease-endo-adrenal-insufficiency"
+    ]
+  },
+  {
+    "target": "PCSK9 inhibitor",
+    "from": [
+      "drug-statin"
+    ]
+  },
+  {
+    "target": "Perforated peptic ulcer",
+    "from": [
+      "workup-ruq-pain"
+    ]
+  },
+  {
+    "target": "Pericardiectomy",
+    "from": [
+      "disease-cardio-constrictive-pericarditis"
+    ]
+  },
+  {
+    "target": "Pericardiocentesis",
+    "from": [
+      "disease-cardio-cardiac-tamponade"
+    ]
+  },
+  {
+    "target": "Perioperative antithrombotic management",
+    "from": [
+      "moc-surgery-rotation"
+    ]
+  },
+  {
+    "target": "Phlebotomy",
+    "from": [
+      "disease-hema-02-慢性髓性-pv"
+    ]
+  },
+  {
+    "target": "Polyuria",
+    "from": [
+      "disease-endo-t2dm"
+    ]
+  },
+  {
+    "target": "Portal vein thrombosis",
+    "from": [
+      "disease-gi-cirrhosis"
+    ]
+  },
+  {
+    "target": "Postcardiotomy low cardiac output",
+    "from": [
+      "moc-cardiac-surgery"
+    ]
+  },
+  {
+    "target": "Postoperative altered mental status",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Postoperative analgesia",
+    "from": [
+      "moc-surgery-rotation"
+    ]
+  },
+  {
+    "target": "Postoperative fever",
+    "from": [
+      "moc-surgery-rotation"
+    ]
+  },
+  {
+    "target": "Postoperative hypotension",
+    "from": [
+      "moc-surgery-rotation"
+    ]
+  },
+  {
+    "target": "Postoperative tachycardia",
+    "from": [
+      "moc-surgery-rotation"
+    ]
+  },
+  {
+    "target": "Postoperative voice change",
+    "from": [
+      "moc-thyroid-surgery"
+    ]
+  },
+  {
+    "target": "Preoperative assessment",
+    "from": [
+      "moc-surgery-rotation"
+    ]
+  },
+  {
+    "target": "Procalcitonin",
+    "from": [
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "PSC",
+    "from": [
+      "disease-gi-ibd"
+    ]
+  },
+  {
+    "target": "Radioactive iodine",
+    "from": [
+      "disease-endo-thyroid-cancer"
+    ]
+  },
+  {
+    "target": "Recurrent laryngeal nerve injury",
+    "from": [
+      "disease-endo-thyroid-cancer"
+    ]
+  },
+  {
+    "target": "Reticulocyte count",
+    "from": [
+      "disease-hema-anemia"
+    ]
+  },
+  {
+    "target": "Rhabdomyolysis",
+    "from": [
+      "drug-statin"
+    ]
+  },
+  {
+    "target": "Right heart catheterization",
+    "from": [
+      "moc-cardiac-surgery"
+    ]
+  },
+  {
+    "target": "Salicylate poisoning",
+    "from": [
+      "test-arterial-blood-gas"
+    ]
+  },
+  {
+    "target": "Scrub typhus",
+    "from": [
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "SIADH",
+    "from": [
+      "disease-endo-adrenal-insufficiency"
+    ]
+  },
+  {
+    "target": "SLE",
+    "from": [
+      "workup-fever"
+    ]
+  },
+  {
+    "target": "Subarachnoid hemorrhage",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Subdural hematoma",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Surgical drain management",
+    "from": [
+      "moc-surgery-rotation"
+    ]
+  },
+  {
+    "target": "Surgical pathology",
+    "from": [
+      "moc-thyroid-surgery"
+    ]
+  },
+  {
+    "target": "Syncope",
+    "from": [
+      "disease-cardio-inherited-arrhythmia-syndromes"
+    ]
+  },
+  {
+    "target": "Tamoxifen",
+    "from": [
+      "moc-breast-surgery"
+    ]
+  },
+  {
+    "target": "Temporary epicardial pacing",
+    "from": [
+      "moc-cardiac-surgery"
+    ]
+  },
+  {
+    "target": "Tension pneumothorax",
+    "from": [
+      "disease-general-shock"
+    ]
+  },
+  {
+    "target": "Thalassemia",
+    "from": [
+      "disease-hema-anemia"
+    ]
+  },
+  {
+    "target": "Thyroid function tests",
+    "from": [
+      "moc-thyroid-surgery"
+    ]
+  },
+  {
+    "target": "Toxic megacolon",
+    "from": [
+      "disease-gi-ibd"
+    ]
+  },
+  {
+    "target": "Trastuzumab",
+    "from": [
+      "moc-breast-surgery"
+    ]
+  },
+  {
+    "target": "Urine leak",
+    "from": [
+      "intervention-kidney-transplantation"
+    ]
+  },
+  {
+    "target": "Valve repair",
+    "from": [
+      "moc-cardiac-surgery"
+    ]
+  },
+  {
+    "target": "Valve replacement",
+    "from": [
+      "moc-cardiac-surgery"
+    ]
+  },
+  {
+    "target": "Ventriculoperitoneal shunt",
+    "from": [
+      "moc-neurosurgery"
+    ]
+  },
+  {
+    "target": "Vinblastine",
+    "from": [
+      "disease-hema-05-組織細胞-lch"
+    ]
+  },
+  {
+    "target": "Weight loss",
+    "from": [
+      "disease-endo-t2dm"
+    ]
+  }
+]

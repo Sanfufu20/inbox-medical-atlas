@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+  <defs>
+    <style>
+      text{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",Arial,sans-serif;fill:#172033}
+      .title{font-size:30px;font-weight:700}.sub{font-size:16px;fill:#526174}.axis{stroke:#334155;stroke-width:2}
+      .grid{stroke:#e2e8f0;stroke-width:1}.lab{font-size:17px;font-weight:700}.tick{font-size:14px;fill:#64748b}
+    </style>
+  </defs>
+  <rect width="1100" height="620" fill="#fff"/>
+  <text x="550" y="43" text-anchor="middle" class="title">DKA 治療後：血中 BHB 與尿酮讀數短暫脫鉤</text>
+  <text x="550" y="71" text-anchor="middle" class="sub">補液與胰島素改善氧化還原狀態，使 β-hydroxybutyrate 先轉回 acetoacetate</text>
+
+  <line x1="100" y1="500" x2="1015" y2="500" class="axis"/><line x1="100" y1="115" x2="100" y2="500" class="axis"/>
+  <line x1="100" y1="210" x2="1015" y2="210" class="grid"/><line x1="100" y1="305" x2="1015" y2="305" class="grid"/><line x1="100" y1="400" x2="1015" y2="400" class="grid"/>
+  <text x="48" y="310" transform="rotate(-90 48 310)" text-anchor="middle" class="sub">相對濃度／訊號</text>
+  <text x="560" y="548" text-anchor="middle" class="sub">治療開始後時間</text>
+  <text x="100" y="526" text-anchor="middle" class="tick">0</text><text x="290" y="526" text-anchor="middle" class="tick">數小時</text>
+  <text x="550" y="526" text-anchor="middle" class="tick">anion gap 收斂</text><text x="840" y="526" text-anchor="middle" class="tick">1–2 天</text>
+
+  <rect x="100" y="115" width="395" height="385" fill="#fff7ed" opacity=".7"/>
+  <text x="300" y="145" text-anchor="middle" class="lab" fill="#b45309">尿酮可能看起來更糟的「錯覺區」</text>
+  <path d="M100 155 C210 175,300 250,420 350 C560 445,760 478,1015 488" fill="none" stroke="#2563eb" stroke-width="7"/>
+  <path d="M100 385 C210 360,275 285,350 300 C470 335,650 440,1015 486" fill="none" stroke="#e11d48" stroke-width="7"/>
+  <path d="M100 410 C215 385,285 300,370 315 C520 355,690 450,1015 490" fill="none" stroke="#f59e0b" stroke-width="4" stroke-dasharray="10 7"/>
+
+  <rect x="610" y="125" width="380" height="120" rx="16" fill="#eff6ff" stroke="#60a5fa"/>
+  <text x="800" y="157" text-anchor="middle" class="lab" fill="#1d4ed8">臨床改善的方向</text>
+  <text x="800" y="187" text-anchor="middle" class="sub">BHB ↓、pH／bicarbonate 正常化</text>
+  <text x="800" y="216" text-anchor="middle" class="sub">不要等尿酮轉陰才停 insulin</text>
+
+  <line x1="170" y1="578" x2="225" y2="578" stroke="#2563eb" stroke-width="7"/><text x="238" y="584" class="lab">β-hydroxybutyrate</text>
+  <line x1="450" y1="578" x2="505" y2="578" stroke="#e11d48" stroke-width="7"/><text x="518" y="584" class="lab">acetoacetate</text>
+  <line x1="700" y1="578" x2="755" y2="578" stroke="#f59e0b" stroke-width="4" stroke-dasharray="10 7"/><text x="768" y="584" class="lab">nitroprusside 尿酮訊號</text>
+</svg>

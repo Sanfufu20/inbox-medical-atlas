@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690">
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker>
+    <style>
+      text{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",Arial,sans-serif;fill:#172033}
+      .title{font-size:30px;font-weight:700}.head{font-size:20px;font-weight:700}.b{font-size:16px}.s{font-size:14px;fill:#526174}
+      .box{fill:#f8fafc;stroke:#64748b;stroke-width:2}.arr{stroke:#475569;stroke-width:3;fill:none;marker-end:url(#a)}
+      .stop{fill:#fff1f2;stroke:#e11d48;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="1200" height="690" fill="#fff"/>
+  <text x="600" y="42" text-anchor="middle" class="title">Thyroid storm：合成、釋放、轉換與效應的四個阻斷點</text>
+  <text x="600" y="70" text-anchor="middle" class="s">順序關鍵：先用 thionamide 關產線，再至少 1 小時後給 iodine 關倉門</text>
+
+  <rect x="40" y="145" width="175" height="105" rx="18" class="box"/><text x="128" y="182" text-anchor="middle" class="head">血中 iodide</text><text x="128" y="215" text-anchor="middle" class="b">I⁻</text>
+  <rect x="275" y="135" width="250" height="125" rx="18" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+  <text x="400" y="170" text-anchor="middle" class="head">甲狀腺濾泡細胞</text><text x="400" y="202" text-anchor="middle" class="b">NIS 攝取 → TPO 有機化</text><text x="400" y="232" text-anchor="middle" class="s">iodination＋coupling</text>
+  <rect x="585" y="145" width="190" height="105" rx="18" class="box"/><text x="680" y="182" text-anchor="middle" class="head">儲存／釋放</text><text x="680" y="215" text-anchor="middle" class="b">T4 ≫ T3</text>
+  <rect x="835" y="145" width="250" height="105" rx="18" class="box"/><text x="960" y="182" text-anchor="middle" class="head">周邊組織</text><text x="960" y="215" text-anchor="middle" class="b">T4 ─5′-deiodinase→ T3</text>
+  <path d="M215 198 L270 198" class="arr"/><path d="M525 198 L580 198" class="arr"/><path d="M775 198 L830 198" class="arr"/>
+
+  <rect x="270" y="320" width="260" height="120" rx="18" class="stop"/>
+  <text x="400" y="353" text-anchor="middle" class="head" fill="#be123c">① Thionamide</text>
+  <text x="400" y="384" text-anchor="middle" class="b">PTU／methimazole</text><text x="400" y="414" text-anchor="middle" class="s">擋 TPO：新合成停止</text>
+  <line x1="400" y1="260" x2="400" y2="315" stroke="#e11d48" stroke-width="4"/><line x1="380" y1="280" x2="420" y2="280" stroke="#e11d48" stroke-width="4"/>
+
+  <rect x="555" y="320" width="250" height="120" rx="18" class="stop"/>
+  <text x="680" y="353" text-anchor="middle" class="head" fill="#be123c">② Iodine</text>
+  <text x="680" y="384" text-anchor="middle" class="b">Lugol／SSKI</text><text x="680" y="414" text-anchor="middle" class="s">急性擋釋放；必須排在 thionamide 後</text>
+  <line x1="680" y1="250" x2="680" y2="315" stroke="#e11d48" stroke-width="4"/><line x1="660" y1="280" x2="700" y2="280" stroke="#e11d48" stroke-width="4"/>
+
+  <rect x="835" y="300" width="320" height="160" rx="18" class="stop"/>
+  <text x="995" y="333" text-anchor="middle" class="head" fill="#be123c">③ 周邊 T4 → T3：三藥同站</text>
+  <text x="995" y="366" text-anchor="middle" class="b">PTU</text><text x="995" y="394" text-anchor="middle" class="b">propranolol（高劑量）</text><text x="995" y="422" text-anchor="middle" class="b">glucocorticoid</text>
+  <text x="995" y="447" text-anchor="middle" class="s">三者都抑制 5′-deiodinase</text>
+  <line x1="960" y1="250" x2="960" y2="295" stroke="#e11d48" stroke-width="4"/><line x1="940" y1="275" x2="980" y2="275" stroke="#e11d48" stroke-width="4"/>
+
+  <rect x="145" y="500" width="910" height="120" rx="18" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+  <text x="600" y="535" text-anchor="middle" class="head" fill="#b45309">④ β-blocker：快速處理 adrenergic 效應</text>
+  <text x="600" y="568" text-anchor="middle" class="b">心搏過速、顫抖、焦躁 → propranolol；失代償心衰竭選可快速關掉的 esmolol</text>
+  <text x="600" y="599" text-anchor="middle" class="s">Glucocorticoid 另補相對腎上腺不全；cholestyramine 可增加腸肝循環清除（輔助）</text>
+  <rect x="170" y="642" width="860" height="34" rx="9" fill="#fff1f2" stroke="#fb7185"/>
+  <text x="600" y="665" text-anchor="middle" class="b" fill="#be123c">錯誤順序：iodine 先於 thionamide → 可能把碘送進仍在運轉的產線</text>
+</svg>

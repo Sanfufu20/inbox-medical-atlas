@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="720" viewBox="0 0 1300 720">
+  <defs>
+    <style>
+      .title{font:700 30px Arial,"Noto Sans TC",sans-serif;fill:#17324d}
+      .head{font:700 23px Arial,"Noto Sans TC",sans-serif;fill:#17324d}
+      .label{font:600 17px Arial,"Noto Sans TC",sans-serif;fill:#243746}
+      .small{font:15px Arial,"Noto Sans TC",sans-serif;fill:#415466}
+      .phase{font:700 18px Arial,"Noto Sans TC",sans-serif;fill:#174a6e}
+      .ionNa{fill:#2269b3}.ionCa{fill:#d64d4d}.ionK{fill:#6c4aa5}.ionIf{fill:#1a8d78}
+      .grid{stroke:#dce6ed;stroke-width:1}.axis{stroke:#526879;stroke-width:2}
+    </style>
+    <marker id="arrowBlue" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#2269b3"/></marker>
+    <marker id="arrowRed" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#d64d4d"/></marker>
+    <marker id="arrowPurple" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#6c4aa5"/></marker>
+    <marker id="arrowGreen" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#1a8d78"/></marker>
+  </defs>
+
+  <rect width="1300" height="720" fill="#f7fafc"/>
+  <text x="650" y="44" text-anchor="middle" class="title">心室肌與竇房結動作電位：形狀、Phase 與主導電流</text>
+
+  <rect x="35" y="72" width="600" height="555" rx="18" fill="#fff" stroke="#cad7e1" stroke-width="2"/>
+  <rect x="665" y="72" width="600" height="555" rx="18" fill="#fff" stroke="#cad7e1" stroke-width="2"/>
+  <text x="335" y="110" text-anchor="middle" class="head">心室肌細胞（fast-response）</text>
+  <text x="965" y="110" text-anchor="middle" class="head">竇房結細胞（slow-response）</text>
+
+  <g>
+    <line x1="92" y1="155" x2="92" y2="525" class="axis"/>
+    <line x1="92" y1="525" x2="580" y2="525" class="axis"/>
+    <line x1="92" y1="195" x2="580" y2="195" class="grid"/>
+    <line x1="92" y1="285" x2="580" y2="285" class="grid"/>
+    <line x1="92" y1="390" x2="580" y2="390" class="grid"/>
+    <line x1="92" y1="490" x2="580" y2="490" class="grid"/>
+    <text x="77" y="201" text-anchor="end" class="small">+30</text>
+    <text x="77" y="291" text-anchor="end" class="small">0</text>
+    <text x="77" y="396" text-anchor="end" class="small">−40</text>
+    <text x="77" y="496" text-anchor="end" class="small">−85</text>
+    <text x="53" y="340" transform="rotate(-90 53 340)" class="small">membrane potential (mV)</text>
+    <text x="518" y="552" class="small">time →</text>
+
+    <path d="M105 490 L166 490 C174 490 181 473 184 422 L191 205 C192 178 202 171 207 202 C210 224 213 243 226 250 C243 258 258 244 274 243 C323 241 367 246 405 254 C434 260 451 279 463 322 C473 357 481 406 487 460 C490 483 500 490 512 490 L566 490"
+          fill="none" stroke="#174a6e" stroke-width="6"/>
+
+    <text x="183" y="165" class="phase">0</text>
+    <text x="228" y="224" class="phase">1</text>
+    <text x="340" y="225" class="phase">2</text>
+    <text x="472" y="310" class="phase">3</text>
+    <text x="129" y="479" class="phase">4</text>
+
+    <text x="121" y="462" class="label ionK">I<tspan baseline-shift="sub" font-size="12">K1</tspan></text>
+    <line x1="151" y1="457" x2="161" y2="481" stroke="#6c4aa5" stroke-width="2" marker-end="url(#arrowPurple)"/>
+    <text x="130" y="150" class="label ionNa">I<tspan baseline-shift="sub" font-size="12">Na</tspan></text>
+    <line x1="166" y1="155" x2="185" y2="204" stroke="#2269b3" stroke-width="2" marker-end="url(#arrowBlue)"/>
+    <text x="224" y="175" class="label ionK">I<tspan baseline-shift="sub" font-size="12">to</tspan></text>
+    <line x1="241" y1="182" x2="226" y2="240" stroke="#6c4aa5" stroke-width="2" marker-end="url(#arrowPurple)"/>
+    <text x="294" y="307" class="label ionCa">I<tspan baseline-shift="sub" font-size="12">CaL</tspan> inward</text>
+    <line x1="352" y1="290" x2="352" y2="255" stroke="#d64d4d" stroke-width="2" marker-end="url(#arrowRed)"/>
+    <text x="326" y="342" class="label ionK">I<tspan baseline-shift="sub" font-size="12">Kr</tspan> + I<tspan baseline-shift="sub" font-size="12">Ks</tspan> outward</text>
+    <line x1="421" y1="331" x2="438" y2="281" stroke="#6c4aa5" stroke-width="2" marker-end="url(#arrowPurple)"/>
+  </g>
+
+  <g>
+    <line x1="722" y1="155" x2="722" y2="525" class="axis"/>
+    <line x1="722" y1="525" x2="1210" y2="525" class="axis"/>
+    <line x1="722" y1="225" x2="1210" y2="225" class="grid"/>
+    <line x1="722" y1="285" x2="1210" y2="285" class="grid"/>
+    <line x1="722" y1="390" x2="1210" y2="390" class="grid"/>
+    <line x1="722" y1="435" x2="1210" y2="435" class="grid"/>
+    <text x="707" y="231" text-anchor="end" class="small">+10</text>
+    <text x="707" y="291" text-anchor="end" class="small">0</text>
+    <text x="707" y="396" text-anchor="end" class="small">−40</text>
+    <text x="707" y="441" text-anchor="end" class="small">−60</text>
+    <text x="683" y="340" transform="rotate(-90 683 340)" class="small">membrane potential (mV)</text>
+    <text x="1148" y="552" class="small">time →</text>
+
+    <path d="M737 435 C780 435 825 414 858 389 C880 371 891 345 898 306 C905 264 922 221 944 222 C967 223 991 281 1000 328 C1012 392 1027 432 1045 435 C1082 435 1118 414 1148 389 C1168 371 1178 348 1185 315"
+          fill="none" stroke="#b63c52" stroke-width="6"/>
+    <line x1="722" y1="390" x2="1210" y2="390" stroke="#d6534d" stroke-width="2" stroke-dasharray="7 6"/>
+    <text x="1214" y="395" class="small" fill="#b52d2d">threshold ≈ −40</text>
+
+    <text x="803" y="407" class="phase">4</text>
+    <text x="926" y="201" class="phase">0</text>
+    <text x="1008" y="327" class="phase">3</text>
+    <text x="1087" y="407" class="phase">4</text>
+
+    <text x="744" y="474" class="label ionIf">I<tspan baseline-shift="sub" font-size="12">f</tspan> + I<tspan baseline-shift="sub" font-size="12">CaT</tspan></text>
+    <line x1="799" y1="465" x2="827" y2="416" stroke="#1a8d78" stroke-width="2" marker-end="url(#arrowGreen)"/>
+    <text x="897" y="170" class="label ionCa">I<tspan baseline-shift="sub" font-size="12">CaL</tspan></text>
+    <line x1="925" y1="176" x2="940" y2="215" stroke="#d64d4d" stroke-width="2" marker-end="url(#arrowRed)"/>
+    <text x="1004" y="265" class="label ionK">I<tspan baseline-shift="sub" font-size="12">Kr</tspan> + I<tspan baseline-shift="sub" font-size="12">Ks</tspan></text>
+    <line x1="1040" y1="272" x2="1017" y2="339" stroke="#6c4aa5" stroke-width="2" marker-end="url(#arrowPurple)"/>
+    <text x="746" y="428" class="small">MDP ≈ −60 mV</text>
+  </g>
+
+  <rect x="57" y="580" width="556" height="105" rx="12" fill="#edf5fb" stroke="#88a9c2"/>
+  <text x="76" y="609" class="label">心室肌：Phase 0–4 完整，Phase 2 有平台，Phase 4 平坦</text>
+  <text x="76" y="636" class="small">Phase 0 I<tspan baseline-shift="sub" font-size="11">Na</tspan>｜1 I<tspan baseline-shift="sub" font-size="11">to</tspan>｜2 I<tspan baseline-shift="sub" font-size="11">CaL</tspan> ↔ I<tspan baseline-shift="sub" font-size="11">Kr/Ks</tspan>｜3 I<tspan baseline-shift="sub" font-size="11">Kr/Ks</tspan>｜4 I<tspan baseline-shift="sub" font-size="11">K1</tspan></text>
+  <text x="76" y="663" class="small">對應：Phase 0 總和 ≈ QRS；Phase 2–3／APD ≈ ST–T／QT。</text>
+
+  <rect x="687" y="580" width="556" height="105" rx="12" fill="#fff0f1" stroke="#d99aa3"/>
+  <text x="706" y="609" class="label">竇房結：沒有 Phase 1、2；Phase 4 自發去極化</text>
+  <text x="706" y="636" class="small">Phase 4 I<tspan baseline-shift="sub" font-size="11">f</tspan> + I<tspan baseline-shift="sub" font-size="11">CaT</tspan>｜Phase 0 I<tspan baseline-shift="sub" font-size="11">CaL</tspan>｜Phase 3 I<tspan baseline-shift="sub" font-size="11">Kr/Ks</tspan></text>
+  <text x="706" y="663" class="small">沒有穩定 resting potential；maximum diastolic potential 約 −60 mV。</text>
+</svg>
