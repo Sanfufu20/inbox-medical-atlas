@@ -1,31 +1,5 @@
 [
   {
-    "target": "Chest pain",
-    "from": [
-      "disease-cardio-acs",
-      "disease-cardio-aortic-dissection",
-      "disease-cardio-atrial-fibrillation",
-      "disease-cardio-cad",
-      "disease-cardio-cardiac-tamponade",
-      "disease-cardio-cardio-category",
-      "disease-cardio-hcm",
-      "disease-cardio-heart-failure",
-      "disease-cardio-ventricular-tachycardia",
-      "disease-endo-metabolic-syndrome",
-      "disease-general-shock",
-      "disease-resp-empyema",
-      "disease-resp-pulmonary-embolism",
-      "moc-cardiac-surgery",
-      "moc-cardiovascular-reading-route",
-      "test-cardiac-auscultation",
-      "test-ekg-ischemia",
-      "test-echocardiography",
-      "test-myocardial-perfusion-imaging",
-      "test-troponin",
-      "workup-dyspnea"
-    ]
-  },
-  {
     "target": "Bone marrow biopsy",
     "from": [
       "disease-hema-01-急性白血病-aml",
@@ -48,6 +22,31 @@
       "disease-hema-04-成熟t-nk-ptcl",
       "disease-hema-05-組織細胞-lch",
       "disease-hema-anemia"
+    ]
+  },
+  {
+    "target": "Chest pain",
+    "from": [
+      "disease-cardio-acs",
+      "disease-cardio-aortic-dissection",
+      "disease-cardio-atrial-fibrillation",
+      "disease-cardio-cad",
+      "disease-cardio-cardiac-tamponade",
+      "disease-cardio-cardio-category",
+      "disease-cardio-hcm",
+      "disease-cardio-heart-failure",
+      "disease-cardio-ventricular-tachycardia",
+      "disease-endo-metabolic-syndrome",
+      "disease-general-shock",
+      "disease-resp-empyema",
+      "disease-resp-pulmonary-embolism",
+      "moc-cardiac-surgery",
+      "test-cardiac-auscultation",
+      "test-ekg-ischemia",
+      "test-echocardiography",
+      "test-myocardial-perfusion-imaging",
+      "test-troponin",
+      "workup-dyspnea"
     ]
   },
   {

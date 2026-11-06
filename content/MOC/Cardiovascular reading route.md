@@ -6,12 +6,12 @@ aliases:
   - 心臟知識地圖
   - Cardiovascular reading route
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-06
 status: 可用
 services:
   - Cardio
   - CardiacSurgery
-source: "既有 Chest pain、CAD、ACS、Heart failure、Echocardiography、Antiplatelet、ICD 與 Cardiac Surgery 筆記。僅整理閱讀入口，醫學內容仍由各專篇維護。"
+source: "既有 Dyspnea、CAD、ACS、Heart failure、Echocardiography、Antiplatelet、ICD 與 Cardiac Surgery 筆記。僅整理閱讀入口，醫學內容仍由各專篇維護。"
 ---
 
 # Cardiovascular reading route ｜ 心臟知識的五個閱讀入口
@@ -23,7 +23,7 @@ source: "既有 Chest pain、CAD、ACS、Heart failure、Echocardiography、Anti
 
 | 角度 | 閱讀入口 | 閱讀時帶著的問題 |
 |---|---|---|
-| 主訴流程 Workup | [[Chest pain]]、[[Dyspnea]] | 原筆記怎麼把主訴拆成需要釐清的問題？ |
+| 主訴流程 Workup | [[Dyspnea]] | 原筆記怎麼把主訴拆成需要釐清的問題？ |
 | 疾病 Disease | [[CAD]]、[[ACS]]、[[Heart failure]] | 這幾篇各自處理什麼概念？彼此如何連結？ |
 | 檢查 Test | [[Echocardiography]] | 這篇檢查筆記回答什麼問題，與哪些疾病筆記互連？ |
 | 藥物 Drug | [[Antiplatelet]]、[[Antiarrhythmics]] | 藥理機轉、用途與注意事項分別放在哪裡？ |

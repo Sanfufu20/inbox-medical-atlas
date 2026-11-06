@@ -31,3 +31,9 @@
 - 來源與 metadata 格式調整記於 `data/import-manifest.json`；原 Vault 未修改。
 
 這些檢查驗證網站與轉換流程，不能替代對每篇醫學內容的專業審閱。本次未逐條驗證原筆記的醫學敘述、藥物劑量與指引時效。
+
+## 公開部署（2026-11-06）
+
+作者確認公開範圍後，完整專案已發布至 [GitHub](https://github.com/Sanfufu20/inbox-medical-atlas)，網站位於 [GitHub Pages](https://sanfufu20.github.io/inbox-medical-atlas/)，啟用 HTTPS。
+
+首次發布的 [網站驗證工作](https://github.com/Sanfufu20/inbox-medical-atlas/actions/runs/42157176509)與 [Pages 部署](https://github.com/Sanfufu20/inbox-medical-atlas/actions/runs/42157232833)皆成功。在正式網址確認首頁顯示 126 篇、搜尋「心臟知識地圖」能找到新增導覽、文章頁可開啟。檢查時將新導覽中尚未建立的 Chest pain 從既有來源與入口清單移除，改以已有的 Dyspnea 作為主訴流程入口。
