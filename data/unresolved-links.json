@@ -598,6 +598,15 @@
     ]
   },
   {
+    "target": "Hyperkalemia",
+    "from": [
+      "disease-nephro-aki",
+      "disease-nephro-ckd",
+      "intervention-dialysis",
+      "moc-renal-reading-route"
+    ]
+  },
+  {
     "target": "Hypertension",
     "from": [
       "disease-endo-congenital-adrenal-hyperplasia",
@@ -734,14 +743,6 @@
     ]
   },
   {
-    "target": "Hyperkalemia",
-    "from": [
-      "disease-nephro-aki",
-      "disease-nephro-ckd",
-      "intervention-dialysis"
-    ]
-  },
-  {
     "target": "Hyponatremia",
     "from": [
       "disease-general-delirium",
@@ -763,6 +764,14 @@
       "disease-endo-thyroid-cancer",
       "moc-thyroid-surgery",
       "workup-neck-mass"
+    ]
+  },
+  {
+    "target": "Nephrotic syndrome",
+    "from": [
+      "moc-renal-reading-route",
+      "test-pleural-fluid-analysis",
+      "test-upcr-uacr"
     ]
   },
   {
@@ -819,6 +828,14 @@
       "disease-endo-thyroid-cancer",
       "moc-thyroid-surgery",
       "workup-neck-mass"
+    ]
+  },
+  {
+    "target": "Urinalysis",
+    "from": [
+      "disease-general-delirium",
+      "moc-renal-reading-route",
+      "workup-fever"
     ]
   },
   {
@@ -1046,13 +1063,6 @@
     ]
   },
   {
-    "target": "Nephrotic syndrome",
-    "from": [
-      "test-pleural-fluid-analysis",
-      "test-upcr-uacr"
-    ]
-  },
-  {
     "target": "Neuroleptic malignant syndrome",
     "from": [
       "disease-endo-thyroid-storm",
@@ -1155,13 +1165,6 @@
     "from": [
       "intervention-kidney-transplantation",
       "moc-transplant-surgery"
-    ]
-  },
-  {
-    "target": "Urinalysis",
-    "from": [
-      "disease-general-delirium",
-      "workup-fever"
     ]
   },
   {

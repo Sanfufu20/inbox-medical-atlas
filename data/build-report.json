@@ -1,17 +1,17 @@
 {
   "snapshotDate": "2026-11-05",
-  "noteCount": 126,
+  "noteCount": 127,
   "kindCounts": {
     "Workup": 9,
     "Disease": 71,
     "Test": 11,
     "Drug": 5,
     "Intervention": 11,
-    "MOC": 15,
+    "MOC": 16,
     "Guide": 3,
     "Drafts": 1
   },
-  "resolvedLinks": 1109,
+  "resolvedLinks": 1125,
   "unresolvedTargets": 273,
   "imageErrors": [],
   "headingRepairs": [
