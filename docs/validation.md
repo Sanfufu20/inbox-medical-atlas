@@ -37,3 +37,30 @@
 作者確認公開範圍後，完整專案已發布至 [GitHub](https://github.com/Sanfufu20/inbox-medical-atlas)，網站位於 [GitHub Pages](https://sanfufu20.github.io/inbox-medical-atlas/)，啟用 HTTPS。
 
 首次發布的 [網站驗證工作](https://github.com/Sanfufu20/inbox-medical-atlas/actions/runs/42157176509)與 [Pages 部署](https://github.com/Sanfufu20/inbox-medical-atlas/actions/runs/42157232833)皆成功。在正式網址確認首頁顯示 126 篇、搜尋「心臟知識地圖」能找到新增導覽、文章頁可開啟。檢查時將新導覽中尚未建立的 Chest pain 從既有來源與入口清單移除，改以已有的 Dyspnea 作為主訴流程入口。
+
+## 全新 AI 交接測試（2026-11-14）
+
+目的：確認換一個沒有任何前情的 AI，只讀 `AGENTS.md` 也能照規則新增頁面。專案原本由 Codex（GPT-6-Astra）建置；這次改用 Claude Code 開一個全新的子代理（Claude Sonnet 5.5），在獨立的 git worktree 副本中執行，不帶前面對話的任何內容。
+
+給它的完整指令只有兩句：
+
+> 請先讀 AGENTS.md，瞭解這個專案的內容。
+> 我想新增一頁「腎臟知識的閱讀入口」，把現有和腎臟有關的筆記串成一條閱讀路徑，讓我之後複習腎臟時知道從哪幾篇開始讀。
+
+它自己完成的部分：
+
+- 依規則判斷這是導航頁，放在 `content/MOC/Renal reading route.md`，沿用既有閱讀路徑的 frontmatter、aliases、status 與 source 格式，來源欄註明只整理閱讀順序。
+- 找出 12 篇既有腎臟相關筆記，排成 4 站主線與依問題挑讀的支線；只有幾行的 `Edema` 草稿沒有列入主線，尚未建立的 Hyperkalemia、Nephrotic syndrome、Urinalysis 以「待補」呈現，沒有產生假連結。
+- 沒有新增醫學結論；執行 `npm run build` 與 `npm run check`，首頁、搜尋索引與被連到的既有筆記的反向連結自動更新，沒有手改 HTML。
+- 回報時主動說明沒有在瀏覽器與手機寬度下檢查。
+
+審閱時發現並修正一處：它寫「第 4 站則連回前面的疾病與檢查」，但核對原筆記後，`Dialysis` 與 `Kidney transplantation` 只連到疾病筆記，沒有連到檢查筆記，因此改成「連回前面的疾病筆記」。
+
+依這次結果補進 `AGENTS.md` 的規則：
+
+1. 導航頁描述筆記之間的關係前，要先打開原筆記確認連結確實存在。
+2. 無法實際打開瀏覽器時，回報要寫明哪些項目沒有檢查。
+3. 依 11/3 課堂「好老闆說清楚三件事」，新增「接到任務時」一節：先交代計畫、不刪除既有內容、哪些情況要先問作者。
+4. 寫明生成頁檔名的轉換方式，以及全站色票與字體的位置。
+
+建置結果：127 篇筆記、104 張流程圖、0 張缺圖；`npm run check` 全部通過。
